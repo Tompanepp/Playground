@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+ int main()
+ {
+float distance ;
+double mass ;
+long A;
+distance = 1.4E11;
+mass = 1.989E30;
+cout << "The Sun is "<< distance<< " meters away. \n" ;
+cout <<mass;
+cin >> A;
+return 0;
+}

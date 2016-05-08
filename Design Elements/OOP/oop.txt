@@ -1,0 +1,20 @@
+Interfaces fulfill two goals:
+
+    They allow the programmer to be more abstract when referencing objects (for example, var vehicle : Vehicle, can reference any car, truck, etc... anything that is a vehicle (and not care what type it is.) This occurs at "program time".
+
+    When the vehicle.start_engine() function is invoked, the correct function associated with the real object is actually used. This occurs at "run time".
+
+    They require the programmer to create specific functions that are expected in an implementing class when it implements an Interface.
+
+    Again, this allows all objects in a "set" of like objects to be treated based on the "high level" type of the set, rather than on the specific type of the individual object.
+
+
+
+6. What is Polymorphism?
+In programming languages and type theory, polymorphism is the provision of a single interface to entities of different types.
+A polymorphic type is a type whose operations can also be applied to values of some other type, or types.
+
+16. What is an abstract class?An abstract class is a class that is declared abstract—it may or may not include abstract methods. Abstract classes cannot be instantiated, but they can be subclassed4
+
+
+http://www.itechaleart.com/2013/06/top-50-oop-interview-questions.html?m=0

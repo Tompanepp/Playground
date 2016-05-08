@@ -1,0 +1,23 @@
+User and Power of Interfaces
+	:Deal with object on a "set" basis
+	:Interfaces to show relationship between classes?
+	Interesting: encapsulating a class object in an interface
+
+OOP Relationship Implementation: User and Power
+	Aggregation: One owns the relationship
+					 List/Relation lives in the Owner
+				 	Man{
+						list emp;
+						public Man{
+							emp  = new List()
+						}
+					}
+	Composition
+
+Use and Power of Enums:
+
+Use and Power of Static methods:
+
+Use and Power of Polymorphism
+	:Design more generic code (non-type specific)
+	:

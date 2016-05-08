@@ -1,0 +1,21 @@
+Get the firstValue,N[1]
+Set i to 2
+biggest = firstValue N[1]
+set location to index of firstValue
+
+while i is less than size of list N,do steps 7 through 16
+
+if biggest is greater than N[i],then
+
+biggest = biggest
+Add 1 to i
+
+else
+
+biggest = N[i]
+set location to inded of this value
+Add 1 to i
+
+End of loop
+Print biggest and i
+Stop

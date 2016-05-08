@@ -1,0 +1,4 @@
+Imperative : give one imperative command at a time
+	     iterate with loops
+	     often mutate state shared between different functions
+

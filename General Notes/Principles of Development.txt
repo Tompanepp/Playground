@@ -1,0 +1,28 @@
+Key Development Points
+
+	Coding
+		1. Complete Work:
+			
+			1.1. Solution dependencies for work performed:
+		  
+				-Stadium
+				-Linx
+				-Database
+				.... or any technology you're using
+			1.2. User ready output/product
+				-Your work must be user ready. Not just a code piece you developed.
+
+			1.3. Data output Test
+				-if sample exists test against that
+				-if not, create expected out and test against that
+
+	Working Under Someone
+
+		1.Feedback to Team Lead: 
+		
+			-Exclude technical details
+				-Unless explicitly requested
+				
+			-Highlight key progress points(Define these upfront for self)
+
+			

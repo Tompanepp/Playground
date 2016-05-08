@@ -1,0 +1,7 @@
+ATOM
+
+  live preview : apm install atom-html-preview
+  Autocomplete
+  Git
+  File type package
+  Mini map package

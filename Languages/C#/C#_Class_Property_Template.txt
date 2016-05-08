@@ -1,0 +1,12 @@
+ public _propertyName  
+        {
+           get
+           {
+             return ;
+           }
+           set
+           {
+                 = value;
+           }
+
+        }

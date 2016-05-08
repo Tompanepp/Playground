@@ -1,0 +1,33 @@
+HTTPS:
+	http over TLS/SSL
+
+To secure website one needs
+X.509 Digital Certificate is required on at least one end of the connection
+
+The certificate is signed by a Certificate Authority
+
+Minimun Apache config
+LoadModule ssl_module modules/mod_ssl.so
+
+Listen 443
+<VirtualHost *:443>
+    ServerName www.example.com
+    SSLEngine on
+    SSLCertificateFile "/path/to/www.example.com.cert" : The public key used for encryption
+    SSLCertificateKeyFile "/path/to/www.example.com.key": decryption key
+</VirtualHost>
+
+
+
+APPROACH
+
+	Setup virtual host on Server
+	Include TLS/SSL derictives to enable Secure connection
+
+
+Generate SSH key
+
+ssh-keygen -t rsa
+
+Push key to authorised key on remote servers
+cat ~/.ssh/id_rsa.pub | ssh user@hostname 'cat >> .ssh/authorized_keys'

@@ -1,0 +1,5 @@
+1. Break down concepts to minimal understandable classes and objects
+
+2. Abstract functionality of these classes/objects to interfaces
+
+3. Orchestrate the classes/objects to solve the bigger problem

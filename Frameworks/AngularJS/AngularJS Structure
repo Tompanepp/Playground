@@ -1,0 +1,28 @@
+App (ng-app) [angular.module('moduleName',[])]
+  Controller(ng-controller)
+    Scope($scope) injected into the controller
+
+
+      $scope.name = A model(variable) as well declared in the controller
+      NB: Rememeber variables can be complex types(vectors, objects)
+
+      TEMPLATE
+        Models(ng-model) = These are actually just variables in the scope defined in the template
+        Repetitino(ng-repeat)
+        filters
+          -|filter:value
+          -|orderBy:array
+
+
+  TWO-WAY BINDING
+
+    {{}} : This denotes a binding
+    Angular creates a link between a MODEL and template/view and ensures the two are in sync.
+      When there is a either one, Angular automatically handles the reloads and refreshes
+
+
+  Promises
+
+    $http services returns promises to handle asynchronous requests
+
+  Factories

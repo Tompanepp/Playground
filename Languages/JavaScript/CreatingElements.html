@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		
+		<div id="div1">
+			<p id="p1">I'm going to be deleted when you click the button.</p>
+			<p id="p2">This is another paragraph.</p>
+		</div>
+
+		<script>
+		var para=document.createElement("p");
+		var node=document.createTextNode("This is new.");
+		para.appendChild(node);
+
+		var element=document.getElementById("div1");
+		element.appendChild(para);
+		document.getElemenById("div1").innerHTML = "I can be referenced";
+		
+		function deleteElement(){
+		
+			/*var parent = document.getElementById("div1");
+			var child = document.getElementById("p1");
+			parent.removeChild(child);*/
+			
+			//Alternative
+			var child = document.getElementById("p1");
+			child.parentNode.removeChild(child);
+		}
+		</script>
+		
+		<button type="button" onclick = "deleteElement()"> Delete Element</button>
+	</body>
+
+</html>

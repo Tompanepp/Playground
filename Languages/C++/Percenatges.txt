@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int Pay = 6000;
+    float Percentage = 0.5;
+    double PayIntoRetirement = Percentage*6000;
+    cout<<PayIntoRetirement;
+    cin >>Pay;
+    return 0;
+}

@@ -1,0 +1,7 @@
+1. Get the double value and convert into string.
+2. Check if that String say str has a "."
+3. If str has a "." then crete 2 substrings of str say str1=765 and str2=43 by using indexOf(".") & susstring() methodsand if it does not have then u can leave it as it is.
+4.Check the length of each string say 3 for 765.
+5.Use string tokenizer or using a normal string methods get each digit.
+6.then use concat() function of string with each digit and the value like dollars/cents 
+	depending on the the place of the digit.

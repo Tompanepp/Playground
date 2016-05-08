@@ -1,0 +1,31 @@
+Get pattern P.Determine length
+Get string_characters C.Determine length
+Set cnt to 0//For inner loop
+Set outercnt to 0//For outer loop
+Set location to 1
+
+while outercnt is less than length of C,do 
+  
+  while cnt is less than length of P
+  
+   if P[cnt] is equal to C[cnt],then
+   
+      Add One to cnt
+	  
+	  Add one to outercnt
+	  
+	  Add cnt + 1 to location
+	  
+	  Print match found at character + location
+   else
+   
+      //Add (Sise_of_ P - 1) to cnt
+        
+        Add one to outercnt		
+ 
+   End if
+   
+  End while
+  
+End while
+

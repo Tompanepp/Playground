@@ -1,0 +1,244 @@
+ENCAPSULATION:
+
+	Refers to hiding the state)dat) [private, protected] of an object and allowing controlled access  through getters and setters.
+
+	Change implementation without changing use of the class
+	
+	The process of binding data members (variables and data) and methods members into a SINGLE unit.
+
+	Hiding complexity
+
+	For example a CLASS is an example of Encapsulation
+
+	KEY POINTS
+
+	-Hide internal details of the class and how it does things
+
+	-define accessibility to members
+
+	-Simplify object interactions
+
+		   Objects using each other, do not need to know all internal class constructs. Only care about ones they want to use.
+
+	-Internal class implementation can change without affecting the FUNCTIONALITY of the System
+
+	-Protects abstraction
+
+
+	NEED/PURPOSE FOR ENCAPSULATION
+
+	- Hide data members from the outside world(other classes)
+	- Protect data members from corruption by outside code. Members are accessed only through specific and strict channels
+	- Give the class more control over its data members(validation rules on data inputs)
+
+	ACHIEVING ENCAPSULATION
+
+	-One can use Accessors and Mutators
+
+	-One can use properties(getters and setters)
+	
+	-Building a CLASS[methosd and data members] structure 
+
+INHERITANCE: 
+
+	concept for creating a base class from which subsequent classes can derive attributes and methods of this base class
+
+		class Entity
+		(
+			string name;
+			
+			public void hello()
+			{
+			} 
+		)
+
+		class Person:: Entity
+		(
+			
+		)
+
+
+POLYMORPHISM:
+
+	ability to present the same interface for different various forms:
+
+	In object-oriented programming, polymorphism refers to a PROGRAMMING LANGUAGE'S ability to process objects differently depending on their data type or class. 
+	More specifically, it is the ability to redefine methods for derived classes.
+
+	Example Polymorphism outside OOP a bit (function overloading: It's the languages ability to pick which function to call based on the parameters)
+	WHY USED?
+		Working under the assumption that at RUNTIME, we do not know 
+			the actual TYPE of the object that will be in a variable
+				->Invoking the appropriate functions based on the TYPE of OBJECT  at RUNTIME is the power of polymorphism
+				
+				
+		 class Shape 
+		 {
+			   public virtual void draw()
+			   //public abstract void draw()
+		 }
+
+		class Triangle: Shape
+		{
+			 base.draw();
+		}
+
+    All other shape classes (Triangle, Cricle, Square) will have. Different implementation of draw, however the draw function is just "draw".
+
+   When calling draw per class type, draw will return different results 
+   
+INTERFACES:
+		
+		/*Interfaces fulfill two goals:
+		1.
+		They allow the programmer to be more abstract when referencing objects (for example, var vehicle : Vehicle, can reference any car, truck, etc... anything that 
+		is a vehicle (and not care what type it is.) This occurs at "program time".
+
+		When the vehicle.start_engine() function is invoked, the correct function associated with the real object is actually used. This occurs at "run time".
+
+		2.
+		They require the programmer to create specific functions that are expected in an implementing class when it implements an Interface.
+
+		Again, this allows all objects in a "set" of like objects to be treated based on the "high level" type of the set, rather than on the specific type of the individual object.
+		*/
+
+		A list of operations that an object can perform
+			Furthermore, its a list of operations that an object must be able to perform to considered an object of a certain type
+			
+		A class implements an interface in order to be considered of a certain TYPE
+		
+			Example: Car class, Scooter class, Truck class
+						All "MUST" have a start_engine()[How the engine is started is specific to the class]
+		They are given their own files
+		
+		WHY DO WE USE INTERFACES?
+		WHEN WOULD YOU USE INTERFACES?
+		
+			public interface Vehicle
+			{
+				//All functions that classes that "Follow" this interface MUST implement
+				void start_engine(); //No need for {} nor public [default the functions are public]
+			}
+			
+		OOP construct that defines methods that a class that "follows" or implements that interface can respond to.
+
+		Interfaces can inherit from multiple interfaces
+
+		When a class implements an interface. An instance of that class can be encapsulated in the interface.
+
+
+			public interface ILogger
+			{
+				
+			}
+			public class MyLogger
+			{
+				
+			}
+
+			class Program{
+				
+
+				public static vooid Main() //Interesting: This guy is a Static method
+				{
+					ILogger log = new MyLogger();
+					
+
+				}
+			}
+
+		Emphasizes abstraction
+		Group of related methods with empty bodies
+		Formality in behaviour to be provided by a class?
+		
+				Interface
+			-No variables allowed in definition
+			: Focus is on ACTIONS allowed 
+				not on data
+			-All function prototypes are "public" public 
+
+		
+AGGREGATION: 
+			A type of association
+			 A weak association	
+				because participants in an aggregation are "independent" of each other
+				
+				A "uses" B
+				
+				A can exist without B
+				B can exist without A
+
+ENUMERATIONS:
+	
+		List of types?
+
+		
+INSTANCE STATE
+
+		The state an object instance is in?
+		
+		Def 3: A stage in the lifecycle of an object that identifies the status of that object.
+
+		Def 5: A condition or situation during the life of an object during which it satisfies some condition, performs some activity, or waits for some event.
+
+		Def 8: An object's characteristic that is manifested in its public and private data members, and can be divided into two categories: essential state and non-essential state.
+
+		Def 9: In a business state machine, one of several discrete individual stages that are organized in sequence to compose a business transaction.
+
+		Def 10: A condition in which the circuit remains until application of a suitable pulse.
+		Webster's New World College Dictionary defines 'state' as:
+
+		A set of circumstances or attributes characterizing a person or thing at a given time; way or form of being: condition
+		The common denominator of all these is time. State changes as time progresses. That is the nature of variables. If someone were to ask, "What is your current state?" You could say today that you are married and tomorrow you could be single.
+
+STATIC METHODS:
+
+		Methods of a class associated with the class and not objects of the class
+		These are methods that do not need an instance of an object to call them
+			Consider the Math class example
+			
+			class Math
+			{
+				public static cos(){}
+				public static sin(){}
+				public static pi(){}
+			}
+			
+			INSTANCE WHERE ONE WOULD USE STATIC METHOD AND WHY? 
+				The Math class scenario
+					-efficiency
+					
+		Methods that can be accessed without creating an instance of an object.
+		Very similar to the concept of a function in procedural programming.
+					
+
+EXTRA CONCEPTS
+	
+		COMPOSITION: 
+			Strong association
+			The parent participant "owns" the child participants
+				The child participants cannot exist without the Parent
+					They are part of the Parent
+						They are necessary for the functionality of the Parent(Hence they're called components)
+
+
+KEY QUESTIONS
+
+	WHERE would you use/apply any of the OOP concepts?
+	WHY would you apply any of the OOP concepts?
+	What are the DISADVTANGES?
+	What are the ADVANTAGES?
+	How do the OOP concepts stack up to each other? Where would you use one over another?
+		Aggregation vs Composition
+		interface vs class
+		class vs abstract class
+		interface vs abstract class
+
+	
+
+
+IMPORTANCE (Order of Impotance to OPP and in OPP)
+
+    Encapsulation
+    Inheritance
+    Polymorphism 

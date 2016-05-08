@@ -1,0 +1,35 @@
+
+/**
+ *
+ * @author Developer
+ */
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Vector;    
+import java.util.LinkedList;
+import java.util.List;
+
+public class NoDups {
+
+    public static void removeDuplicates(int[] numbers) {
+
+        int arrLength = numbers.length;
+        List<int> numberList = new LinkedList<int> (Arrays.asList(numbers));
+            
+        for (int i = 0; i < arrLength; i++) {
+            for (int j = i + 1; j < arrLength; j++) {
+                if ((numbers[i] == numbers[j]) && (i != j)) {
+                    numberList.remove(j);
+                }
+            }
+        }
+    }
+
+    public static void main(String[] args) throws Exception {
+
+        int[] inputNumbers = {20, 100, 10, 80, 70, 1, 0, -1, 2, 10, 15, 300, 7, 6, 2, 18, 19, 21, 9, 0};
+        NoDups.removeDuplicates(inputNumbers);
+
+    }
+
+}

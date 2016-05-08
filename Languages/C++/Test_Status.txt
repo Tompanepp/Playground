@@ -1,0 +1,9 @@
+Get mark
+
+if mark is greater or equal to 75
+Print distinction
+else 
+if mark is greater or equal to 50 and less than 75
+Print pass
+else
+Print fail

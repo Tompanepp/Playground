@@ -1,0 +1,21 @@
+Get the firstValue,N[1]
+Set i to 2
+set location to index of firstValue
+smallest = firstValueN[1]
+
+while i is less than size of list N,do steps 8 through 17
+
+if smallest is less than N[i],then
+
+smallest= smallest
+Add 1 to i
+
+else
+
+smallest = N[i]
+set location to inded of this value
+Add 1 to i
+
+End of loop
+Print smallest and i
+Stop

@@ -1,0 +1,31 @@
+mysite directory inside is name to use to refer to Site (mysite.urls)
+
+NB: mysite is not an app,I think its the main project(sort of)
+USEFUL COMMNDS
+
+	syncdb : creates database tables as required by the "INSTALLED_APPS"
+
+	python manage.py startapp "app name" : create app(in this case names polls)
+
+	python manage.py sql "app name" : creats schema for app as per models.py
+
+	python manage.py createsuperuser --username=joe --email=joe@example.com: create superuser
+
+	//EXTRAS
+	
+    	python manage.py validate – Checks for any errors in the construction of your models.
+
+    	python manage.py sqlcustom polls – Outputs any custom SQL statements (such as table modifications or constraints) that are defined for the application.
+
+    	python manage.py sqlclear polls – Outputs the necessary DROP TABLE statements for this app, according to which tables already exist in your database (if any).
+
+    	python manage.py sqlindexes polls – Outputs the CREATE INDEX statements for this app.
+
+    	python manage.py sqlall polls – A combination of all the SQL from the sql, sqlcustom, and sqlindexes commands.
+
+
+STEPS FOR CREATING AN APP
+	
+	Run app creation command
+	Define a model(source of data about your data)
+

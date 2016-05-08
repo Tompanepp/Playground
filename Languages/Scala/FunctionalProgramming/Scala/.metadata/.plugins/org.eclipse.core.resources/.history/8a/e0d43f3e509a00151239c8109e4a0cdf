@@ -1,0 +1,7 @@
+package week2
+
+object progfun1 {
+  def gcd(a: Int, b: Int): Int =                  //> gcd: (a: Int, b: Int)Unit
+  	if (a > 0) a else gcd(a,a%b)
+  
+}

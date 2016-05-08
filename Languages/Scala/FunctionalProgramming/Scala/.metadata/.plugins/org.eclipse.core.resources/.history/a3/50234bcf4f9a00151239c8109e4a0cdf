@@ -1,0 +1,8 @@
+package week2
+
+object exercise1 {
+  def gcd(a: Int, b: Int){                        //> Welcome to the Scala worksheet
+  
+  }
+  
+}

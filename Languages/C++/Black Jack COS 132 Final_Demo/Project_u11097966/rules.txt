@@ -1,0 +1,105 @@
+***************************************************
+Introduction
+***************************************************
+
+Blackjack is a popular American casino game, now found throughout the world. It is a banking game in which the aim of the player is to achieve a hand whose points total nearer to 21 than the banker's hand, but without exceeding 21.
+
+In Nevada casinos the game is generally known 21 rather than Blackjack, and the holding of an ace with a 10-point card is called a "natural".
+
+Confusingly, the name Black Jack is used in Britain for an entirely different card game which is essentially the same as Crazy Eights.
+
+The following outline explains the basic rules of standard blackjack (21), along with the house rules most commonly featured in casinos. Players should bear in mind, though, that blackjack rules vary from casino to casino, and check for local variations before playing.
+
+***************************************************
+Equipment
+***************************************************
+
+Blackjack is played with an international 52-card deck without jokers. Casinos normally use several decks mixed together (called a shoe), both in order to speed up the game (with more cards in play you don't have to reshuffle after every single hand) and to make card counting more difficult (card counting is a technique used to gain an advantage over the casino by keeping track of the proportions of different value cards remaining in play.)
+
+The number of decks differs from casino to casino, but there can be anything from two to eight decks in the shoe. The re-shuffling frequency also differs from casino to casino, and of course depends on the number of decks used. Frequent re-shuffling is another way to diminish the value of card counting.
+
+In casinos, blackjack is played on a specially designed table. There is a permanent dealer employed by the casino, and room for up to eight simultaneous players, playing against the dealer. Each player has a designated playing area in front of him where cards are placed and bets are made.
+
+The betting limits should be clearly posted on a sign on the blackjack table. Normally, some of the most important rules, such as "Blackjack pays 3 to 2" and "Dealer must draw on 16 and stand on all 17's" are printed on the table.
+
+To play blackjack you need chips to bet with, and you typically buy your chips directly from the dealer. When there is a break in the action, you simply put cash on the table and the dealer will change it for an equal value of playing chips.
+
+The standard denominations for casino chips are:
+
+    white chips = $1
+    red chips = $5
+    green chips = $25
+    black chips = $100
+
+***************************************************
+Home game blackjack
+***************************************************
+
+When you play blackjack at home, you should take turns being the dealer, to ensure fairness in the game (unless the player who is hosting the game specifically has stated that he or she wants to act as the house the entire game and the other players agree to this.)
+
+You can switch dealer every hand, every five hands or whatever you decide. If you're playing with a single deck of cards, the best idea is to re-shuffle after every hand. Of course, you don't need a fancy blackjack table to play the game, but you will need at least one pack of cards and something to bet with - cash, chips or maybe matches.
+
+***************************************************
+Betting and winning
+***************************************************
+
+Each player at the blackjack table has a circle or box to place bets in. There will always be a minimum bet and a maximum bet for the table. The maximum bet is normally ten to twenty times the minimum bet, meaning that a table with a $5 minimum would have a $50 to $100 maximum. Each player decides how much to bet on a hand before the deal.
+
+Each hand will result in one of the following events for the player:
+
+    Lose - the player's bet is taken by the dealer.
+    Win - the player wins as much as he bet. If you bet $10, you win $10 from the dealer (plus you keep your original bet, of course.)
+    Blackjack (natural) - the player wins 1.5 times the bet. With a bet of $10, you keep your $10 and win a further $15 from the dealer.
+    Push - the hand is a draw. The player keeps his bet, neither winning nor losing money.
+
+***************************************************
+Game objective
+***************************************************
+
+Although many players may play in a single round of blackjack, it's fundamentally a two-player game. In blackjack, players don't play against each other; and they don't co-operate. The only competition is the dealer.
+
+The aim of the game is to accumulate a higher point total than the dealer, but without going over 21. You compute your score by adding the values of your individual cards.
+
+The cards 2 through 10 have their face value, J, Q, and K are worth 10 points each, and the Ace is worth either 1 or 11 points (player's choice).
+
+***************************************************
+The deal and "blackjack"
+***************************************************
+s
+At the start of a blackjack game, the players and the dealer receive two cards each. The players' cards are normally dealt face up, while the dealer has one face down (called the hole card) and one face up.
+
+The best possible blackjack hand is an opening deal of an ace with any ten-point card. This is called a "blackjack", or a natural 21, and the player holding this automatically wins unless the dealer also has a blackjack. If a player and the dealer each have a blackjack, the result is a push for that player. If the dealer has a blackjack, all players not holding a blackjack lose.
+
+***************************************************
+The player's turns
+***************************************************
+
+After the cards have been dealt, the game goes on with each player taking action - in clockwise order starting to dealer's left.
+
+First, the player must declare if he wants to take advantage of the side rules (explained below). You can only use the side rules once, when it's your turn to act after the deal.
+
+Then the player can keep his hand as it is (stand) or take more cards from the deck (hit), one at a time, until either the player judges that the hand is strong enough to go up against the dealer's hand and stands, or until it goes over 21, in which case the player immediately loses (busts).
+
+In most places, players can take as many cards as they like, as long as they don't bust, but some casinos have restrictions regarding this.
+
+***************************************************
+The dealer's turn
+***************************************************
+
+When all players have finished their actions, either decided to stand or busted, the dealer turns over his hidden hole card.
+
+If the dealer has a natural 21 (blackjack) with his two cards, he won't take any more cards. All players lose, except players who also have a blackjack, in which case it is a push - the bet is returned to the player.
+
+If the dealer doesn't have a natural, he hits (takes more cards) or stands depending on the value of the hand. Contrary to the player, though, the dealer's action is completely dictated by the rules. The dealer must hit if the value of the hand is lower than 17, otherwise the dealer will stand.
+
+Whether or not the dealer must hit on a soft 17 (a hand of 17 containing an ace being counted as 11) differs from casino to casino. There might even be blackjack tables with different rules within the same casino.
+
+***************************************************
+Showdown
+***************************************************
+
+If the dealer goes bust, all players who are left in the game win. Otherwise players with higher point totals than the dealer win, while players with lower totals than the dealer lose.
+
+Players with a blackjack win a bet plus a bonus amount, which is normally equal to half their original wager. A blackjack hand beats any other hand, also those with a total value of 21 but with more cards.
+
+As described above, if the dealer has a blackjack, players with blackjack make a push, while all other players lose.

@@ -1,0 +1,32 @@
+Get N,the size of the list and the contents of NList
+set Left to 0
+Set Right to N
+
+while (Left < Right)//Executes until pointers meet
+
+  if(NList[left] == 0)
+
+     if(Right != 0),then
+
+      //Switching values
+       temp = NList[Right]
+
+       NList[Right] = NList[left]//Moving Zero at index Left to current position of index Right
+       NList[Left] = temp//Moving value at index Right to index Left
+
+     //Moving indexes
+      Subtract 1 from Right
+      Add 1 to Left
+
+     Endif
+
+  else
+
+   Add 1 to Left
+  
+ if(Right == 0)
+
+    Decrement Right by 1
+
+    Endif
+Stop

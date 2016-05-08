@@ -1,0 +1,83 @@
+1. Setup the Module
+	Create module folder (with all the directories)
+
+	Module/ :
+			Create autoload_classmap.php : getAutoloaderConfig() returns an array compatible with Zend 2 'AutoloaderFactory'
+
+			Module.php
+
+	ModuleName/config : Create module.config.php
+		//This is where you configure your module
+		//ServiceManager passes the configs to relevant components
+
+	Add the module to application.config.php
+
+
+
+2. Controller and Routing
+
+	2.1. Routing
+
+		URLs are mapped to 'actions' using routes
+		Routes are defined in module.config.php
+
+	2.2. Controllers
+		page = action
+
+		actions are grouped into 'controllers' in 'modules'
+
+		Each action is a public method within the controller class
+		/src/ModuleName/Controller/ : Controller(s) live in here
+
+		Must implement Zend\Stdlib\Dispatchable
+			Options to inherit from and implement:
+				-Zend\Mvc\Controller\AbstractActionController
+				-Zend\Mvc\Controller\AbstractRestfulController.
+
+3. Views
+
+	View scripts are executed by 'DefaultViewStrategy'
+
+	Passed variables or view models returned form Controller action method
+
+	ModuleName/view/moduleName/moduleName/
+		.pthml extention
+		One file per action (refer to Section 2)
+
+	To return data to the View
+		Create an instance of the ViewModel (The parameters of which is an array with the data )
+
+4. Database (Model)
+	--deals with the applications core purpose (the so-called business rules)
+
+	Approaches
+		* represent data entities as classes
+			 use mapper objects to interact(CRUD) with the database
+
+		* Object-relational mapping (ORM) technology, such as Doctrine or Propel.
+
+
+
+	4.1. Configure the ServiceManager to create a AlbumTable instance
+
+	4.2. Setup the controller to retrieve the AlbumTable instance
+
+
+
+
+
+		Create an instance of the ViewModel (The parameters of which is an array with the data )
+
+
+
+ZEND ORGANISATION
+
+	ModuleManager
+
+				Module
+					ConfigProviderInterface::getConfig: returns the modules configuration to the module manager
+						module.config.php has the configurations(it's cleaner than having all the configurations under the one method)
+
+				Autoloader
+						Autoloading is a process to allow PHP to automatically load classes on demand
+					  AutoloaderProviderInterface::getAutoloaderConfig 
