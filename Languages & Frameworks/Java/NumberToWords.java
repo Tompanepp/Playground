@@ -1,42 +1,55 @@
 
-public class NumberToWords {
+import javax.swing.*;
 
-    private static final String[] ONES = {
-        "Zero", "One", "Two", "Three", "Four", "Five",
-        "Six", "Seven", "Eight", "Nine"};
-    private static final String[] TEENS = {
-        "Ten", "Eleven", "Twelve", "Thirteen", null, "Fifteen",
-        null, null, "Eighteen", null};
-    private static final String[] TENS = {
-        null, null, "Twenty", "Thirty", "Forty", "Fifty",
-        "Sixty", "Seventy", "Eighty", "Ninety"};
+class NumberToWords {
 
-    public static void main(String[] args) {
-
-        int number = 10;
-        int nump = number%10;
-        
-        switch (nump)
-                {
-            case 0: System.out.println(ONES[number]); break;
-            default: System.out.println("Number greater than 10");
+    public static int numOfDigits(int num) {
+        int cnt = 0;
+        while (num > 0) {
+            cnt++;
+            num = num / 10;
         }
-        if (number < 20) {
-            int n = number - 10;
-            String words = TEENS[n];
-            if (words == null) {
-                System.out.println(ONES[n] + "teen");
+        return cnt;
+    } 
+    public static void main(String[] args) throws Exception {
 
-            } else {
-                System.out.println(TEENS[n]);
-            }
-        } else {
-            int n = number % 10;
-            if ((number / 10 + n) == 0) {
-                System.out.print("");
-            } else {
-                System.out.println();
-            }
+        //Letter base
+        String[] singleWordNumbers = {"", " One", " Two", " Three", " Four", " Five",
+            " Six", " Seven", " Eight", " Nine", " Ten", " Eleven", " Twelve",
+            " Thirteen", " Fourteen", " Fifteen", " Sixteen", " Seventeen",
+            " Eighteen", " Nineteen"};
+        String[] tens = {"", "Ten", " Twenty", " Thirty", " Forty", " Fifty",
+            " Sixty", " Seventy", " Eighty", " Ninety"};
+
+        String WordVersion = "";
+
+        String userNumber = JOptionPane.showInputDialog("Enter number");
+        int num = Integer.parseInt(userNumber);
+         
+        int length = numOfDigits(num);
+
+        switch (length) {
+            case 2:      
+                int quotient = num / 10;
+                int remainder = num % 10;
+
+                if (num > 19) {
+                    WordVersion = tens[quotient] + singleWordNumbers[remainder];
+                } else {
+                    WordVersion = singleWordNumbers[num];
+                }
+                System.out.println(WordVersion);
+                break;
+
+            case 1:
+                WordVersion = singleWordNumbers[num];
+					 System.out.println(WordVersion);
+                break;
+            default:
+
+                num = 0;
+                System.out.println("Invalid Entry");
+                System.exit(1);
 
         }
     }

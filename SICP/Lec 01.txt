@@ -1,0 +1,18 @@
+Process: An abstract thing that does something (inhabits a computer in our case)
+Computer Programs: Rules that control the evolution of processes
+
+
+Lec 01a
+
+Computer Science: Techniques for dealing with complexity
+
+  1. Blackbox abstraction
+  2. Conventional Interfaces
+  3. Metalinguistic abstraction
+
+
+Fundamentals of a language
+
+  1. Primitive elements
+  2. Means of combination
+  3. Means of abstractions

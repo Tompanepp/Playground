@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;Coursera/src/week2/exercise1.sc&apos; to &apos;progfun1.sc&apos;" description="Rename resource &apos;exercise1.sc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/week2/exercise1.sc" name="progfun1.sc" stamp="1449210420051" updateReferences="true"/>
-</session>

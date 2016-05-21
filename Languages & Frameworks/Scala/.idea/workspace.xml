@@ -1,16 +1,312 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="917adc8b-7ae7-4704-bdbd-0ae0157c7f62" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Frameworks/AngularJS/angular-phonecat" afterPath="$PROJECT_DIR$/../../Frameworks/AngularJS/angular-phonecat" />
+    <list default="true" id="8f9879d8-9bb0-4350-8531-d2469a7b7930" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.core.resources/.root/1.tree" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.jdt.core/invalidArchivesCache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CountNoWords.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MainTester.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../angular2-quickstart/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SICP/Lec 01 Abstractions with data.ss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SICP/Lec 01.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.scala-ide.sdt.core/scala-ide.log" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/1ZO-803 Standard Test 2/manifest.mf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/1ZO-803 Standard Test 2/src/pkg1zo/pkg803/standard/test/pkg2/StandardTest2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/1ZO-803 Standard Test 3/build.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/1ZO-803 Standard Test 3/manifest.mf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/1ZO-803 Standard Test 3/nbproject/build-impl.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/1ZO-803 Standard Test 3/nbproject/genfiles.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/1ZO-803 Standard Test 3/nbproject/private/private.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/1ZO-803 Standard Test 3/nbproject/private/private.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/1ZO-803 Standard Test 3/nbproject/project.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/1ZO-803 Standard Test 3/nbproject/project.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/1ZO-803 Standard Test 3/src/pkg1zo/pkg803/standard/test/pkg3/ComplexStaticAccessibility.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/1ZO-803 Standard Test 3/src/pkg1zo/pkg803/standard/test/pkg3/Continue.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/1ZO-803 Standard Test 3/src/pkg1zo/pkg803/standard/test/pkg3/StandardTest3.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/1ZO-803 Standard Test 3/src/pkg1zo/pkg803/standard/test/pkg3/StaticTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/HyperionDev/build.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/HyperionDev/build/classes/.netbeans_automatic_build" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/HyperionDev/build/classes/.netbeans_update_resources" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/HyperionDev/build/classes/Factorial.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/HyperionDev/build/classes/Factorial/Factorial.rs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/HyperionDev/build/classes/MoneyToWords.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/HyperionDev/build/classes/NoDups.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/HyperionDev/build/classes/Rebel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/HyperionDev/build/classes/Rebel/Rebel.rs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/HyperionDev/build/classes/hyperiondev/MoneyToWords.rs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/HyperionDev/build/classes/hyperiondev/NoDups.rs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/HyperionDev/manifest.mf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/HyperionDev/nbproject/build-impl.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/HyperionDev/nbproject/genfiles.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/HyperionDev/nbproject/private/private.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/HyperionDev/nbproject/private/private.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/HyperionDev/nbproject/project.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/HyperionDev/nbproject/project.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/HyperionDev/src/Factorial/Factorial.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/HyperionDev/src/Rebel/Rebel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/HyperionDev/src/hyperiondev/MoneyToWords.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/HyperionDev/src/hyperiondev/NoDups.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/Submission Number Conversion/MoneyToWords (Papudi's conflicted copy 2015-06-03).class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/Submission Number Conversion/MoneyToWords -backup.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/Submission Number Conversion/MoneyToWords.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/Submission Number Conversion/MoneyToWords.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/Submission Number Conversion/NoDups.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/Submission Number Conversion/NoDups.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/Submission Number Conversion/NumberToWords.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/Submission Number Conversion/NumberToWords.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/Submission Number Conversion/constNumtoLetter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/com/javahonk/unsupportedexception/UnsupportedException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/com/javahonk/unsupportedexception/UnsupportedException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/progfun.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Functional Programming.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/FunctionalProgramming.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/FunctionalProgrammingInScalaBook/FunctionalProgrammingInScalaBook.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/0/d07c754abe9800151c5adf9950e73838" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/1/6057da02be9800151c5adf9950e73838" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/10/a0730d0bbd9800151c5adf9950e73838" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/11/a0bc5bb4bd9800151c5adf9950e73838" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/19/80eafb5d509a00151239c8109e4a0cdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/1b/6058e77e509a00151239c8109e4a0cdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/1b/70b8b9cd509a00151239c8109e4a0cdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/1c/30e7efad509a00151239c8109e4a0cdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/1c/f0558daf10990015185ccb6efcd52fc7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/1e/f06ee3d9bd9800151c5adf9950e73838" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/22/60b0d8b0bd9800151c5adf9950e73838" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/23/a06112b64f9a00151239c8109e4a0cdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/24/f05f3f1abd9800151c5adf9950e73838" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/26/40e8751ebe9800151c5adf9950e73838" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/2c/20776077509a00151239c8109e4a0cdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/2f/009b7aae509a00151239c8109e4a0cdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/30/d009e2d5509a00151239c8109e4a0cdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/34/8023a3ce4f9a00151239c8109e4a0cdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/38/70a82d4c509a00151239c8109e4a0cdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/3e/907e7b1abd9800151c5adf9950e73838" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/46/a0c618b1bd9800151c5adf9950e73838" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/4f/f0689c3d509a00151239c8109e4a0cdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/56/300c30bbbc9800151c5adf9950e73838" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/59/a0bc56f2509a00151239c8109e4a0cdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/5d/c0d14a2bbe9800151c5adf9950e73838" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/5f/70842b77509a00151239c8109e4a0cdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/5f/e028ab92509a00151239c8109e4a0cdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/5f/e047b364bd9800151c5adf9950e73838" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/60/00b37f1cbd9800151c5adf9950e73838" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/60/f05c994ebe9800151c5adf9950e73838" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/6a/40b8e222be9800151c5adf9950e73838" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/6f/b0b60cba10990015185ccb6efcd52fc7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/6f/c0a0e42bbe9800151c5adf9950e73838" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/76/b0141c7a509a00151239c8109e4a0cdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/77/b0ebd5d7bd9800151c5adf9950e73838" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/78/10f8147f509a00151239c8109e4a0cdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/7b/b0efbeba10990015185ccb6efcd52fc7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/7d/e010e01dbe9800151c5adf9950e73838" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/81/803632edbd9800151c5adf9950e73838" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/82/2088730abe9800151c5adf9950e73838" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/8a/702ecf8abe9800151c5adf9950e73838" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/8a/e0d43f3e509a00151239c8109e4a0cdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/9/a0cb6e23be9800151c5adf9950e73838" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/97/40c635ce509a00151239c8109e4a0cdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/98/30c4601dbd9800151c5adf9950e73838" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/9c/f0e10c0bbe9800151c5adf9950e73838" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/a1/00b07b8e509a00151239c8109e4a0cdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/a3/50234bcf4f9a00151239c8109e4a0cdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/b6/90c0475e509a00151239c8109e4a0cdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/b6/a0de6b64bd9800151c5adf9950e73838" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/b7/50d5d908be9800151c5adf9950e73838" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/c1/f0bef44abe9800151c5adf9950e73838" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/c2/f0e055b110990015185ccb6efcd52fc7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/c4/308541d5bd9800151c5adf9950e73838" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/c7/10264553509a00151239c8109e4a0cdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/cd/a047fd52509a00151239c8109e4a0cdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/cd/b05a7eedbd9800151c5adf9950e73838" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/cf/2094598bbe9800151c5adf9950e73838" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/d0/304a9f02be9800151c5adf9950e73838" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/d1/a01c03d5bd9800151c5adf9950e73838" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/d7/20a192d7bd9800151c5adf9950e73838" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/d9/803ced79509a00151239c8109e4a0cdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/e/d02489dabd9800151c5adf9950e73838" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/e8/502f1c92509a00151239c8109e4a0cdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/e9/d03a99b4bd9800151c5adf9950e73838" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/ec/e0bb814c509a00151239c8109e4a0cdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/f6/90664a08be9800151c5adf9950e73838" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/f6/e0ed214fbe9800151c5adf9950e73838" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.projects/Coursera/.indexes/7/bd/history.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.projects/Coursera/.indexes/7/be/history.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.projects/Coursera/.indexes/af/history.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.projects/Coursera/.indexes/e4/bd/history.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.projects/Coursera/.indexes/e4/be/history.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.projects/Coursera/org.eclipse.jdt.core/state.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.projects/HelloWorld/org.eclipse.jdt.core/state.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.root/6.tree" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.pde.api.tools.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.jsdt.ui.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.debug.core/.launches/Hello$.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.e4.workbench/workbench (Praise’s MacBook Pro's conflicted copy 2015-12-02).xmi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/1116271856.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/1165542491.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/1271342938.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/1737112205.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/2147531794.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/2633272593.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/2777386132.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/2843394816.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/3145990890.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/3199462873.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/3369272816.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/346711152.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/3659077767.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/3785765040.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/3927879410.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/3975215079.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/4059364602.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/4082578982.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/4103544854.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/489563832.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/786462423.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/965335243.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2015/11/47/refactorings.history" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2015/11/47/refactorings.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Coursera/2015/12/49/refactorings.history" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Coursera/2015/12/49/refactorings.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/HelloWorld/2015/11/47/refactorings.history" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/HelloWorld/2015/11/47/refactorings.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.ltk.ui.refactoring/dialog_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.wst.jsdt.core/externalLibsTimeStamps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/baseBrowserLibrary.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/browserWindow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/dom5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/system.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/xhr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.wst.jsdt.core/variablesAndContainers.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.scala-ide.sdt.core/compiler-interfaces/2.11.7/compiler-interface.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.scala-ide.sdt.core/scala-ide.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/Coursera/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/Coursera/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/Coursera/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/Coursera/.worksheet/bin/week1/session$$anonfun$main$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/Coursera/.worksheet/bin/week1/session$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/Coursera/.worksheet/bin/week1/session.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/Coursera/.worksheet/bin/week2/exercise1$$anonfun$main$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/Coursera/.worksheet/bin/week2/exercise1$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/Coursera/.worksheet/bin/week2/exercise1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/Coursera/.worksheet/bin/week2/progfun1$$anonfun$main$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/Coursera/.worksheet/bin/week2/progfun1$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/Coursera/.worksheet/bin/week2/progfun1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/Coursera/.worksheet/src/week1.session.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/Coursera/.worksheet/src/week2.exercise1.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/Coursera/.worksheet/src/week2.progfun1.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/Coursera/bin/week1/session.sc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/Coursera/bin/week2/progfun1.sc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/Coursera/src/week1/session.sc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/Coursera/src/week2/progfun1.sc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/HelloWorld/.cache-main" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/HelloWorld/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/HelloWorld/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/HelloWorld/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/HelloWorld/.worksheet/bin/greeter/DynamicWorkSheet$$anonfun$main$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/HelloWorld/.worksheet/bin/greeter/DynamicWorkSheet$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/HelloWorld/.worksheet/bin/greeter/DynamicWorkSheet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/HelloWorld/.worksheet/src/greeter.DynamicWorkSheet.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/HelloWorld/bin/greeter/DynamicWorkSheet.sc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/HelloWorld/bin/greeter/Hello$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/HelloWorld/bin/greeter/Hello$delayedInit$body.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/HelloWorld/bin/greeter/Hello.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/HelloWorld/src/greeter/DynamicWorkSheet.sc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/HelloWorld/src/greeter/hello.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/HelloWorls/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/HelloWorls/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/HelloWorls/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/progfun/classesandobjects/ChecksumCalculator$$anonfun$calculate$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/progfun/classesandobjects/ChecksumCalculator$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/progfun/classesandobjects/ChecksumCalculator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/progfun/classesandobjects/Summer$$anonfun$main$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/progfun/classesandobjects/Summer$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/progfun/classesandobjects/Summer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/progfun/classesandsingletons/ChecksumCalculator$$anonfun$calculate$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/progfun/classesandsingletons/ChecksumCalculator$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/progfun/classesandsingletons/ChecksumCalculator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/progfun/classesandsingletons/Summer$$anonfun$main$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/progfun/classesandsingletons/Summer$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/progfun/classesandsingletons/Summer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/progfun/classesandsingletons/WorldlyApp$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/progfun/classesandsingletons/WorldlyApp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/progfun/classesandsingletons/WorldlyGreeter$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/progfun/classesandsingletons/WorldlyGreeter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../angular2-quickstart/app/npm-debug.log" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/FunctionalProgrammingInScalaBook/Notes.txt" afterPath="$PROJECT_DIR$/Notes.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/FunctionalProgrammingInScalaBook/src/Cafe.scala" afterPath="$PROJECT_DIR$/Cafe.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.lock" afterPath="$PROJECT_DIR$/Function Literals.sc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.team.ui.prefs" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.team.ui.prefs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.scala-ide.sdt.core.prefs" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.scala-ide.sdt.core.prefs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/invalidArchivesCache" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.launching/.install.xml" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.jdt.launching/.install.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.wst.jsdt.ui/OpenTypeHistory.xml" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.wst.jsdt.ui/QualifiedTypeNameHistory.xml" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/version.ini" afterPath="$PROJECT_DIR$/../../progfun/.metadata/version.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AngularJS/angular-phonecat" afterPath="$PROJECT_DIR$/../AngularJS/angular-phonecat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java/NumberToWords.class" afterPath="$PROJECT_DIR$/../Java/NumberToWords.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java/constNumtoLetter.class" afterPath="$PROJECT_DIR$/../Java/constNumtoLetter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PHP/Zend/zf2-tutorial" afterPath="$PROJECT_DIR$/../PHP/Zend/zf2-tutorial" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/progfun.iml" afterPath="$PROJECT_DIR$/.idea/progfun.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java/NumberToWords.java" afterPath="$PROJECT_DIR$/../Java/NumberToWords.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iteration.scala" afterPath="$PROJECT_DIR$/iteration.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../angular2-quickstart/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../angular2-quickstart/.idea/workspace.xml" />
     </list>
-    <ignored path="progfun.iws" />
+    <ignored path="Scala.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,38 +321,15 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="progfun" />
+    <favorites_list name="Scala" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ParallelComputation.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ParallelComputation.scala">
+    <leaf>
+      <file leaf-file-name="Function Literals.sc" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Function Literals.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayOps.scala" pinned="false" current-in-tab="false">
-        <entry file="file:///Applications/SDK/Projects/scala/src/library/scala/collection/mutable/ArrayOps.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-              <folding>
-                <element signature="n#!!doc" expanded="false" />
-                <element signature="e#576#605#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="iteration.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/iteration.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+            <state relative-caret-position="300">
+              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -67,60 +340,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Parametization.scala" />
-        <option value="$PROJECT_DIR$/ParametizateArrays.scala" />
-        <option value="$PROJECT_DIR$/Lists.scala" />
-        <option value="$PROJECT_DIR$/Tuples.scala" />
-        <option value="$PROJECT_DIR$/Sets and Maps.scala" />
-        <option value="$PROJECT_DIR$/Person.scala" />
-        <option value="$PROJECT_DIR$/ParallelComputation.scala" />
-        <option value="$PROJECT_DIR$/.metadata/IAuditor.java" />
-        <option value="$PROJECT_DIR$/RepoReplica/IAuditor.java" />
-        <option value="$PROJECT_DIR$/RepoReplica/AccountWebSerivice.scala" />
-        <option value="$PROJECT_DIR$/RepoReplica/BaseWebService" />
-        <option value="$PROJECT_DIR$/RepoReplica/CommonDependencies.scala" />
-        <option value="$PROJECT_DIR$/RepoReplica/CommonDependencies.java" />
-        <option value="$PROJECT_DIR$/FancyGreeter.scala" />
-        <option value="$PROJECT_DIR$/.idea/FancyGreeter.scala" />
-        <option value="$PROJECT_DIR$/greetRepeatedly.scala" />
-        <option value="$PROJECT_DIR$/Traits.scala" />
-        <option value="$PROJECT_DIR$/greetCarefully.scala" />
-        <option value="$PROJECT_DIR$/greetSimply" />
-        <option value="$PROJECT_DIR$/fancyGreeter.scala" />
-        <option value="$PROJECT_DIR$/constructors.scala" />
-        <option value="$PROJECT_DIR$/Summe.scala" />
-        <option value="$PROJECT_DIR$/WorldlyApp.scala" />
-        <option value="$PROJECT_DIR$/WorldlyGreeter.scala" />
-        <option value="$PROJECT_DIR$/ChecksumCalculator.scala" />
-        <option value="$PROJECT_DIR$/Summer.scala" />
-        <option value="$PROJECT_DIR$/FallWinterSpringSummer.scala" />
-        <option value="$PROJECT_DIR$/iteration.scala" />
+        <option value="$PROJECT_DIR$/Function Literals.sc" />
       </list>
     </option>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="Bundled (Maven 3)" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState />
-  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
-    <option name="y" value="43" />
-    <option name="width" value="1260" />
-    <option name="height" value="701" />
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="741" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -151,37 +381,36 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="progfun" />
+              <option name="myItemId" value="Scala" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/RepoReplica" />
-    </key>
   </component>
   <component name="RunManager">
-    <configuration default="false" name="Scala Console" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" temporary="true">
-      <module name="progfun" />
-      <setting name="vmparams4" value="-Djline.terminal=NONE" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="consoleArgs" value="-usejavacp" />
-      <method />
-    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -197,7 +426,6 @@
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -212,12 +440,10 @@
       <method />
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <envs />
       <method />
     </configuration>
     <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SCRATCH_FILE_ID" value="0" />
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
@@ -233,7 +459,6 @@
       <method />
     </configuration>
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -241,12 +466,11 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="progfun" />
+      <module name="Scala" />
       <envs />
       <method />
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="filePath" />
       <option name="vmParameters" />
       <option name="alternativeJrePath" />
@@ -265,16 +489,60 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console">
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
       <module name="" />
-      <setting name="vmparams4" value="-Djline.terminal=NONE" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="consoleArgs" value="-usejavacp" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
-    </list>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+    </configuration>
   </component>
   <component name="SbtLocalSettings">
     <option name="externalProjectsViewState">
@@ -284,59 +552,44 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="917adc8b-7ae7-4704-bdbd-0ae0157c7f62" name="Default" comment="" />
-      <created>1454166268358</created>
+      <changelist id="8f9879d8-9bb0-4350-8531-d2469a7b7930" name="Default" comment="" />
+      <created>1463854310472</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1454166268358</updated>
-      <workItem from="1462689610253" duration="111000" />
-      <workItem from="1462689740509" duration="230000" />
+      <updated>1463854310472</updated>
+      <workItem from="1463854311889" duration="1256000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="341000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="1256000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="43" width="1260" height="701" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="741" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21031746" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.49441788" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27373418" sideWeight="0.56031746" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32744783" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27373418" sideWeight="0.43968254" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40604028" sideWeight="0.5221675" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.48644337" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -356,368 +609,11 @@
     <breakpoint-manager />
     <watches-manager />
   </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file:///Applications/SDK/Projects/scala/src/library/scala/collection/mutable/ArrayOps.scala">
+    <entry file="file://$PROJECT_DIR$/Function Literals.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#576#605#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/SDK/Projects/scala/src/library/scala/volatile.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Applications/SDK/scala-2.11.7/lib/scala-library.jar!/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Applications/SDK/scala-2.11.7/lib/scala-actors-migration_2.11-1.1.0.jar!/scala/actors/migration/ActorDSL.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Applications/SDK/scala-2.11.7/lib/scala-actors-migration_2.11-1.1.0.jar!/scala/actors/migration/ActWithStash.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Applications/SDK/scala-2.11.7/lib/scala-library.jar!/scala/Array.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/SDK/Projects/scala/src/library/scala/Array.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/SDK/Projects/scala/src/library/scala/SerialVersionUID.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/SDK/Projects/scala/src/library/scala/annotation/ClassfileAnnotation.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/SDK/Projects/scala/src/library/scala/annotation/bridge.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/SDK/Projects/scala/src/library/scala/package.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="47" column="43" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/SDK/Projects/scala/src/library/scala/collection/immutable/List.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="108" column="6" selection-start-line="108" selection-start-column="6" selection-end-line="108" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/SDK/Projects/scala/src/library/scala/collection/mutable/SetLike.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="127" column="6" selection-start-line="127" selection-start-column="6" selection-end-line="127" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/SDK/Projects/scala/src/library/scala/collection/SetLike.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="116" column="6" selection-start-line="116" selection-start-column="6" selection-end-line="116" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch" />
-    <entry file="file:///Applications/SDK/Projects/scala/src/library/scala/collection/immutable/HashSet.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="218" column="68" selection-start-line="218" selection-start-column="67" selection-end-line="218" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/SDK/Projects/scala/src/library/scala/Function0.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/SDK/Projects/scala/src/library/scala/Immutable.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/SDK/Projects/scala/src/library/scala/Function22.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Applications/SDK/scala-2.11.7/lib/scala-library.jar!/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Applications/SDK/scala-2.11.7/lib/scala-actors-migration_2.11-1.1.0.jar!/scala/actors/migration/ActWithStash.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Applications/SDK/scala-2.11.7/lib/scala-actors-migration_2.11-1.1.0.jar!/scala/actors/migration/ActorDSL.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/SDK/Projects/scala/src/library/scala/volatile.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Applications/SDK/scala-2.11.7/lib/scala-library.jar!/library.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/SDK/Projects/scala/src/library/scala/Specializable.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/SDK/Projects/scala/src/library/scala/language.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/SDK/Projects/scala/src/library/scala/Function1.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/SDK/Projects/scala/src/library/scala/collection/TraversableLike.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="322" column="16" selection-start-line="322" selection-start-column="16" selection-end-line="322" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helloarg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helloarg.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/constructors.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greetCarefully.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greetSimply">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WorldlyGreeter.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ChecksumCalculator.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/progfun/classesandsingletons/ChecksumCalculator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fancyGreeter.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FallWinterSpringSummer.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WorldlyApp.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tuples.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Traits.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Summer.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Summer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sets and Maps.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ParametizateArrays.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/npm-debug.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lists.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ParallelComputation.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/SDK/Projects/scala/src/library/scala/collection/mutable/ArrayOps.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#576#605#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iteration.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+        <state relative-caret-position="300">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -725,9 +621,81 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.11.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Scala</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

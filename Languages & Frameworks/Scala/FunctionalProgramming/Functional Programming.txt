@@ -1,3 +1,0 @@
-Evaluation strategies
-  Call by name
-  Call by Value

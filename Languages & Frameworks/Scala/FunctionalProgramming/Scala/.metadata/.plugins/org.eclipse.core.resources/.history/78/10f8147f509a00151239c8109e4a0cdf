@@ -1,8 +1,0 @@
-package week2
-
-object progfun1 {
-  def gcd(a: Int, b: Int): Int =
-  	if (a  0) a else gcd(a,a%b)
-  	
-    gcd(1,2)
-}
