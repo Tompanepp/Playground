@@ -1,0 +1,75 @@
+1. _C +B
+2. D
+3. _E +D String.concat?(it exists, but Strings are immutable and thus a new reference is simple created)
+4. _C +A if() expects variable BOOLEAN OPERATOR value/variable
+5. A (type safe code?: Compile time validation of inputs into a data structure based on the data type
+      the data strucuture is defined to contain)
+6. A
+7. _A +E (hashmap is not a final class) : Top level classes in a class hierarchy cannot be private
+8. A, _D (Did not account for the loop running, i=3 the condition was still true (i<=3)), E
+9. _B +C All throwables can be arguments
+10. C, B
+11. D
+12. _A +B (loss of precision during conversion from int to float/double)
+13. B (The exception is thrown prior to the division ever happening)
+14. _B +A (NULLPointerException is thrown, however it is caught and index = 2 and that is printed)
+15. B
+16. B
+17. D (320 too big for byte type, needs an explicit cast)
+18. A, B, C , _D (INTERVAL is a constant dude!) static { ..expression.. }
+19. A, B, _F(Though the class is abstract it can still "implement" an interface, it can "follow" it, as long as it defines
+            all the methods the interface defines, if it's abstract it won't implement them)
+        +C (Interfaces can "extend" each othe)
+20. A
+21. A, C, +D ,+B
+22. _A +E (fields defined in an interface are implicitly public,static and final) and methods are implictly
+      public and abstract
+23. _A, _B ,E, +D, +C (If the compiler can figure out that something will NEVER happen it throws an error)
+24. _H +A
+25. A, D
+26. _E (The logi code will actually just generate an infinite, there must be an error I am missing)
+    _D (break leaves the loop and executes the statement(s) after it)
+27. C, D(Must throw a subset of the exceptions thrown by the overriden class)
+      An emoty exception subset in the throws clause(meaning none) is valid
+
+50. B
+51. C
+52. E
+53. A, _B +C
+54. D, B
+55. D, B, A
+56. C, A, D
+57. _B +A
+58. D
+59. _B, +E
+60.	_A, D , +D, +E RuntimeExceptions do not have to caught, but can be defined in throws clause without
+ errors
+61. D , _C (k = 4) * (k + 2) //K is assigned 4 and allsubsequence references to k will equal 4
+62. A
+63. A
+64. _C +E //Spaces are counted by the String.len method
+65. B
+66. _B, +E / pay attention to catch clauses after try
+70. _B +E
+71. B, _D + E
+  valid array declarations: String [] args, String args[]
+72. A
+73. C, D
+74. B, C, D
+75. 21 +A
+76. F (All the variables in the formular are ints, so the result is an int)
+78. Initialiation sequence (static, non-static, constructors)
+
+82. A
+83. D,B, A, C
+84. _D  (Java initilisation sequence: Static members, non-static and constructors) +C
+85. B, _C +D (Array declaration: Datatype identifier [] : String arr[])
+86. B, 
+87. B
+88. E (Look at arrays again dude)
+89. B
+90. E
+	
+KEY
+_Alphabet: My incorrect choice
++B: Correct choice from book

@@ -2,307 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f9879d8-9bb0-4350-8531-d2469a7b7930" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.core.resources/.root/1.tree" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.jdt.core/invalidArchivesCache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CountNoWords.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MainTester.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../angular2-quickstart/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SICP/Lec 01 Abstractions with data.ss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SICP/Lec 01.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.scala-ide.sdt.core/scala-ide.log" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/1ZO-803 Standard Test 2/manifest.mf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/1ZO-803 Standard Test 2/src/pkg1zo/pkg803/standard/test/pkg2/StandardTest2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/1ZO-803 Standard Test 3/build.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/1ZO-803 Standard Test 3/manifest.mf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/1ZO-803 Standard Test 3/nbproject/build-impl.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/1ZO-803 Standard Test 3/nbproject/genfiles.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/1ZO-803 Standard Test 3/nbproject/private/private.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/1ZO-803 Standard Test 3/nbproject/private/private.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/1ZO-803 Standard Test 3/nbproject/project.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/1ZO-803 Standard Test 3/nbproject/project.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/1ZO-803 Standard Test 3/src/pkg1zo/pkg803/standard/test/pkg3/ComplexStaticAccessibility.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/1ZO-803 Standard Test 3/src/pkg1zo/pkg803/standard/test/pkg3/Continue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/1ZO-803 Standard Test 3/src/pkg1zo/pkg803/standard/test/pkg3/StandardTest3.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/1ZO-803 Standard Test 3/src/pkg1zo/pkg803/standard/test/pkg3/StaticTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/HyperionDev/build.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/HyperionDev/build/classes/.netbeans_automatic_build" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/HyperionDev/build/classes/.netbeans_update_resources" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/HyperionDev/build/classes/Factorial.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/HyperionDev/build/classes/Factorial/Factorial.rs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/HyperionDev/build/classes/MoneyToWords.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/HyperionDev/build/classes/NoDups.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/HyperionDev/build/classes/Rebel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/HyperionDev/build/classes/Rebel/Rebel.rs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/HyperionDev/build/classes/hyperiondev/MoneyToWords.rs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/HyperionDev/build/classes/hyperiondev/NoDups.rs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/HyperionDev/manifest.mf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/HyperionDev/nbproject/build-impl.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/HyperionDev/nbproject/genfiles.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/HyperionDev/nbproject/private/private.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/HyperionDev/nbproject/private/private.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/HyperionDev/nbproject/project.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/HyperionDev/nbproject/project.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/HyperionDev/src/Factorial/Factorial.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/HyperionDev/src/Rebel/Rebel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/HyperionDev/src/hyperiondev/MoneyToWords.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/HyperionDev/src/hyperiondev/NoDups.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/Submission Number Conversion/MoneyToWords (Papudi's conflicted copy 2015-06-03).class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/Submission Number Conversion/MoneyToWords -backup.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/Submission Number Conversion/MoneyToWords.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/Submission Number Conversion/MoneyToWords.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/Submission Number Conversion/NoDups.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/Submission Number Conversion/NoDups.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/Submission Number Conversion/NumberToWords.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/Submission Number Conversion/NumberToWords.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/Submission Number Conversion/constNumtoLetter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/com/javahonk/unsupportedexception/UnsupportedException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/com/javahonk/unsupportedexception/UnsupportedException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/progfun.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Functional Programming.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/FunctionalProgramming.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/FunctionalProgrammingInScalaBook/FunctionalProgrammingInScalaBook.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/0/d07c754abe9800151c5adf9950e73838" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/1/6057da02be9800151c5adf9950e73838" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/10/a0730d0bbd9800151c5adf9950e73838" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/11/a0bc5bb4bd9800151c5adf9950e73838" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/19/80eafb5d509a00151239c8109e4a0cdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/1b/6058e77e509a00151239c8109e4a0cdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/1b/70b8b9cd509a00151239c8109e4a0cdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/1c/30e7efad509a00151239c8109e4a0cdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/1c/f0558daf10990015185ccb6efcd52fc7" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/1e/f06ee3d9bd9800151c5adf9950e73838" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/22/60b0d8b0bd9800151c5adf9950e73838" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/23/a06112b64f9a00151239c8109e4a0cdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/24/f05f3f1abd9800151c5adf9950e73838" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/26/40e8751ebe9800151c5adf9950e73838" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/2c/20776077509a00151239c8109e4a0cdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/2f/009b7aae509a00151239c8109e4a0cdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/30/d009e2d5509a00151239c8109e4a0cdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/34/8023a3ce4f9a00151239c8109e4a0cdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/38/70a82d4c509a00151239c8109e4a0cdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/3e/907e7b1abd9800151c5adf9950e73838" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/46/a0c618b1bd9800151c5adf9950e73838" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/4f/f0689c3d509a00151239c8109e4a0cdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/56/300c30bbbc9800151c5adf9950e73838" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/59/a0bc56f2509a00151239c8109e4a0cdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/5d/c0d14a2bbe9800151c5adf9950e73838" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/5f/70842b77509a00151239c8109e4a0cdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/5f/e028ab92509a00151239c8109e4a0cdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/5f/e047b364bd9800151c5adf9950e73838" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/60/00b37f1cbd9800151c5adf9950e73838" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/60/f05c994ebe9800151c5adf9950e73838" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/6a/40b8e222be9800151c5adf9950e73838" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/6f/b0b60cba10990015185ccb6efcd52fc7" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/6f/c0a0e42bbe9800151c5adf9950e73838" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/76/b0141c7a509a00151239c8109e4a0cdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/77/b0ebd5d7bd9800151c5adf9950e73838" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/78/10f8147f509a00151239c8109e4a0cdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/7b/b0efbeba10990015185ccb6efcd52fc7" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/7d/e010e01dbe9800151c5adf9950e73838" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/81/803632edbd9800151c5adf9950e73838" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/82/2088730abe9800151c5adf9950e73838" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/8a/702ecf8abe9800151c5adf9950e73838" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/8a/e0d43f3e509a00151239c8109e4a0cdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/9/a0cb6e23be9800151c5adf9950e73838" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/97/40c635ce509a00151239c8109e4a0cdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/98/30c4601dbd9800151c5adf9950e73838" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/9c/f0e10c0bbe9800151c5adf9950e73838" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/a1/00b07b8e509a00151239c8109e4a0cdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/a3/50234bcf4f9a00151239c8109e4a0cdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/b6/90c0475e509a00151239c8109e4a0cdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/b6/a0de6b64bd9800151c5adf9950e73838" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/b7/50d5d908be9800151c5adf9950e73838" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/c1/f0bef44abe9800151c5adf9950e73838" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/c2/f0e055b110990015185ccb6efcd52fc7" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/c4/308541d5bd9800151c5adf9950e73838" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/c7/10264553509a00151239c8109e4a0cdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/cd/a047fd52509a00151239c8109e4a0cdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/cd/b05a7eedbd9800151c5adf9950e73838" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/cf/2094598bbe9800151c5adf9950e73838" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/d0/304a9f02be9800151c5adf9950e73838" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/d1/a01c03d5bd9800151c5adf9950e73838" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/d7/20a192d7bd9800151c5adf9950e73838" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/d9/803ced79509a00151239c8109e4a0cdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/e/d02489dabd9800151c5adf9950e73838" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/e8/502f1c92509a00151239c8109e4a0cdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/e9/d03a99b4bd9800151c5adf9950e73838" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/ec/e0bb814c509a00151239c8109e4a0cdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/f6/90664a08be9800151c5adf9950e73838" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.history/f6/e0ed214fbe9800151c5adf9950e73838" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.projects/Coursera/.indexes/7/bd/history.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.projects/Coursera/.indexes/7/be/history.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.projects/Coursera/.indexes/af/history.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.projects/Coursera/.indexes/e4/bd/history.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.projects/Coursera/.indexes/e4/be/history.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.projects/Coursera/org.eclipse.jdt.core/state.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.projects/HelloWorld/org.eclipse.jdt.core/state.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.root/6.tree" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.pde.api.tools.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.jsdt.ui.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.debug.core/.launches/Hello$.launch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.e4.workbench/workbench (Praise’s MacBook Pro's conflicted copy 2015-12-02).xmi" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/1116271856.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/1165542491.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/1271342938.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/1737112205.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/2147531794.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/2633272593.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/2777386132.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/2843394816.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/3145990890.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/3199462873.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/3369272816.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/346711152.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/3659077767.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/3785765040.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/3927879410.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/3975215079.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/4059364602.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/4082578982.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/4103544854.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/489563832.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/786462423.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/965335243.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2015/11/47/refactorings.history" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2015/11/47/refactorings.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Coursera/2015/12/49/refactorings.history" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Coursera/2015/12/49/refactorings.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/HelloWorld/2015/11/47/refactorings.history" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/HelloWorld/2015/11/47/refactorings.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.ltk.ui.refactoring/dialog_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.wst.jsdt.core/externalLibsTimeStamps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/baseBrowserLibrary.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/browserWindow.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/dom5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/system.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/xhr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.wst.jsdt.core/variablesAndContainers.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.scala-ide.sdt.core/compiler-interfaces/2.11.7/compiler-interface.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.scala-ide.sdt.core/scala-ide.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/Coursera/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/Coursera/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/Coursera/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/Coursera/.worksheet/bin/week1/session$$anonfun$main$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/Coursera/.worksheet/bin/week1/session$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/Coursera/.worksheet/bin/week1/session.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/Coursera/.worksheet/bin/week2/exercise1$$anonfun$main$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/Coursera/.worksheet/bin/week2/exercise1$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/Coursera/.worksheet/bin/week2/exercise1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/Coursera/.worksheet/bin/week2/progfun1$$anonfun$main$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/Coursera/.worksheet/bin/week2/progfun1$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/Coursera/.worksheet/bin/week2/progfun1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/Coursera/.worksheet/src/week1.session.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/Coursera/.worksheet/src/week2.exercise1.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/Coursera/.worksheet/src/week2.progfun1.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/Coursera/bin/week1/session.sc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/Coursera/bin/week2/progfun1.sc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/Coursera/src/week1/session.sc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/Coursera/src/week2/progfun1.sc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/HelloWorld/.cache-main" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/HelloWorld/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/HelloWorld/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/HelloWorld/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/HelloWorld/.worksheet/bin/greeter/DynamicWorkSheet$$anonfun$main$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/HelloWorld/.worksheet/bin/greeter/DynamicWorkSheet$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/HelloWorld/.worksheet/bin/greeter/DynamicWorkSheet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/HelloWorld/.worksheet/src/greeter.DynamicWorkSheet.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/HelloWorld/bin/greeter/DynamicWorkSheet.sc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/HelloWorld/bin/greeter/Hello$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/HelloWorld/bin/greeter/Hello$delayedInit$body.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/HelloWorld/bin/greeter/Hello.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/HelloWorld/src/greeter/DynamicWorkSheet.sc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/HelloWorld/src/greeter/hello.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/HelloWorls/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/HelloWorls/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/HelloWorls/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/com/progfun/classesandobjects/ChecksumCalculator$$anonfun$calculate$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/com/progfun/classesandobjects/ChecksumCalculator$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/com/progfun/classesandobjects/ChecksumCalculator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/com/progfun/classesandobjects/Summer$$anonfun$main$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/com/progfun/classesandobjects/Summer$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/com/progfun/classesandobjects/Summer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/com/progfun/classesandsingletons/ChecksumCalculator$$anonfun$calculate$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/com/progfun/classesandsingletons/ChecksumCalculator$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/com/progfun/classesandsingletons/ChecksumCalculator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/com/progfun/classesandsingletons/Summer$$anonfun$main$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/com/progfun/classesandsingletons/Summer$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/com/progfun/classesandsingletons/Summer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/com/progfun/classesandsingletons/WorldlyApp$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/com/progfun/classesandsingletons/WorldlyApp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/com/progfun/classesandsingletons/WorldlyGreeter$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/com/progfun/classesandsingletons/WorldlyGreeter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../angular2-quickstart/app/npm-debug.log" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/FunctionalProgrammingInScalaBook/Notes.txt" afterPath="$PROJECT_DIR$/Notes.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/FunctionalProgrammingInScalaBook/src/Cafe.scala" afterPath="$PROJECT_DIR$/Cafe.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.lock" afterPath="$PROJECT_DIR$/Function Literals.sc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.team.ui.prefs" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.team.ui.prefs" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.scala-ide.sdt.core.prefs" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.scala-ide.sdt.core.prefs" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/invalidArchivesCache" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.launching/.install.xml" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.jdt.launching/.install.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.wst.jsdt.ui/OpenTypeHistory.xml" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/.plugins/org.eclipse.wst.jsdt.ui/QualifiedTypeNameHistory.xml" afterPath="$PROJECT_DIR$/../../progfun/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/FunctionalProgramming/Scala/.metadata/version.ini" afterPath="$PROJECT_DIR$/../../progfun/.metadata/version.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Closures.sc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Control Abstraction.sc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Partial Functions.sc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Special Function Cases.sc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tail Recursion.sc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AngularJS/angular-phonecat" afterPath="$PROJECT_DIR$/../AngularJS/angular-phonecat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java/NumberToWords.class" afterPath="$PROJECT_DIR$/../Java/NumberToWords.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java/constNumtoLetter.class" afterPath="$PROJECT_DIR$/../Java/constNumtoLetter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PHP/Zend/zf2-tutorial" afterPath="$PROJECT_DIR$/../PHP/Zend/zf2-tutorial" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java/NumberToWords.java" afterPath="$PROJECT_DIR$/../Java/NumberToWords.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../angular2-quickstart/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../angular2-quickstart/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Function Literals.sc" afterPath="$PROJECT_DIR$/Function Literals.sc" />
     </list>
     <ignored path="Scala.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -324,18 +33,215 @@
     <favorites_list name="Scala" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Function Literals.sc" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Function Literals.sc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Function Literals.sc">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TraversableLike.class" pinned="false" current-in-tab="false">
+        <entry file="jar:///Applications/scala-2.11.7/lib/scala-library.jar!/scala/collection/TraversableLike.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GenTraversableLike.class" pinned="false" current-in-tab="false">
+        <entry file="jar:///Applications/scala-2.11.7/lib/scala-library.jar!/scala/collection/GenTraversableLike.class">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Special Function Cases.sc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Special Function Cases.sc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tail Recursion.sc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tail Recursion.sc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Control Abstraction.sc" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Control Abstraction.sc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="21" column="0" selection-start-line="20" selection-start-column="1" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="File.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/src.zip!/java/io/File.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17460">
+              <caret line="1205" column="18" selection-start-line="1205" selection-start-column="18" selection-end-line="1205" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#95358#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#8262#8263#0" expanded="false" />
+                <element signature="e#8297#8298#0" expanded="false" />
+                <element signature="e#21135#21136#0" expanded="false" />
+                <element signature="e#21162#21163#0" expanded="false" />
+                <element signature="e#21752#21753#0" expanded="false" />
+                <element signature="e#21794#21795#0" expanded="false" />
+                <element signature="e#23018#23019#0" expanded="false" />
+                <element signature="e#23057#23058#0" expanded="false" />
+                <element signature="e#64751#64752#0" expanded="false" />
+                <element signature="e#64801#64802#0" expanded="false" />
+                <element signature="e#68391#68392#0" expanded="false" />
+                <element signature="e#68441#68442#0" expanded="false" />
+                <element signature="e#72099#72100#0" expanded="false" />
+                <element signature="e#72153#72154#0" expanded="false" />
+                <element signature="e#75713#75714#0" expanded="false" />
+                <element signature="e#75750#75751#0" expanded="false" />
+                <element signature="e#80745#80746#0" expanded="false" />
+                <element signature="e#80782#80783#0" expanded="false" />
+                <element signature="e#89537#89538#0" expanded="false" />
+                <element signature="e#89586#89587#0" expanded="false" />
+                <element signature="e#91257#91258#0" expanded="false" />
+                <element signature="e#91297#91298#0" expanded="false" />
+                <element signature="e#91558#91559#0" expanded="false" />
+                <element signature="e#91590#91591#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20880">
+              <caret line="1455" column="27" selection-start-line="1455" selection-start-column="27" selection-end-line="1455" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#124311#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#4677#4678#0" expanded="false" />
+                <element signature="e#4714#4715#0" expanded="false" />
+                <element signature="e#5687#5688#0" expanded="false" />
+                <element signature="e#5750#5751#0" expanded="false" />
+                <element signature="e#13098#13099#0" expanded="false" />
+                <element signature="e#13150#13151#0" expanded="false" />
+                <element signature="e#18781#18782#0" expanded="false" />
+                <element signature="e#18834#18835#0" expanded="false" />
+                <element signature="e#20727#20728#0" expanded="false" />
+                <element signature="e#20771#20772#0" expanded="false" />
+                <element signature="e#21961#21962#0" expanded="false" />
+                <element signature="e#22041#22042#0" expanded="false" />
+                <element signature="e#22786#22787#0" expanded="false" />
+                <element signature="e#22821#22822#0" expanded="false" />
+                <element signature="e#23072#23073#0" expanded="false" />
+                <element signature="e#23112#23113#0" expanded="false" />
+                <element signature="e#29462#29463#0" expanded="false" />
+                <element signature="e#29533#29534#0" expanded="false" />
+                <element signature="e#36393#36394#0" expanded="false" />
+                <element signature="e#36459#36460#0" expanded="false" />
+                <element signature="e#38369#38370#0" expanded="false" />
+                <element signature="e#38423#38424#0" expanded="false" />
+                <element signature="e#47538#47539#0" expanded="false" />
+                <element signature="e#47602#47603#0" expanded="false" />
+                <element signature="e#55800#55801#0" expanded="false" />
+                <element signature="e#55844#55845#0" expanded="false" />
+                <element signature="e#56437#56438#0" expanded="false" />
+                <element signature="e#56514#56515#0" expanded="false" />
+                <element signature="e#58481#58482#0" expanded="false" />
+                <element signature="e#58518#58519#0" expanded="false" />
+                <element signature="e#62860#62861#0" expanded="false" />
+                <element signature="e#62916#62917#0" expanded="false" />
+                <element signature="e#66457#66458#0" expanded="false" />
+                <element signature="e#66495#66496#0" expanded="false" />
+                <element signature="e#70749#70750#0" expanded="false" />
+                <element signature="e#70802#70803#0" expanded="false" />
+                <element signature="e#78240#78241#0" expanded="false" />
+                <element signature="e#78299#78300#0" expanded="false" />
+                <element signature="e#82616#82617#0" expanded="false" />
+                <element signature="e#82667#82668#0" expanded="false" />
+                <element signature="e#82971#82972#0" expanded="false" />
+                <element signature="e#83020#83021#0" expanded="false" />
+                <element signature="e#94598#94599#0" expanded="false" />
+                <element signature="e#94636#94637#0" expanded="false" />
+                <element signature="e#104675#104676#0" expanded="false" />
+                <element signature="e#104730#104731#0" expanded="false" />
+                <element signature="e#111196#111197#0" expanded="false" />
+                <element signature="e#111251#111252#0" expanded="false" />
+                <element signature="e#113343#113344#0" expanded="false" />
+                <element signature="e#113370#113371#0" expanded="false" />
+                <element signature="e#117893#117894#0" expanded="false" />
+                <element signature="e#117955#117956#0" expanded="false" />
+                <element signature="e#118405#118406#0" expanded="false" />
+                <element signature="e#118444#118445#0" expanded="false" />
+                <element signature="e#119456#119457#0" expanded="false" />
+                <element signature="e#119510#119511#0" expanded="false" />
+                <element signature="e#120159#120160#0" expanded="false" />
+                <element signature="e#120213#120214#0" expanded="false" />
+                <element signature="e#120482#120483#0" expanded="false" />
+                <element signature="e#120521#120522#0" expanded="false" />
+                <element signature="e#120889#120890#0" expanded="false" />
+                <element signature="e#120932#120933#0" expanded="false" />
+                <element signature="e#121727#121728#0" expanded="false" />
+                <element signature="e#121769#121770#0" expanded="false" />
+                <element signature="e#122184#122185#0" expanded="false" />
+                <element signature="e#122223#122224#0" expanded="false" />
+                <element signature="e#122645#122646#0" expanded="false" />
+                <element signature="e#122685#122686#0" expanded="false" />
+                <element signature="e#123115#123116#0" expanded="false" />
+                <element signature="e#123156#123157#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Partial Functions.sc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Partial Functions.sc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="66" selection-start-line="31" selection-start-column="66" selection-end-line="31" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Closures.sc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Closures.sc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Worksheet" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -344,13 +250,85 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Function Literals.sc" />
+        <option value="$PROJECT_DIR$/Partial Functions.sc" />
+        <option value="$PROJECT_DIR$/Closures.sc" />
+        <option value="$PROJECT_DIR$/Special Function Cases.sc" />
+        <option value="$PROJECT_DIR$/Tail Recursion.sc" />
+        <option value="$PROJECT_DIR$/Control Abstraction.sc" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="741" />
+    <option name="height" value="740" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CollectionsScala</id>
+          </State>
+          <State>
+            <id>Comparing CollectionsScala</id>
+          </State>
+          <State>
+            <id>Declaration redundancyJava</id>
+          </State>
+          <State>
+            <id>Dependency issuesJava</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GeneralScala</id>
+          </State>
+          <State>
+            <id>ImportsJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>Other CollectionsScala</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Properties Files</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>Scala</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CFML</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -370,8 +348,8 @@
       <showLibraryContents />
       <hideEmptyPackages />
       <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
       <sortByType />
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
@@ -397,9 +375,9 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -407,8 +385,9 @@
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -560,36 +539,38 @@
       <option name="presentableId" value="Default" />
       <updated>1463854310472</updated>
       <workItem from="1463854311889" duration="1256000" />
+      <workItem from="1463881438011" duration="10819000" />
+      <workItem from="1463904046704" duration="1718000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1256000" />
+    <option name="totallyTimeSpent" value="13793000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="741" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="740" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32744783" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3264" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21324718" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -612,8 +593,374 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Function Literals.sc">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Applications/scala-2.11.7/lib/scala-library.jar!/scala/collection/TraversableLike.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Applications/scala-2.11.7/lib/scala-library.jar!/scala/collection/GenTraversableLike.class">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Special Function Cases.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tail Recursion.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Control Abstraction.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17460">
+          <caret line="1205" column="18" selection-start-line="1205" selection-start-column="18" selection-end-line="1205" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#95358#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#8262#8263#0" expanded="false" />
+            <element signature="e#8297#8298#0" expanded="false" />
+            <element signature="e#21135#21136#0" expanded="false" />
+            <element signature="e#21162#21163#0" expanded="false" />
+            <element signature="e#21752#21753#0" expanded="false" />
+            <element signature="e#21794#21795#0" expanded="false" />
+            <element signature="e#23018#23019#0" expanded="false" />
+            <element signature="e#23057#23058#0" expanded="false" />
+            <element signature="e#64751#64752#0" expanded="false" />
+            <element signature="e#64801#64802#0" expanded="false" />
+            <element signature="e#68391#68392#0" expanded="false" />
+            <element signature="e#68441#68442#0" expanded="false" />
+            <element signature="e#72099#72100#0" expanded="false" />
+            <element signature="e#72153#72154#0" expanded="false" />
+            <element signature="e#75713#75714#0" expanded="false" />
+            <element signature="e#75750#75751#0" expanded="false" />
+            <element signature="e#80745#80746#0" expanded="false" />
+            <element signature="e#80782#80783#0" expanded="false" />
+            <element signature="e#89537#89538#0" expanded="false" />
+            <element signature="e#89586#89587#0" expanded="false" />
+            <element signature="e#91257#91258#0" expanded="false" />
+            <element signature="e#91297#91298#0" expanded="false" />
+            <element signature="e#91558#91559#0" expanded="false" />
+            <element signature="e#91590#91591#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20880">
+          <caret line="1455" column="27" selection-start-line="1455" selection-start-column="27" selection-end-line="1455" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#124311#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#4677#4678#0" expanded="false" />
+            <element signature="e#4714#4715#0" expanded="false" />
+            <element signature="e#5687#5688#0" expanded="false" />
+            <element signature="e#5750#5751#0" expanded="false" />
+            <element signature="e#13098#13099#0" expanded="false" />
+            <element signature="e#13150#13151#0" expanded="false" />
+            <element signature="e#18781#18782#0" expanded="false" />
+            <element signature="e#18834#18835#0" expanded="false" />
+            <element signature="e#20727#20728#0" expanded="false" />
+            <element signature="e#20771#20772#0" expanded="false" />
+            <element signature="e#21961#21962#0" expanded="false" />
+            <element signature="e#22041#22042#0" expanded="false" />
+            <element signature="e#22786#22787#0" expanded="false" />
+            <element signature="e#22821#22822#0" expanded="false" />
+            <element signature="e#23072#23073#0" expanded="false" />
+            <element signature="e#23112#23113#0" expanded="false" />
+            <element signature="e#29462#29463#0" expanded="false" />
+            <element signature="e#29533#29534#0" expanded="false" />
+            <element signature="e#36393#36394#0" expanded="false" />
+            <element signature="e#36459#36460#0" expanded="false" />
+            <element signature="e#38369#38370#0" expanded="false" />
+            <element signature="e#38423#38424#0" expanded="false" />
+            <element signature="e#47538#47539#0" expanded="false" />
+            <element signature="e#47602#47603#0" expanded="false" />
+            <element signature="e#55800#55801#0" expanded="false" />
+            <element signature="e#55844#55845#0" expanded="false" />
+            <element signature="e#56437#56438#0" expanded="false" />
+            <element signature="e#56514#56515#0" expanded="false" />
+            <element signature="e#58481#58482#0" expanded="false" />
+            <element signature="e#58518#58519#0" expanded="false" />
+            <element signature="e#62860#62861#0" expanded="false" />
+            <element signature="e#62916#62917#0" expanded="false" />
+            <element signature="e#66457#66458#0" expanded="false" />
+            <element signature="e#66495#66496#0" expanded="false" />
+            <element signature="e#70749#70750#0" expanded="false" />
+            <element signature="e#70802#70803#0" expanded="false" />
+            <element signature="e#78240#78241#0" expanded="false" />
+            <element signature="e#78299#78300#0" expanded="false" />
+            <element signature="e#82616#82617#0" expanded="false" />
+            <element signature="e#82667#82668#0" expanded="false" />
+            <element signature="e#82971#82972#0" expanded="false" />
+            <element signature="e#83020#83021#0" expanded="false" />
+            <element signature="e#94598#94599#0" expanded="false" />
+            <element signature="e#94636#94637#0" expanded="false" />
+            <element signature="e#104675#104676#0" expanded="false" />
+            <element signature="e#104730#104731#0" expanded="false" />
+            <element signature="e#111196#111197#0" expanded="false" />
+            <element signature="e#111251#111252#0" expanded="false" />
+            <element signature="e#113343#113344#0" expanded="false" />
+            <element signature="e#113370#113371#0" expanded="false" />
+            <element signature="e#117893#117894#0" expanded="false" />
+            <element signature="e#117955#117956#0" expanded="false" />
+            <element signature="e#118405#118406#0" expanded="false" />
+            <element signature="e#118444#118445#0" expanded="false" />
+            <element signature="e#119456#119457#0" expanded="false" />
+            <element signature="e#119510#119511#0" expanded="false" />
+            <element signature="e#120159#120160#0" expanded="false" />
+            <element signature="e#120213#120214#0" expanded="false" />
+            <element signature="e#120482#120483#0" expanded="false" />
+            <element signature="e#120521#120522#0" expanded="false" />
+            <element signature="e#120889#120890#0" expanded="false" />
+            <element signature="e#120932#120933#0" expanded="false" />
+            <element signature="e#121727#121728#0" expanded="false" />
+            <element signature="e#121769#121770#0" expanded="false" />
+            <element signature="e#122184#122185#0" expanded="false" />
+            <element signature="e#122223#122224#0" expanded="false" />
+            <element signature="e#122645#122646#0" expanded="false" />
+            <element signature="e#122685#122686#0" expanded="false" />
+            <element signature="e#123115#123116#0" expanded="false" />
+            <element signature="e#123156#123157#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Partial Functions.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="66" selection-start-line="31" selection-start-column="66" selection-end-line="31" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Closures.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Applications/scala-2.11.7/lib/scala-library.jar!/scala/Function3.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="92" selection-start-line="5" selection-start-column="92" selection-end-line="5" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Applications/scala-2.11.7/lib/scala-library.jar!/scala/Function1.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Partial Functions.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="66" selection-start-line="31" selection-start-column="66" selection-end-line="31" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Closures.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Applications/scala-2.11.7/lib/scala-library.jar!/scala/collection/TraversableLike.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Applications/scala-2.11.7/lib/scala-library.jar!/scala/collection/GenTraversableLike.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Special Function Cases.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tail Recursion.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20880">
+          <caret line="1455" column="27" selection-start-line="1455" selection-start-column="27" selection-end-line="1455" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#124311#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#4677#4678#0" expanded="false" />
+            <element signature="e#4714#4715#0" expanded="false" />
+            <element signature="e#5687#5688#0" expanded="false" />
+            <element signature="e#5750#5751#0" expanded="false" />
+            <element signature="e#13098#13099#0" expanded="false" />
+            <element signature="e#13150#13151#0" expanded="false" />
+            <element signature="e#18781#18782#0" expanded="false" />
+            <element signature="e#18834#18835#0" expanded="false" />
+            <element signature="e#20727#20728#0" expanded="false" />
+            <element signature="e#20771#20772#0" expanded="false" />
+            <element signature="e#21961#21962#0" expanded="false" />
+            <element signature="e#22041#22042#0" expanded="false" />
+            <element signature="e#22786#22787#0" expanded="false" />
+            <element signature="e#22821#22822#0" expanded="false" />
+            <element signature="e#23072#23073#0" expanded="false" />
+            <element signature="e#23112#23113#0" expanded="false" />
+            <element signature="e#29462#29463#0" expanded="false" />
+            <element signature="e#29533#29534#0" expanded="false" />
+            <element signature="e#36393#36394#0" expanded="false" />
+            <element signature="e#36459#36460#0" expanded="false" />
+            <element signature="e#38369#38370#0" expanded="false" />
+            <element signature="e#38423#38424#0" expanded="false" />
+            <element signature="e#47538#47539#0" expanded="false" />
+            <element signature="e#47602#47603#0" expanded="false" />
+            <element signature="e#55800#55801#0" expanded="false" />
+            <element signature="e#55844#55845#0" expanded="false" />
+            <element signature="e#56437#56438#0" expanded="false" />
+            <element signature="e#56514#56515#0" expanded="false" />
+            <element signature="e#58481#58482#0" expanded="false" />
+            <element signature="e#58518#58519#0" expanded="false" />
+            <element signature="e#62860#62861#0" expanded="false" />
+            <element signature="e#62916#62917#0" expanded="false" />
+            <element signature="e#66457#66458#0" expanded="false" />
+            <element signature="e#66495#66496#0" expanded="false" />
+            <element signature="e#70749#70750#0" expanded="false" />
+            <element signature="e#70802#70803#0" expanded="false" />
+            <element signature="e#78240#78241#0" expanded="false" />
+            <element signature="e#78299#78300#0" expanded="false" />
+            <element signature="e#82616#82617#0" expanded="false" />
+            <element signature="e#82667#82668#0" expanded="false" />
+            <element signature="e#82971#82972#0" expanded="false" />
+            <element signature="e#83020#83021#0" expanded="false" />
+            <element signature="e#94598#94599#0" expanded="false" />
+            <element signature="e#94636#94637#0" expanded="false" />
+            <element signature="e#104675#104676#0" expanded="false" />
+            <element signature="e#104730#104731#0" expanded="false" />
+            <element signature="e#111196#111197#0" expanded="false" />
+            <element signature="e#111251#111252#0" expanded="false" />
+            <element signature="e#113343#113344#0" expanded="false" />
+            <element signature="e#113370#113371#0" expanded="false" />
+            <element signature="e#117893#117894#0" expanded="false" />
+            <element signature="e#117955#117956#0" expanded="false" />
+            <element signature="e#118405#118406#0" expanded="false" />
+            <element signature="e#118444#118445#0" expanded="false" />
+            <element signature="e#119456#119457#0" expanded="false" />
+            <element signature="e#119510#119511#0" expanded="false" />
+            <element signature="e#120159#120160#0" expanded="false" />
+            <element signature="e#120213#120214#0" expanded="false" />
+            <element signature="e#120482#120483#0" expanded="false" />
+            <element signature="e#120521#120522#0" expanded="false" />
+            <element signature="e#120889#120890#0" expanded="false" />
+            <element signature="e#120932#120933#0" expanded="false" />
+            <element signature="e#121727#121728#0" expanded="false" />
+            <element signature="e#121769#121770#0" expanded="false" />
+            <element signature="e#122184#122185#0" expanded="false" />
+            <element signature="e#122223#122224#0" expanded="false" />
+            <element signature="e#122645#122646#0" expanded="false" />
+            <element signature="e#122685#122686#0" expanded="false" />
+            <element signature="e#123115#123116#0" expanded="false" />
+            <element signature="e#123156#123157#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Function Literals.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17460">
+          <caret line="1205" column="18" selection-start-line="1205" selection-start-column="18" selection-end-line="1205" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#95358#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#8262#8263#0" expanded="false" />
+            <element signature="e#8297#8298#0" expanded="false" />
+            <element signature="e#21135#21136#0" expanded="false" />
+            <element signature="e#21162#21163#0" expanded="false" />
+            <element signature="e#21752#21753#0" expanded="false" />
+            <element signature="e#21794#21795#0" expanded="false" />
+            <element signature="e#23018#23019#0" expanded="false" />
+            <element signature="e#23057#23058#0" expanded="false" />
+            <element signature="e#64751#64752#0" expanded="false" />
+            <element signature="e#64801#64802#0" expanded="false" />
+            <element signature="e#68391#68392#0" expanded="false" />
+            <element signature="e#68441#68442#0" expanded="false" />
+            <element signature="e#72099#72100#0" expanded="false" />
+            <element signature="e#72153#72154#0" expanded="false" />
+            <element signature="e#75713#75714#0" expanded="false" />
+            <element signature="e#75750#75751#0" expanded="false" />
+            <element signature="e#80745#80746#0" expanded="false" />
+            <element signature="e#80782#80783#0" expanded="false" />
+            <element signature="e#89537#89538#0" expanded="false" />
+            <element signature="e#89586#89587#0" expanded="false" />
+            <element signature="e#91257#91258#0" expanded="false" />
+            <element signature="e#91297#91298#0" expanded="false" />
+            <element signature="e#91558#91559#0" expanded="false" />
+            <element signature="e#91590#91591#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Control Abstraction.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="21" column="0" selection-start-line="20" selection-start-column="1" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>

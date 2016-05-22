@@ -1,0 +1,184 @@
+Note: T-SQL uses three valued predicate logic
+
+ALL-AT-ONCE-OPERATIONS
+	SQL evaluates expressions at the same point in time(order is not important)
+	This concept does not apply to Table operators(JOIN,APPLY...), they are evaluated from LEFT to RIGHT(order is important)
+	
+Logical Order of Query processing:
+	The computer stars with the location: FROM
+	Performs any filtering(Filters(WHERE,HAVING,CHECK) and Predicates(IN,BETWEEN,LIKE)) 	
+	Gets the stuff you want
+	Sorts the results(ordering)[Merely for presentation, order does not matter in SSet Theory]
+
+	FROM
+	WHERE
+	GROUP BY
+	HAVING
+	SELECT
+		Expressions
+		
+		DISTINCT
+		
+	ORDER BY
+		TOP/OFFSET-FETCH
+
+FROM
+	Always specify schema of you have them, makes code faster
+	
+WHERE
+	Predicate to filter individual rows
+
+GROUP BY
+	Creates a group for each unique combination of elements sent to it
+
+	Note: All other clauses subsequent to GROUP BY must operate on Groups
+		The rest of the columns can only used by Aggregate functions
+
+HAVING
+	Predicate to filter groups
+
+ORDER BY
+
+	You can use ordinal positions of columns in the ORDER BY clause
+		Ordinal position is where the column is in the SELECT statement
+		
+		Exampleple
+		SELECT orderID, orderDate
+		FROM Sales.Orders
+		ORDER BY 1 [This is bad programming practise because in the Relational Model, attributes do not have ordninal positions]
+		
+		This orders the Cursor by orderID
+		
+	A query with an ORDER BY clause does not return a "Set" (Because a set has no guaranteed order), it returns a "Cursor"(A non-relational 
+	result with order guaranteed among rows) [Concept from Standard SQL]
+	
+	You can order by any column in the Relation even if its not in the SELECT clause
+		Exception: You cannot do so if the DISTINCT keyword is used
+		
+	
+	
+	
+SYNTAX NOTES AND INTERESETING FACTS
+
+	SQL refers to "Set" as a "Table result"
+	
+	YEAR(orderDate) as OrderYear: The OrderYear is merely for presentation, its not an actual column
+
+	SELECT empID, YEAR(OrderDate) as OrderYear, SUM(FREIGHT) as TotalFreight,COUNT(*) as NumberOfOrders
+	FROM Sales.Orders
+	WHERE custid = 71
+	GROUP BY empID, YEAR(OrderDate);
+	
+	COUNT(*) will return the number of rows in each group including NULLS
+	COUNT(variable) skips NULLS
+	SUM(FREIGHT) will return the sum of all freight values in the grou
+		NB: All aggregate functions ignore nulls EXCEPT COUNT
+	
+	CASTING:
+		CAST(column AS  NUMERIC(12,2)): This means 12 digits place and 2 after the comma
+		
+QUESTIONS
+
+	Why isn't orderby valid if the DISTINCT keyword is use??
+	
+	Read up on TOP and ORDER BY again
+	
+	
+BUILT-IN FUNCTIONS
+
+	OFFSET-FETCH (Standard SQL)
+		Skip rows and get the next n ones you want. Where n is the number of rows you want.
+		You can also just skip(OFFSET) and not specify number to get
+		You cannot FETCH without. You can OFFSET 0 and FETCH those you want
+		
+		NB: You need an ORDER BY clause to use with OFFSET-FETCH
+		
+	TOP (T-SQL specific)
+		Can be used with PERCENT and WITH TIES extra keywords
+		
+		NB: You need an ORDER BY clause to use with TOP. 
+			The ORDER BY serves two functions: 1. It determines the presentation order. 
+											   2. It aids TOP in getting the top specific rows based on the order defined by it
+													e.g ORDER BY DESC, TOP will get n rows at the bottom. Where n is the number of rows
+													
+	
+	WINDOWS FUNCTIONS (pg 76 - 77
+
+	CASE (Similar to SWITCH in C++) pg. 54
+		Two types: 
+			simple: equality based (=)
+			searched: conditional based(<,> <>)
+			
+	IS NULL (Non-standard)
+	COALESCE (Standard SQL)
+	IIF(Non-standard)
+	CHOOSE(Non-standard)
+	
+DEALING WITH NULLS
+	
+	Query filters : e.g. WHERE clause: If NULL is found, it evaluates to UNKNOWN. The result is "accept TRUE", NULLS and FALSE results are filtered out 
+	Query constraints: e.g. CHECK clause: If NULL is found, it evaluates to UNKNOWN. The result is  "reject FALSE", Only FALSE results are filtered out. TRUE and UNKNOWN are retrieved
+	
+	NULL = NULL evaluate to UNKNOWN, because we do not if the UNKNOWN values are equal 
+	Negating an UNKNOWN returns an UNKNOWN .(NOT (Salary > 0), if Salary is NULL, the result is UNKNOWN
+	
+	To return where a value is NULL use the IS NULL predicate not COLUMN = NULL, this returns UNKNOWN, and filters "accept TRUE"
+	
+	NB: NULL marks are treated differently by SQL Elements, ensure you understand how each element will react
+		Treat NULL marks as Three-valued logic TRUE, FALSE and UNKNOWN
+		
+CHARACTER DATA
+
+	CHAR and VARCHAR are standard characters
+		Require 1 byte for storage
+		Limited to characters in English and 1 other language
+		String literal is written as Sentence = 'string blah blah'
+		
+	NVARCHAR and NVARCHAR are Nation
+		Require 2 bytes for storage
+		Characters from all languages can be used
+		String literal is written as Sentence = N'string blah blah' . NB/; Note the 'N' prefix, outside the quotation marks
+		
+	COLLATION
+	
+		Property of Character data that encapsulates information about:
+			-Language support
+			-Case sensitivity
+			-Sort order
+			-Accent sensitivity
+			...and more
+			
+		TO GET SUPPORTED COLLATIONS USE THIS CODE:
+			SELECT name,description
+			FROM sys.helpcollations();
+			
+			--CI: Case Insenstive, CS: Case Senstive
+			--AS: Accent Sensitive, AI Accent Insensitve
+			
+			-The COLLATE keyword can be used to specificy the collation for a Database, column, expression
+			-Collation can be specificied in a query(example below)
+				SELECT empid, firstname, lastname
+				FROM HR.Employees
+				WHERE lastname COLLATE Latin1General_CS_AS = N'davis';
+
+	CONCATENATION
+		Concatenation with a NULL returns a NULL
+			To substitute NULLS with empty strings use the COALESCE function
+			'a' + COALESCE(NULL) + b
+		SQL Server 2012 has the CONCAT function that automatically substitutes NULLS with empty strings
+		
+			CONCAT('a',NULL,'b') will return 'ab'
+TO DO:
+
+	GET DATATYPE PRECEDENCE ORDER TABLE
+	Read SQL Server Books Online to find the full list of objects and their detailed descriptions
+
+
+ADDITIONAL
+
+	EXTRA NOTES ON SQL
+	The relational model
+	Set theory
+	Predicate logic
+	imperative programming paradigm vs declarative programming paradigm
+	SQL and Relational Theory: How to Write Accurate SQL Code, Second Edition by C. J. Date (O’Reilly Media, 2011).

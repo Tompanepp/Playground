@@ -1,0 +1,212 @@
+
+Data Types and Variables
+
+	Variable Types
+		Instance
+		Static
+		Local
+Eight Java Primitive Types
+
+	Size In Bytes	Range
+boolean 	—	true/false
+byte		1	8 bytes
+char		2
+short		2
+int		4
+long		8
+float		4	
+double		8
+
+Money Representation
+
+	BigDecimal class is the recommended datatype to store money
+		
+		Key notes:
+			-Use string as parameter to constructor
+			-It is immutable
+			-ROUND_HALF_EVEN provides less bias
+
+	Currency class is used to control the formatting of the figures
+
+	Common other representation conventions
+
+		Less than 10 digits : int or BigDecimal
+		Less than 19 digits: long or BigDecimal
+		Greater than 19 digits: BigDecimal
+
+String class
+
+Wrapper Classes and Autoboxing
+
+	Purpose: wrap primitive types to use them as objects.
+
+	Necessary when adding primitive type to collections (ArrayList etc)
+
+	Collections deal with items as objects
+
+	Wrapper class type
+
+-Boolean
+-Byte
+-Character
+-Short
+-Integer
+-Float
+-Double
+
+Note: wrapper class objects are immutable(values cannot change)
+
+Auto boxing: Automatic conversion of primitives to wrapper classes
+
+Unboxing: conversion of wrapper objects to corresponding primitive
+
+Key Notes
+	Primitives cannot be null
+
+	Objects can be null
+
+
+Variable Initialisation
+
+	Default initial values
+	Instance variable initialisers
+	Instance variable
+	Constructors
+
+
+	Default initial values
+
+		bool: false
+		byte: 0
+		char: ‘\u0000’
+		short: 0
+		int: 0
+		long: 0L
+		float: 0.0F
+		double: 0.0d
+		String: null [all objects are null]
+
+Java constants, literals, and enumerations
+
+constants and literals cannot be changed
+
+	final String name = “Praise”;//constant variable, value cannot change
+
+	’35’ or ‘C’ represent a specific value. It cannot be changed, obviously!
+	
+
+
+	Note: There is some material missing above the below concept
+
+The Final keyword
+
+	Used to declare constants.
+	Uses list:
+
+		primitive type: variable is constant, value cannot change
+
+		reference variables: the reference variable cannot be changed to reference another object/variable. The object/variable referenced can be changed.
+
+		method: The method cannot be overridden
+
+	class: the class cannot be extended
+
+Enumerations
+
+	subclasses if java.lang.Enums
+
+	Same as C/C++ enums
+
+Immutable objects
+
+	object’s whose field values cannot be changed
+
+Instance vs Static
+
+	Each object get its own Instance variables
+		Instance variables are for the lifetime of the OBJECT
+
+	Static variables are created once and shared across the objects of a class
+		Static variables are for the lifetime of the CLASS
+
+		e.g. A universal discount applied to all customers
+			
+   			private static float discountPercentage;
+
+Access Modifiers
+
+	public: visible to everyone in the system(across packages etc)
+
+	protected: visible to a parent class and its subclasses
+                         visible to members of the same package
+
+	private: visible only to the class that declared it
+
+	package: visible at a package level. Any class in the same package can access it.
+		Default java access modifier applied
+
+
+Operands and Operators
+
+Categories of operators:
+-Arithmetic
+-Assignment
+-Relational
+-Logical complement
+-Logical
+-Conditional
+-BitWise
+
+Precedence and associativity
+    Look at the table
+
+Working with characters and strings
+      Classes used:
+              -String
+              -StringBuffer
+              -StringBuilder
+
+              -Character
+              -CharSet
+              -CharSequence
+              -StringTokeniser
+              -StreamTokenisor
+              -Collator
+
+The String, StringBuffer, and StringBuilder classes
+
+String is immutable
+StringBuffer and StringBuilder are mutable
+
+One of the reasons the  String  class was made immutable was for security reasons. If a string is used to identify a resource that is protected, once permission has been granted for that resource, it may be possible to modify the string and then obtain access to another resource for which the user does not have permission. By making it immutable, this vulnerability is avoided.
+
+Java String objects are like pointers in C/C++
+StringBuffer methods are synchronized
+StringBuilder methods are NOT synchronized
+
+Synchronised methods are used when dealing with threads that share data
+
+
+Look me up
+
+MatchCase Java me method
+Assoiciativity
+
+Knowledge Test
+
+Q
+1. Print the first. Look at the heap again
+	Correction: i is out of scope
+
+2. C
+	Correction C and E
+
+3. B and D
+
+4. C and D
+	Correction D
+
+5. B
+
+6. C
+		

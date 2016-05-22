@@ -6,6 +6,7 @@ val someNumebrs = List(1,2,3)
 someNumebrs.foreach((x) => x + 1)
 
 //Even shorter short hand :) :)
+
 //Placeholder syntax
 
 someNumebrs.filter(x => x > 0)
@@ -16,6 +17,8 @@ someNumebrs.filter(_ > 0)
 val f0 = (_ : Int) + (_ : Int)
 f0(1,1)
 
-val numbers = List(1,2,3,4,5)
-numbers.foreach(println _)
-numbers.foreach((x) => println(x))
+
+// A function literal is compiled into a class that when instantiated at runtime
+// is a function value
+// -> Every function is an instance of FunctionN trait and has an apply method
+// N is the number of arguments
