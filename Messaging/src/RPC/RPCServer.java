@@ -1,8 +1,10 @@
 package RPC;
 
 import com.rabbitmq.client.*;
+import com.rabbitmq.client.AMQP.BasicProperties;
 
 import java.io.IOException;
+import java.util.concurrent.TimeoutException;
 
 /**
  * Created by t2p on 2016/08/17.
@@ -25,7 +27,8 @@ public class RPCServer {
         Channel channel = null;
 
         try {
-            connection.createChannel();
+            connection = connectionFactory.newConnection();
+            channel = connection.createChannel();
             channel.queueDeclare(RPC_QUEUE_NAME, false, false, false, null);
             channel.basicQos(1);
             QueueingConsumer queueingConsumer = new QueueingConsumer(channel);
@@ -36,7 +39,8 @@ public class RPCServer {
                 try {
                     QueueingConsumer.Delivery delivery = queueingConsumer.nextDelivery();
                     BasicProperties props = delivery.getProperties();
-                    BasicProperties replyProps = new AMQP.BasicProperties.Builder()
+                    BasicProperties replyProps = new BasicProperties
+                            .Builder()
                             .correlationId(props.getCorrelationId())
                             .build();
 
@@ -49,11 +53,9 @@ public class RPCServer {
                 } catch (InterruptedException e) {
                     System.out.println(e.getMessage());
                 }
-
             }
-        } catch (IOException e) {
+        } catch (IOException|TimeoutException e) {
             System.out.println(e.getMessage());
         }
-
     }
 }
