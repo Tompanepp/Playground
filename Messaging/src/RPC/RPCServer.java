@@ -50,6 +50,7 @@ public class RPCServer {
                     String response = "" + fib(n);
                     channel.basicPublish("", props.getReplyTo(), replyProps, response.getBytes());
                     channel.basicAck(delivery.getEnvelope().getDeliveryTag(), false);
+                    System.out.println("Response of "  + response + " sent with correlationId of " + replyProps.getCorrelationId());
                 } catch (InterruptedException e) {
                     System.out.println(e.getMessage());
                 }
