@@ -1,4 +1,0 @@
-Normalisation
-
-	Informally, 2NF and 3NF are commonly summarized with the sentence, “Every non-key attribute is
-	dependent on the key, the whole key, and nothing but the key—so help me Codd

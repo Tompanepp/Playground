@@ -1,5 +1,0 @@
-Get temperature in Celcius
-
-FahrenheitTemp = C/(5/9) + 32
-Display FahrenheitTemp 
-Stop

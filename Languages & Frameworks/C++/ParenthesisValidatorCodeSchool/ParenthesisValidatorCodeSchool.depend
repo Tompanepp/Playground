@@ -1,6 +1,0 @@
-# depslib dependency file v1.0
-1432366429 source:c:\users\praise\dropbox\programming\parenthesisvalidatorcodeschool\main.cpp
-	<iostream>
-	<stack>
-	<string>
-

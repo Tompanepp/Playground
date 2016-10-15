@@ -1,7 +1,0 @@
-c:\users\t2p\documents\visual studio 2010\Projects\Files.and.Streams\Files.and.Streams\obj\x86\Debug\ResolveAssemblyReference.cache
-c:\users\t2p\documents\visual studio 2010\Projects\Files.and.Streams\Files.and.Streams\bin\Debug\Files.and.Streams.exe
-c:\users\t2p\documents\visual studio 2010\Projects\Files.and.Streams\Files.and.Streams\bin\Debug\Files.and.Streams.pdb
-c:\users\t2p\documents\visual studio 2010\Projects\Files.and.Streams\Files.and.Streams\obj\x86\Debug\Files.and.Streams.exe
-c:\users\t2p\documents\visual studio 2010\Projects\Files.and.Streams\Files.and.Streams\obj\x86\Debug\Files.and.Streams.pdb
-E:\Documents\Programming\C#\Programs\Files.and.Streams\Files.and.Streams\obj\x86\Debug\Files.and.Streams.exe
-E:\Documents\Programming\C#\Programs\Files.and.Streams\Files.and.Streams\obj\x86\Debug\Files.and.Streams.pdb

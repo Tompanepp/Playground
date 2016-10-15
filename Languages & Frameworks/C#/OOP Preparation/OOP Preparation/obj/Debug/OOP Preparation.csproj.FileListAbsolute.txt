@@ -1,5 +1,0 @@
-C:\Users\Praise\Dropbox\Programming\C#\OOP Preparation\OOP Preparation\bin\Debug\OOP Preparation.exe
-C:\Users\Praise\Dropbox\Programming\C#\OOP Preparation\OOP Preparation\bin\Debug\OOP Preparation.pdb
-C:\Users\Praise\Dropbox\Programming\C#\OOP Preparation\OOP Preparation\obj\Debug\OOP Preparation.csprojResolveAssemblyReference.cache
-C:\Users\Praise\Dropbox\Programming\C#\OOP Preparation\OOP Preparation\obj\Debug\OOP Preparation.exe
-C:\Users\Praise\Dropbox\Programming\C#\OOP Preparation\OOP Preparation\obj\Debug\OOP Preparation.pdb

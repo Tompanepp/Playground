@@ -1,4 +1,0 @@
-1. You create a branch to create a feature or implement a bug fix
-2. Follow the normal git flow to submit/update your branch (git push etc)
-3. Once you are satisfied with your work and feel it is bug free, you will submit a merge request
-4. Your code will be reviewed. If there are issues or the code is accepted; you will be notified via GitLab through their .
