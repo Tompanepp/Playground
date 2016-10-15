@@ -1,0 +1,10 @@
+Get total_number_of_marks
+Get student_mark
+
+while student_mark is a number
+
+Percentage = (student_mark /total_number_of_marks) * 100
+
+Dislpay Percentage
+ 
+Get student_mark

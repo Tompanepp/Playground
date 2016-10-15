@@ -1,0 +1,91 @@
+FUNCTIONS
+
+  function without return type has default 'int' return type
+
+  function (void) : This is allowed (Meaning No parameters)
+
+  passing parameters by value
+    function(int formalparam)
+
+  passing parameters by reference
+    function(int &formalparam): definition
+      function (int &)(//Accepts a reference, a reference to an int)
+    function(int actulparam): call (note, we do not pass the memory address (C++ handles that))
+
+FUNCTION CALLS
+
+  1. Compiler converts code to machine code
+  2. Prologue: Pass actual parameters through (place on stack)
+  3. Epilogue: return values and cleanup stack
+
+INLINE FUNCTIONS
+
+  Bypass the Prologue-Epilogue sequence.
+  Function Code is executed as if inline
+  e.g. inline int function()
+       int inline function()
+
+GLOBAL VARIABLES
+
+LITERALS
+
+  1.0 : This is a double not a float
+  1.0f/1.0F: This is a float
+  1.0l/1.0L: This is a long
+
+
+
+BOOLEANS
+
+  1 = true (Non-negative number also non-zero number(skeptic a bit))
+  0 = false
+
+
+LOOPS
+
+  for( ; ; ) {
+    /* the body goes here */
+  }
+
+  for(1 ;1(true) ;1 ) {
+      /* the body goes here */
+      //Infinite loop
+  }
+
+  If any portion is ommitted, 1 is replaced
+
+
+INHERITANCE
+
+  class Super{}
+  class Sub: public Super{}
+
+  NB: You need to specify the "public", if not "private inheritance" is the result (i.e.You
+  cannot access any members of Super).
+  Using "public Super{}" tell the compiler we want "public inheritance [normal inheritance]", give
+  us access to accessible members and leave private as private
+  
+
+  ----------BUILTIN LIBRARIES FUNCTIONS---------
+
+  #include <string>
+    strcpy
+
+
+
+
+
+  -------------SYNTATIC CANDIES-------------
+
+  break: stop execution and reassess the condition of the loop
+
+      "it appears that it is UNNECESSARY TO CONTINUE the loop as a whole;
+      we should refrain from further execution of the loop's body and go further;"
+
+  continue: stop execution and continue with below statements outside the loop
+
+    "it appears that we need to START THE CONDITION TESTING without completing the execution of the current turn."
+
+————————NEW———
+
+the new operator always return a counter;

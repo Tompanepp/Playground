@@ -1,0 +1,16 @@
+Need a framework
+
+	Django
+	TurboGears
+
+Modules to enable using python code with web servers
+
+	modwsgi
+	mod_python :Module that embeds Python interpreter within the server(Additional info in mod_python.pdf)
+
+Recipes for a website
+
+	Templates
+	Data persistence
+
+	NB: All found in a framework

@@ -1,0 +1,55 @@
+2015-12-11 08:39:02,441  WARN [ModalContext] - ScalaProject - Project example has platform default sourceLevel.
+2015-12-11 08:39:02,442  WARN [ModalContext] - ScalaProject - Project example runs on platform default installation.
+2015-12-11 08:39:03,532  WARN [ModalContext] - ScalaProject - Project example has platform default sourceLevel.
+2015-12-11 08:39:03,532  WARN [ModalContext] - ScalaProject - Project example runs on platform default installation.
+2015-12-11 08:39:03,767  WARN [Worker-3] - ScalaProject - Project example has platform default sourceLevel.
+2015-12-11 08:39:03,768  WARN [Worker-3] - ScalaProject - Project example runs on platform default installation.
+2015-12-11 08:39:03,826  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.sourceLevel was uninitialized for example, setting default to 2.11.
+2015-12-11 08:39:03,829  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.installation was uninitialized for example, setting default to 2.11.
+2015-12-11 08:42:09,478  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.sourceLevel was uninitialized for example, setting default to 2.11.
+2015-12-11 08:42:09,481  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.installation was uninitialized for example, setting default to 2.11.
+2015-12-11 18:09:48,015  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.sourceLevel was uninitialized for example, setting default to 2.11.
+2015-12-11 18:09:48,019  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.installation was uninitialized for example, setting default to 2.11.
+2015-12-11 18:11:04,087 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-12-11 18:11:04,091 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-12-11 18:11:04,091 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-12-11 18:20:29,028 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-12-11 18:20:29,029 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-12-11 18:20:29,030 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-12-11 18:20:39,692 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-12-11 18:20:46,838 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-12-11 18:20:46,838 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-12-11 18:20:46,838 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-12-11 18:20:48,372 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-12-11 18:20:48,372 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-12-11 18:20:48,372 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-12-11 18:24:51,987 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-12-11 18:24:51,987 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-12-11 18:24:51,987 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-12-11 19:28:31,683 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-12-11 19:28:31,685 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-12-11 19:28:31,685 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-12-11 19:46:16,362 ERROR [Worker-42] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2015-12-11 19:46:16,363 ERROR [Worker-42] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2015-12-11 19:46:16,363 ERROR [Worker-42] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2015-12-15 07:34:46,687  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.sourceLevel was uninitialized for example, setting default to 2.11.
+2015-12-15 07:34:46,691  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.installation was uninitialized for example, setting default to 2.11.
+2015-12-15 07:35:40,362 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-12-15 07:35:40,364 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-12-15 07:38:02,273 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-12-15 07:38:02,273 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-12-15 07:38:02,273 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-12-15 14:57:20,077  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.sourceLevel was uninitialized for example, setting default to 2.11.
+2015-12-15 14:57:20,081  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.installation was uninitialized for example, setting default to 2.11.
+2016-01-30 16:58:21,488  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.sourceLevel was uninitialized for example, setting default to 2.11.
+2016-01-30 16:58:21,490  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.installation was uninitialized for example, setting default to 2.11.
+2016-01-30 16:58:55,787  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.sourceLevel was uninitialized for example, setting default to 2.11.
+2016-01-30 16:58:55,789  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.installation was uninitialized for example, setting default to 2.11.
+2016-01-30 17:01:19,164  WARN [ModalContext] - ScalaProject - Project ProgrammingInScala has platform default sourceLevel.
+2016-01-30 17:01:19,165  WARN [ModalContext] - ScalaProject - Project ProgrammingInScala runs on platform default installation.
+2016-01-30 17:01:19,658  WARN [Worker-4] - ScalaProject - Project ProgrammingInScala has platform default sourceLevel.
+2016-01-30 17:01:19,665  WARN [Worker-4] - ScalaProject - Project ProgrammingInScala runs on platform default installation.
+2016-01-30 17:01:19,827  WARN [Worker-4] - ScalaProject - Project ProgrammingInScala has platform default sourceLevel.
+2016-01-30 17:01:19,827  WARN [Worker-4] - ScalaProject - Project ProgrammingInScala runs on platform default installation.
+2016-01-30 17:01:19,848  WARN [Worker-4] - ScalaProject - Project ProgrammingInScala has platform default sourceLevel.
+2016-01-30 17:01:19,848  WARN [Worker-4] - ScalaProject - Project ProgrammingInScala runs on platform default installation.

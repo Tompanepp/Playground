@@ -1,0 +1,6 @@
+Get Rand_Value
+Set exchangeRate to 7.33
+
+US_Dollar = Rand_Value * exchangeRate 
+Display US_Dollar value
+Stop

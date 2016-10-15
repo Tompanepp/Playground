@@ -1,0 +1,60 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace OVERLOADING_OPERATORS_IN_CLASSES
+{
+    class Book
+    {
+        /*Overloading operators means giving them a meaning inthe context you are working in
+         Here + means combing the two titles and adding 10.00 to the highest price */
+        //Constructor
+        public Book(string title, int numOfPages, double price)
+        {          
+            Title = title;
+            Pages = numOfPages;
+            Price = price;
+        }
+        //Auto-inplemented properties
+        public string  Title;
+        public int Pages;
+        public double Price;
+
+        public static Book operator+(Book first, Book second)
+       {
+           const double Extra = 10.00;
+           double NewPrice;
+            /*
+           string NewTitle = first.Title + " " + "and " + second.Title;
+           int NewPages = first.Pages + second.Pages;
+           if (first.Price > second.Price)
+           {
+               NewPrice = first.Price + Extra;
+           }
+           else
+           {
+               NewPrice = second.Price + Extra;
+           }
+            //Returns a Book,because Books are being added{Can be different}
+           return new Book(NewTitle ,NewPages ,NewPrice );*/
+            //The entire code can be placed in the return statement
+           return new Book(first.Title +  " and "  + second.Title, first.Pages + second.Pages, first.Price > second.Price? NewPrice = first .Price + Extra  :NewPrice = second.Price + Extra  );
+       }
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Book Book1 = new Book("Lust",1,50);
+            Book Book2 = new Book("Misery",1,100);
+            Book Book3 = new Book ("Death",2890,90);
+            //Using the + operator with its new meaning
+            //The method is actuallly called here.The usage of the + calls the method{incase you were wondering where the call is}
+            Book Book4 = Book1 + Book2 + Book3;
+            Console.WriteLine("Title :{0}\nPages: {1}\nPrice: {2}",Book4.Title,Book4 .Pages,Book4.Price );
+            Console.Read();
+
+        }
+    }
+}

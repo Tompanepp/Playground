@@ -1,0 +1,29 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace MethodsThatReeturnAvalue
+{
+    class Program
+    {
+        public static double CalcPay(double Hours, double Rate)
+        {
+            double gross;
+            gross = Hours * Rate;
+            return gross;
+        }
+        static void Main(string[] args)
+        {
+            double HoursWorked,HourlyRate,Grosspay;
+            Console.WriteLine("Enter hours worked");
+            HoursWorked = Convert.ToDouble(Console .ReadLine ());
+            Console.WriteLine("Enter hourly rate");
+            HourlyRate = Convert.ToDouble(Console .ReadLine ());
+            CalcPay(HoursWorked ,HourlyRate );
+
+           Grosspay = CalcPay(HoursWorked ,HourlyRate );
+           Console.WriteLine(Grosspay );
+        }
+    }
+}

@@ -1,0 +1,46 @@
+Chapter
+
+	Method signature
+		-Name
+		-Number of arguments
+		-Datatypes of the arguments
+		-The order of the arguments
+		
+		Note: Return type not included.
+		
+		
+	Access modifiers(chapter 7 for details)
+	public : Accessible outside the class
+	private: only accessible to the class
+	protected: Accessible to subtypes of the class and other members of the package
+	package scoped(no keyword): Accessible to everyone in the same package
+
+
+IMPORTANT
+
+	Java class libraries
+			• java.lang : Home of the system and object class
+	• java.io: input and output library (console, files etc)	• java.net: library for sockets, telnet URL and related stuff of this nature
+	• java.util: utilities needed in the language such as Lists(vectors,hash maps) 
+	• java.awt: Abstract Windowing Toolkit. Graphical User Interface Library
+
+	Java Application Structure
+
+		package
+			class(s)
+	
+	Java Class Strcuture
+		data members
+		accessors/mutators
+
+	Access modifiers
+
+	New concepts: 
+		Annotations
+		
+		Java SDK struture
+
+		The Java Environment
+
+			• CLASSPATH			• PATH			• JAVA_VERSION 
+			• JAVA_HOME			• OS_NAME			• OS_VERSION			• OS_ARCH

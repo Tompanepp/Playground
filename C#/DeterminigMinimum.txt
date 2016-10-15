@@ -1,0 +1,5 @@
+int Min = 1000000;
+if (intInput < Min)
+{
+Min = intInput;
+}

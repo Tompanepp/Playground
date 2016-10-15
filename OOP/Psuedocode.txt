@@ -1,0 +1,54 @@
+POWER OF PSUEDOCODE
+	
+	Define problem	
+	
+	Define solution
+		What the solution needs 
+			Data
+			Certain conditions to be true
+		Imperative side(the how of the solution?)
+			Processing and solving problem
+	
+For looping and selection, The keywords that are to be used include
+
+Keywords:
+
+	Do While...EndDo; 
+	Do Until...Enddo; 
+	Case...EndCase; 
+	If...Endif; 
+	Call ... with (parameters); 
+	Call; Return ....; 
+	Return; 
+	When; 
+	Always use scope terminators for loops and iteration.
+	
+As verbs
+	use the words Generate,
+	Compute, 
+	Process, etc. Words such as 
+	set, 
+	reset, 
+	increment, 
+	compute, 
+	calculate, 
+	add, 
+	sum, 
+	multiply, ... 
+	print, 
+	display, 
+	input, 
+	output, 
+	edit, 
+	test , 
+	etc. with careful indentation tend to foster desirable pseudocode.
+
+Do not include data declarations in your pseudocode.
+
+Possible:
+
+	Sort Algorithms
+
+	Fibonacci
+
+	Search algorithms

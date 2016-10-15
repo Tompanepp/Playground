@@ -1,0 +1,116 @@
+WINDOWS
+	For each row (outer query)
+		Compute scalar result value
+		Based on calculation against a set of rows (from underlying query[The window])
+
+	
+	OVER() --Window(set of rows[for a function to work with]) specification
+		
+		Constituent sections (optional)
+			-Partitioning
+			-ordering
+			-framing
+
+		NB: Empty OVER() exposes the entire result set to the function
+			
+			-Partitioning
+				:Restricts windows based on a common value(x)(example PK)
+				:All rows with the same x constitute the window
+				 [This is peformed unitl all possible values of x are exhausted]
+			-ordering
+				:Defines ordering for the window(not presentation ordering, the type you do for TOP and OFFSET FETCH)
+				:Gives meaning to frames
+					-If Framing unit (ROWS,RANGE) not specified, the bottom delimiter is by default the current row[if I wanted the last row in the frame this would not work for me]
+
+			-framing
+				:Restricts the window to a subset [Its like a filter for the window?]
+				Two options are allowed here:
+					ROWS ......your predicate (filter)
+					RANGE......your predicate (filter)
+						
+	
+
+	NB: Perform calculation against a SET to return a SCALAR VALUE(SUM,AVG all do this)
+
+	NB: Only allowed in the SELECT and ORDER BY clauses
+		They are based on the UNDERLYING RESULT set, wihch is only generated at the SELECT phase
+beb
+	WINDOW FUNCTIONS 
+
+		-Ranking window functions
+		-Offset window functions 		
+		-Aggregate window functions(SUM,MAX,MIN...)
+
+			
+		-Ranking window functions
+			-ROW_NUMBER
+			-RANK
+			-DENSE_RANK
+			-NTILE
+		  -Ranking window functions support PARTITION and ORDER BY in the OVER() clause
+
+			-ROW_NUMBER:provides incrementing* sequential number for each row [based ofcourse on the order stipulated by the ORDER BY clause]
+				If the column used in th ORDER BY clause has non-unique values, ROW_NUMMBER behaves non-deterministicly(whichever of the rows that are the same gets accessed first is assigned a higher rank [Make ORDER BY column unique if you do not deisre this, a tie breaker would work just fine])
+
+			-RANK
+			     -Indicates how many rows have a lower ranking values
+				-Determines how many rows have lower ranking values
+				-Adds one to the total and assigns the result as the rank ofn the current row
+			-DENSE_RANK
+			     -Indicates how many distinct rows have a lower ordering value
+			     -Adds 1 and assigns the result as the rank of the current row
+			     
+			-NTILE
+			     -NTILE groups results into tiles (A chunk of rows)
+				NTILE(10): Rows will be grouped into groups of 10
+				-EXAMPLE
+					Total_rows = 10
+					NTILE(2) = Total_rows/2 = 5
+				Therefore: Each 5 rows will get the same rank
+				Rows 1-5 will get rank 1, 6-10 will get rank 2
+				If there are remainders NTILE,will evenly distribute the remanining rows to the lowest ranked rows
+
+
+		-Offset window functions 
+			NB: OFFSET FETCH concept applied to windows
+
+			-LAG
+			-LEAD
+			-FIRST_vALUE
+			-LAST_VALUE
+
+
+			-LAG and LEAD both support only PARTITIONING and ORDERING
+			-FIRST_VALUE anf LAST_VALUE upport PARTITIONING, ORDERING and FRAMING
+	
+		-Aggregate window functions(SUM,MAX,MIN...)
+
+			In 2012 now supports ORDERING and FRAMING
+                        
+
+
+GROUP BY vs WINDOWS
+
+	GROUP BY: Generates summaries for the entire query
+	WINDOWS: Generates summaries for the function
+	
+PIVOTING
+
+	Moving row based data into columns
+	Three phases of Pivoting
+		-Grouping phase
+		-Separating phase
+		-Aggregation phase
+		
+	Our example:
+		Grouping by empid(we need a row for each unique empid)
+		Spread the data across unique values in a column(custid[spreading element])
+			Spreading quantities by custid
+		Return result values in the "Intersection" of the Grouping and Spreading elements
+		
+	Generic structure: 
+	SELECT ...
+	FROM <source_table_or_table_expression>
+		PIVOT(<agg_func>(<aggregation_element>)
+			FOR <spreading_element>
+			IN (<list_of_target_columns>)) AS <result_table_alias>

@@ -1,0 +1,4 @@
+//String pemutation challenge algorithm
+
+Get value for input(string)
+

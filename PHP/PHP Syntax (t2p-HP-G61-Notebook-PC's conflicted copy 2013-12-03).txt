@@ -1,0 +1,113 @@
+Variables
+	$ = must be in used before variable at declaration and referencing
+	global = keyword used before a global varaible to access it a function
+
+Arrays
+	Declaration : $cars = array("BMW","Opel")
+		array() = function used for creating arrays
+		count() = return length of array
+		
+		//Array Sorting
+			
+    sort() - sort arrays in ascending order
+    rsort() - sort arrays in descending order
+    asort() - sort associative arrays in ascending order, according to the value
+    ksort() - sort associative arrays in ascending order, according to the key
+    arsort() - sort associative arrays in descending order, according to the value
+    krsort() - sort associative arrays in descending order, according to the key
+    
+Two HTTP Request Methods: GET and POST
+
+	Two commonly used methods for a request-response between a client and server are: GET and POST.
+
+    GET - Requests data from a specified resource
+    POST - Submits data to be processed to a specified resource
+    NB: Both of them send data
+    
+    PHP Variables used with the above HTTP methods respectively
+   	  $_GET["form value name"]: Collects data sent through with the GET method (method = "get" in html)
+    	$_POST["form value name"]: Collects data sent through with the POST method (method = "post" in html)
+    	$_REQUEST["form value name"]: Collects data sent through with both the POST and GET methods 
+    	
+    	NB: These are actually key-based arrays. They store all the form data sent.
+    
+    GET Notes
+    	
+    	GET requests can be cached
+   		GET requests remain in the browser history
+   	  GET requests can be bookmarked
+    	GET requests should never be used when dealing with sensitive data
+    	GET requests have length restrictions
+    	GET requests should be used only to retrieve data
+
+
+DATABASES AND PHP
+
+	mysqli_connect(host,username,password,dbname) : function to open new database connection
+		All parameters are optional
+		
+	mysqli_connect_errno(connection): Checks if connection is established
+		mysqli_connect_error: Error message returned. Can publish this with "echo"
+		
+	mysqli_close(connection): Close connection
+	
+	mysqli_query(connection,query): Sends a query or command to a MySQL connection.
+	
+	mysqli_fetch_array("variable to store results in"): Fetches first row from the record set as an array
+											: Each successive call fetches next row											 
+	
+	CREATE TABLE EXAMPLE
+			$sql = "CREATE TABLE Persons 
+				(
+					PID INT NOT NULL AUTO_INCREMENT,
+					PRIMARY KEY(PID),
+					FirstName CHAR(15),
+					LastName CHAR(15),
+					Age INT
+				)";
+				
+				
+	SELECT EXAMPLE
+		<?php
+				$con=mysqli_connect("example.com","peter","abc123","my_db");
+				// Check connection
+			 	if (mysqli_connect_errno())
+  				{
+  					echo "Failed to connect to MySQL: " . mysqli_connect_error();
+ 				}
+
+				$result = mysqli_query($con,"SELECT * FROM Persons");
+
+				while($row = mysqli_fetch_array($result))
+ 				{
+  				echo $row['FirstName'] . " " . $row['LastName'];
+ 					 echo "<br />";
+  				}
+
+				mysqli_close($con);
+?> 
+
+ADVANCED PHP
+	
+	Including files(Other php files)
+		include 'filename';File is optionally needed to be there for code to run
+			or
+		require 'filename'; : File must be there for code to run,else program stops
+		
+	WORKING WITH FILES	
+		FILE FUNCITONS
+	
+			$file=fopen("file name","mode");
+			fclose($file): close file
+			feof($file): Evaluates end-of-file
+			fgets(): Reads a file line by line	
+				NB:  After a call to this function the file pointer moves to the next character. 
+			fgetc():  Reads a file character by character
+			
+			UPLOADING FILES TO A SERVER
+				enctype="multipart/form-data" : Required in HTML form creation
+					:Used when binary data is needed to be sent over a form
+				
+				
+	
+

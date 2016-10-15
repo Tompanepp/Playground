@@ -1,0 +1,22 @@
+Delegation
+	Ability to replace the "delegate" object with ease	
+
+	Use: When clients of a class need functionality from another class
+
+	class Manager{
+
+		Subordinate_obj = new Subordinate();
+		Subordinate_obj.dowork(); --delegation
+
+		public void reportToMD(){
+
+		}
+ 
+	}
+	Delegates exist on a funcional/method level in C# as well (delegate keyword) Not for oop though
+
+KEY
+
+	Parameterizing code(use of the C# delegate keyword)
+
+	Calling methods in other classes (prefer this one better, relates to the manager explanation above) : The "has a" relationship

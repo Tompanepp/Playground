@@ -1,0 +1,39 @@
+Note: T-SQL uses three valued predicate logic
+
+Logical Order of Query processing:
+	The computer stars with the location: FROM
+	Performs any filtering(Predicates): WHERE
+	Gets the stuff you want
+	Sorts the results(ordering)[Merely for presentatiom, order does not matter in SSet Theory]
+
+	FROM
+	WHERE
+	GROUP BY
+	HAVING
+	SELECT
+	ORDER BY
+
+FROM
+	Always specify schema of you have them, makes code faster
+
+GROUP BY
+	Creates a group for each unique combination of elements sent to it
+
+	Note: All other clauses subsequent to GROUP BY must operate on Groups
+		The rest of the columns can only used by Aggregate functions
+
+
+
+SYNTAX NOTES
+
+	YEAR(orderDate) as OrderYear: The OrderYear is merely for presentation, its not an actual column
+
+	SELECT empID, YEAR(OrderDate) as OrderYear, SUM(FREIGHT) as TotalFreight,COUNT(*) as NumberOfOrders
+	FROM Sales.Orders
+	WHERE custid = 71
+	GROUP BY empID, YEAR(OrderDate);
+	
+	COUNT(*) will return the number of rows in each group
+	SUM(FREIGHT) will return the sum of all freight values in the group
+	
+	NB: All aggregate functions ignore nulls

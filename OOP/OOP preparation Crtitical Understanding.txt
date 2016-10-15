@@ -1,0 +1,124 @@
+CORE PRINCIPLESx
+
+	Encapsulation
+		The concept of binding data members, properties(C#) and methods into a single unit
+		
+			WHY: Hide data members from the outside world
+				 Protect data members from corruption (access is through strict and controlled channels)
+				 Give object more control over inputs in data members (validation rules on inputs)
+		
+	Abstraction
+		The process of concealing the internal workings/operations of an object. 
+		Exposing to outside world only what they need to know to use/interact with the object
+		
+		The process of separating functionality into singular units/objects(each object knows only how to do certain things)
+		
+			WHY: Ability to change inner workings, with impact on functionality (already known to the world)
+				 Maintainable code: With functionality separated, its easier to manage code for performing certain function
+					(without touching the rest of the system)
+				     Easier to pickup and solve issues 
+				
+				 Flexible code: changes made only to necessary logic objects when necessary (without disrupting the entire system)
+					
+
+	Inheritance
+		The ability to create classes based on other other classes
+		
+			WHY: CORE PURPOSE: Code re-use 
+				 Model "is a" relationship in systems
+				 Code reuse(logic already defined in one class can be resused in others)
+					-Cleaner code
+				    -Base class debugged once and never worried about again
+					
+				 Code extensibility
+				 
+				 Model Generalisation-specialisation in systems
+				 
+				 Make changes in one place(base class) for all child classes [Avoiding name and type changes]
+				 
+				 NOTE: The is is SOMETHING(base class) with ADDITIONS(individual attributes)
+			
+			EXAMPLE: Zip code field example
+						Add a new field to accommodate real life changes
+		
+	Polymorphism
+		The ability of an object (.i.e. The same object) to have multiple forms
+		
+			WHY:
+	
+	
+RELATED CONCEPTS		
+	
+	Interfaces
+		
+		A contractual obligation to implement certain methods, properties and events
+			Interfaces define this contract (Classes BIND to it and MUST comply with all the REQUIREMENTS).
+			
+		A collection of implicitly public and abstracts methods
+		
+		WHY:
+			Provide contracts between objects to work together, without knowing anything about each other
+			
+		
+		EXAMPLE:
+			1. IPowerPlug and Socket object
+				Appliances implement IPowerPlug
+					They can then be used WITH the Socket object to get power
+					
+			2. IEnumerable defines an interface between "foreach" and any enumerable thing:
+				Whoever you are, as long as you stick to the contract(implement IEnumerable), I "PROMISE" I will iterate through you.
+	
+	Abstract class	
+	
+		A class with abstract methods
+		Has members
+		All abstract methods must be implemented by Child classes
+		
+
+
+	Instance State
+		The content of an object's members at any given point in time?
+		Status of an object
+		Encompasses all of the (usually static) properties of the object plus the current (usually dynamic) values of each of these properties
+				Object:
+					Has State (variables) and Behaviour(exposed through methods)
+					
+		WHY:
+			No reason for use.
+			Simply phases an object goes through in its Object life-cycle
+
+	Enumerations
+		A collection of named constants.
+		Strongly typed constants
+		
+		NOTE: Cannot derive enums from other enums
+			  Classes cannot be derived from enums
+			  Enums are sealed classes
+		
+		WHY:
+			Group closely related constants together
+			Reduce "constant" typing errors,(once defined in an enum validation happends)
+			Code readability : Constants are not typed into code(Enum reference is more readble)
+
+	Static methods
+		Methods accessible outside object
+		Cannot change state of an object (Cannot access non-static members)
+		
+		WHY:
+			Static methods are shared across program(There is no need to create classs instance each time you need the method)
+				Saves memory
+			
+			Use when method does not belong to a specific object?
+				Key Question: Does the method belong to the CLASS or the Object
+					->Belongs to object if it modifies the STATE of the object
+						->If not can be static	 
+		
+	RELATIONSHIPS:
+		
+		Inheritance : "is a" -> Praise IS A PERSON
+		Association : "has a" -> Praise USES a key (no ownership)
+		Aggregation : "has many" -> Praise HAS many phones (Ownership exist), but IDEPENDENT object lifespan
+		Composition : "has responsibility/Part of" -> Praise has organs (heart,lungs,liver) -> object lifespan interdependent
+						No Me, no organs : No organs, No Me
+		
+

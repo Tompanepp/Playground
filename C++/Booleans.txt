@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+    //true is 1 and false is 0 in memory
+    bool Value;
+    Value = true;
+    cout<<Value<<endl;
+    Value = false;
+    cout<<Value;
+    cin >> Value;
+    return 0;
+}

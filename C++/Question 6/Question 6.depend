@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1380285235 source:d:\dropbox\work\teachme2\henry\assignments\assignment_8\question 6\main.cpp
+	<iostream>
+	"Rational.h"
+
+1380286963 source:d:\dropbox\work\teachme2\henry\assignments\assignment_8\question 6\rational.cpp
+	"Rational.h"
+
+1380286977 d:\dropbox\work\teachme2\henry\assignments\assignment_8\question 6\rational.h
+	<iostream>
+

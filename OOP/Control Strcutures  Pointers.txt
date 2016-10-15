@@ -1,0 +1,3 @@
+Loops
+	couunter initialsed
+	counter incremented[prevent infinite loop]

@@ -1,0 +1,52 @@
+Bitwise operators
+	boolean logic on a bit level
+
+The equality operator
+
+Code Snippet
+int rate;
+   rate = 100;
+   boolean errorPresent = rate==100; //equality operator. rate==100 is evaluated as a boolean expression. If true errorPresent will equal true.
+
+   System.out.println(errorPresent);
+
+Relational Operators
+
+	Determine the relationship and relative ordering of operands
+	>=, <= (order of the symbols is important),< , >
+
+Logical Operators
+	AND : &&
+	OR: ||
+
+Short Circuiting
+
+	When using && place the condition most likely to be FALSE first
+	When using || place the condition most likely to the TRUE first
+
+	Short circuiting is not applied to bitwise operators (& and |)
+
+Misusing the equality operator if(a = 100)
+	Error raised:
+		incompatible types
+		required: boolean
+	found:    int
+
+	The assignment operator returns the value it assigns to the left operand.
+	So an int was returned/found and the if statement expects a boolean
+
+	Residual value example:  i = j =k =10;
+
+General Decision Structuring
+
+		The structure of the decision statements 	  Testing your assumptions 	  Planning for failure
+
+-Always expect the unexpected. Techniques to assist in this process include:
+ 	   -Always keep a else clause
+      -Test your assumptions
+      -Throw exceptions (to be covered in Chapter 8, Handling Exceptions in an Application)
+      -Always use block statements
+
+Floating Point Considerations
+	pg 106  
+ 

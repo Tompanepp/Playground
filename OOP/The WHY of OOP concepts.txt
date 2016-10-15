@@ -1,0 +1,20 @@
+WHY?
+
+ENCAPSULATION:
+
+POLYMORPHISM: 
+	Enables you t use one interface that will react differently based on the underlying type(object its being invoked from)
+
+INHERITANCE: 
+
+INTERFACES:
+
+AGGREGATION:
+
+COMPOSITION:
+
+ENUMERATIONS:
+
+INSTANCE STATE
+
+STATIC METHODS:

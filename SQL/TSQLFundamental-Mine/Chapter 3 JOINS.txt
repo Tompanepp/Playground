@@ -1,0 +1,65 @@
+JOINS are table expressions, as well as PIVOT,UNPIVOT and APPLY. This chapter focuses on JOINS
+
+
+Three main types of JOINS
+
+	CROSS JOINS
+	INNER JOINS
+	OUTER JOINS
+
+	Each of the joins applies its own Logical Query Processing Phases
+
+	CROSS JOINS : Cartesian product
+	INNER JOINS : Cartesian product and Filter
+	OUTER JOINS : Cartesian product, Filter and Add Outer rows
+
+	The JOINS in details
+
+		
+	CROSS JOINS: Cross joins, join each row in one table to all rows in the other table.
+		     There is no filtering, hence it returns the full cartesian product of the tables
+
+	INNER JOINS: Joins each row in one table to all rows in the other table(i.e. Cartesian product), then returns
+			the rows where the predicate is true (use the ON predicate) [Remember three-valued-logic: unknowns
+			are also not returned
+			
+			ADDITIOAL WELL KNOWN AND NAMED JOINS
+
+					Composite JOIN
+						Join based on primary key- foreign key relationship. The join is called composite because it is based 
+						on multiple attriibutes
+						
+					Non-Equi JOIN
+						All non-equality joins
+					
+						Note: Equi and Non-Equi joins are known as Thetha joins
+					
+					Multi-join JOIN
+						Joins involving more than 1 join operation
+						In this case, the result of the "previous join" is used as the "left input" of the next join
+						
+					NATURAL JOIN
+						Support in Standard SQL. Joins tables based on matching column names in both tables
+						
+	OUTER JOINS
+	
+		Marks a table preserved using:
+			LEFT OUTER JOIN: Left table rows will all be returned with/without matches
+			RIGHT OUTER JOIN: Right table rows will all be returned with/without matches
+			FULL OUTER JOIN: Bothh rows from both tables will be return with/without matches
+			
+		Note: The WHERE clause is final in the rows it filters out
+			  The ON clause only checks which rows have a match on the other side.
+		Therefore if you need to exlcude rows completely use the WHERE clause
+
+		DEBUGGING
+			When Debugging outer joins first place to start is the WHERE clause.
+				The WHERE clause should not include attributes from the non-preserved side (attribute <operator> value) [these attributes are NULL 
+				for the outer rows]
+				
+			In a Multi-join Query, INNER JOIN the non-preserved attributes from the previous outer join to the attribute in the third table.
+				This will nullify all the outer rows(they have NULLS). Effectively producing an INNER JOIN from the Multi-join
+			
+			Using Count: Ensure you specify a column from the non-preserved, one that can have a NULL.
+				Count(orderid) instead of Count(*) to count the number of orders per customer
+				Count(orderid) will return 0 for the NULLS while Count(*) will return 2(because it just counts rows and does not look at the content)

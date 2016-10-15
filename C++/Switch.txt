@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+     char letter;
+     
+    cout << "Choose A,B,C " << endl;
+   
+    cin >> letter;
+    
+    switch(letter)
+    {
+      case 'A':
+        cout << "You chose A"<< endl;
+        break;
+      case 'B':
+        cout << "You chose B"<< endl;  
+         break;
+      case 'D':
+        cout << "You chose C"<< endl;
+         break;
+      default:
+        cout << "You entered another value";   
+    }
+    
+    system("Pause");        
+}

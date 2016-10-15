@@ -1,0 +1,18 @@
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+using namespace std;
+
+int main()
+{
+    //the time() returns the number of seconds that have passed since midnight January 1, 1970.
+    unsigned seed = time(0);
+    
+    srand(seed);
+    //Generates the same nunmbers (use srand() and create nunmber seeds)
+     
+  cout << rand() << endl;
+  cout << rand() << endl;
+  system ("Pause");
+    
+}
