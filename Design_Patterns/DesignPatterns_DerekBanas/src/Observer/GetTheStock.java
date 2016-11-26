@@ -5,25 +5,28 @@ import java.text.DecimalFormat;
 /**
  * Created by Praise on 2016/11/26.
  */
+
 public class GetTheStock implements Runnable {
 
     private String stock;
     private double price;
+    private int startTime;
 
     private Subject stockGrabber;
 
     // Could be an external stock price provider (INET, Bloomberg)
-    public GetTheStock(Subject stockGrabber, int newStartTime, String newStock, double newPrice) {
+    public GetTheStock(Subject stockGrabber, int startTime, String stock, double price) {
         this.stockGrabber = stockGrabber;
-        stock = newStock;
-        price = newPrice;
+        this.stock = stock;
+        this.price = price;
+        this.startTime = startTime;
     }
 
     @Override
     public void run() {
         for (int i = 1; i <= 20; i++) {
             try {
-                Thread.sleep(2000);
+                Thread.sleep(startTime);
             } catch (InterruptedException e) {
             }
 
@@ -35,8 +38,7 @@ public class GetTheStock implements Runnable {
             if (stock == "AAPL") ((StockGrabber) stockGrabber).setAaplPrice(price);
             if (stock == "GOOG") ((StockGrabber) stockGrabber).setGoogPrice(price);
 
-            System.out.println(stock + ": " + df.format((price + randNum)) +
-                    " " + df.format(randNum));
+            System.out.println(stock + ": " + df.format((price + randNum)) + " " + df.format(randNum));
             System.out.println();
         }
 

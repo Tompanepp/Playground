@@ -33,7 +33,7 @@ public class StockObserver implements Observer {
     }
 
     public void printPrices(){
-        System.out.println(observerID + "\nIBM: " + ibmPrice + "\nAPPLE: " + aaplPrice
+        System.out.println("\nIBM: " + ibmPrice + "\nAPPLE: " + aaplPrice
                 + "\nGOOG: " + googPrice + "\n");
     }
 }

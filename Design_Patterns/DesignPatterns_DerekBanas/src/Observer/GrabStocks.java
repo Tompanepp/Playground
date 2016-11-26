@@ -7,15 +7,22 @@ public class GrabStocks {
     public static void main(String[] args) {
         StockGrabber stockGrabber = new StockGrabber();
 
+
+        /* Why does my observer need to know the Subject?
+           So that it can register itself as a Subscriber??
+         */
         StockObserver observer1 = new StockObserver(stockGrabber);
 
+
+
         //State change
+        //Each individual change calls each observer's update method
         stockGrabber.setAaplPrice(197.00);
         stockGrabber.setIbmPrice(677.60);
         stockGrabber.setGoogPrice(676.40);
 
-        StockObserver observer2 = new StockObserver(stockGrabber);
 
+        StockObserver observer2 = new StockObserver(stockGrabber);
         //State change
         stockGrabber.setAaplPrice(197.00);
         stockGrabber.setIbmPrice(677.60);
