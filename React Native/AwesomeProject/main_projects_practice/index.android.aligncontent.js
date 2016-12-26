@@ -1,7 +1,7 @@
 import React, { Component} from 'react';
 import {AppRegistry, View} from 'react-native';
 
-class AlignContentBasics extends Component {
+class AlignItemsBasics extends Component {
     render() {
         return(
             <View style={{flex: 1, 
@@ -17,4 +17,4 @@ class AlignContentBasics extends Component {
     }
 };
 
-AppRegistry.registerComponent('AwesomeProject', () => AlignContentBasics);
+AppRegistry.registerComponent('AwesomeProject', () => AlignItemsBasics);
