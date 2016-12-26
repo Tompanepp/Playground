@@ -13,7 +13,7 @@ class FlexDimensionsBasics extends Component {
     }
 };
 
-//I want to import this, too much repetition
+//I want to import this, too much repetitions
 class AwesomeProject extends Component {
     render(){
      return(<FlexDimensionsBasics/>);
