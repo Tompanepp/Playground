@@ -1,38 +1,39 @@
-import React , { Component } from 'react';
-import { AppRegistry, Text, View } from 'react-native';
+import React, {Component} from 'react';
+import {AppRegistry, StyleSheet, Text, View} from 'react-native';
 
-class Blink extends Component {
-    constructor(props){
-        super(props); //huh?
-        this.state = {showText: true};
 
-        setInterval(() => {this.setState({showText: !this.state.showText})},
-                    1000);
-    }
-
-    //Executed on every state change?
-    render(){
-        let display = this.state.showText ? this.props.text : ' '
-        return (<Text>{display}</Text>);
-    }
-}
-
-class BlinkApp extends Component{
+class ListOfStyles extends Component{
     render(){
         return(
+
             <View>
-                <Blink text = 'Prop text being injectd'/>
-                <Blink text = 'These prop values are immutable'/>
-                <Blink text = 'Prop text being injectd'/>
+                <Text style={styles.red}> just red</Text>
+                <Text style={styles.bigblue}> just bigblue</Text>                
+                <Text style={{color: 'red'}}> another red</Text>                                             
+                <Text style={[styles.bigblue, styles.red]}>bigblue, then red</Text>
+                <Text style={[styles.red, styles.bigblue]}>red, then bigblue</Text>            
             </View>
         );
     }
 }
 
+const styles = StyleSheet.create(
+    {
+        bigblue: {
+            color: 'blue',
+            fontWeight: 'bold',
+            fontSize: 30
+        },
+        red: {
+            color: 'red'
+        },
+    }
+);
+
 class AwesomeProject extends Component {
     render(){
      return(<View> 
-                <BlinkApp/>
+                <ListOfStyles/>
             </View>);
     }
 }
