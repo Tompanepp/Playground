@@ -1,33 +1,32 @@
 import React, { Component} from 'react';
-import {AppRegistry, View, ScrollView, Image, Text} from 'react-native';
+import {AppRegistry, View, ListView, Image, Text} from 'react-native';
 
-class IScroll extends Component {
+/*
+    Displays vertically
+             scrolling
+             list of changing 
+             but similar data
+    
+*/
+class ListViewBasics extends Component {
+    constructor(props){
+        super(props);
+        const ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 != r2});
+        this.state = {
+            dataSource: ds.cloneWithRows(['John', 'Joel', 'James', 'Jimmy', 'Jackson', 'Jillian', 'Julie', 'Devin'])
+        }
+    };
+
     render(){
         return(
-            <ScrollView>
-                <Text style={{fontSize: 96}}>Scroll me plz</Text>
-                <Image source={require('./img/favicon.png')}/>
-                <Image source={require('./img/favicon.png')}/>
-                <Image source={require('./img/favicon.png')}/>
-                <Image source={require('./img/favicon.png')}/>
-                <Image source={require('./img/favicon.png')}/>
-                <Text style={{fontSize: 96}}>If you like that</Text>
-                <Image source={require('./img/favicon.png')}/>
-                <Image source={require('./img/favicon.png')}/>
-                <Image source={require('./img/favicon.png')}/>
-                <Image source={require('./img/favicon.png')}/>
-                <Image source={require('./img/favicon.png')}/>
-                <Image source={require('./img/favicon.png')}/>
-                <Text style={{fontSize: 96}}>Scrolling down</Text>
-                <Image source={require('./img/favicon.png')}/>
-                <Image source={require('./img/favicon.png')}/>
-                <Image source={require('./img/favicon.png')}/>
-                <Image source={require('./img/favicon.png')}/>
-                <Image source={require('./img/favicon.png')}/>
-                <Image source={require('./img/favicon.png')}/>                
-            </ScrollView>
+            <View style={{flex: 1, paddingTop:22}}>
+                <ListView
+                    dataSource= {this.state.dataSource}
+                    renderRow= {(rowData) => <Text>{rowData}</Text>}>
+                </ListView>
+            </View>
         );
     }
 }
 
-AppRegistry.registerComponent('AwesomeProject', () => IScroll);
+AppRegistry.registerComponent('AwesomeProject', () => ListViewBasics);
