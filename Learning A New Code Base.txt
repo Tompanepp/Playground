@@ -1,0 +1,3 @@
+Domain
+Third Party Libraries (independent of current code base)
+Build System
