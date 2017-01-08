@@ -1,8 +1,34 @@
 run
-:q
-:quit
-q
-:q
-eixt
+compile
 exit
-run
+name
+version
+scalaVersion
+show compile
+compile
+show compile
+inspect compile
+inspect test:fullClasspath
+:quit
+inspect name
+inspect externalResolvers
+:quit
+quit()
+quit
+exit
+show compile:dependencyClasspath
+show version
+projects
+exit
+projects
+exit
+projects
+show version
+show versions
+show version
+projects
+project bar
+bar/compile
+projects
+plugins
+exit
