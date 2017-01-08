@@ -1,4 +1,5 @@
-let Emitter = require('./emitter')
+//let Emitter = require('./emitter')
+let Emitter = require('events')//Using Nodes Event emitter
 
 let emtr = new Emitter()
 

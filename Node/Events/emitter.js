@@ -1,3 +1,4 @@
+//Look at the events.js module in Node for a more robust implementation
 function Emitter() {
     this.events = {}
 }
