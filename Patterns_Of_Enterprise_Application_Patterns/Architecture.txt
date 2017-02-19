@@ -1,0 +1,14 @@
+Reactive Programming
+
+Event Sourcing
+
+Publish/Subscribe
+
+
+
+
+
+
+GOF
+POSA  
+Common Object Request Broker Architecture (CORBA) 

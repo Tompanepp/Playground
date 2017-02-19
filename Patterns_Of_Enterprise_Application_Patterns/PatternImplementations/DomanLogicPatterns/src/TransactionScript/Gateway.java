@@ -18,10 +18,23 @@ public class Gateway {
         PreparedStatement stmt = db.prepareStatement(findRecognitionsSatement);
         stmt = db.prepareStatement(findRecognitionsSatement);
         stmt.setLong(1, contractID);
-        stmt.setDate(2, asof.toSqlDate());
+        stmt.setDate(2, asof);
         ResultSet result = stmt.executeQuery();
         return result;
     }
+
+    public ResultSet findContract(long contractID) throws SQLException {
+        PreparedStatement stmt = db.prepareStatement(findContractStatement);
+        stmt = db.prepareStatement(findContractStatement);
+        stmt.setLong(1, contractID);
+        ResultSet result = stmt.executeQuery();
+        return result;
+    }
+
+    private static final String findContractStatement =
+            "SELECT ID ,product, revenue, dateSigned " +
+                    "FROM contracts" +
+                    "WHERE ID = ?";
 
     private static final String findRecognitionsSatement =
             "SELECT amount " +
