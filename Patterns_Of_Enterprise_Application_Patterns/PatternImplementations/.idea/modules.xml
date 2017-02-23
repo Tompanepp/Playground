@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DomanLogicPatterns/DomanLogicPatterns.iml" filepath="$PROJECT_DIR$/DomanLogicPatterns/DomanLogicPatterns.iml" />
-      <module fileurl="file://$PROJECT_DIR$/PatternImplementations.iml" filepath="$PROJECT_DIR$/PatternImplementations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PatternImplementations.iml" filepath="$PROJECT_DIR$/.idea/modules/PatternImplementations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PatternImplementations_main.iml" filepath="$PROJECT_DIR$/.idea/modules/PatternImplementations_main.iml" group="PatternImplementations" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PatternImplementations_test.iml" filepath="$PROJECT_DIR$/.idea/modules/PatternImplementations_test.iml" group="PatternImplementations" />
     </modules>
   </component>
 </project>
