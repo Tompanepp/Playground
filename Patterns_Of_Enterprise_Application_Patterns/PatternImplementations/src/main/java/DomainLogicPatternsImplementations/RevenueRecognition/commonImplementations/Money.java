@@ -1,4 +1,4 @@
-package DomainLogicPatterns.commonImplementations;
+package DomainLogicPatternsImplementations.RevenueRecognition.commonImplementations;
 
 import java.math.BigDecimal;
 import java.util.Currency;
@@ -32,12 +32,13 @@ public class Money {
     }
 
     public Money[] allocate(int n) {
-        Money lowResult = newMoney(amount / n);
-        Money highResult = newMoney(lowResult.amount + 1);
+        Money lowAllocation = newMoney(amount / n);
+        Money highAllocation = newMoney(lowAllocation.amount + 1);
         Money[] results = new Money[n];
         int remainder = (int) amount % n;
-        for (int i = 0; i < remainder; i++) results[i] = highResult;
-        for (int i = remainder; i < n; i++) results[i] = lowResult;
+        //Add 1 (currency unit) to the allocations per remainder
+        for (int i = 0; i < remainder; i++) results[i] = highAllocation; // Will remainder never be greater than n?
+        for (int i = remainder; i < n; i++) results[i] = lowAllocation;
         return results;
     }
 

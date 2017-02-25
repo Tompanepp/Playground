@@ -1,7 +1,7 @@
-package DomainLogicPatterns.TransactionScript;
+package DomainLogicPatternsImplementations.RevenueRecognition.TransactionScript;
 
-import DomainLogicPatterns.commonImplementations.DatabaseConnectionFactory;
-import DomainLogicPatterns.commonImplementations.Money;
+import DomainLogicPatternsImplementations.RevenueRecognition.commonImplementations.DatabaseConnectionFactory;
+import DomainLogicPatternsImplementations.RevenueRecognition.commonImplementations.Money;
 import org.joda.time.LocalDate;
 
 import java.sql.*;
@@ -23,7 +23,7 @@ public class Gateway {
     private static final String findRecognitionsStatement =
             "SELECT amount " +
                     "FROM revenueRecognitions " +
-                    "WHERE contract = ? AND rrecognizedOn <= ?";
+                    "WHERE contract = ? AND recognizedOn <= ?";
     //Script 1: calculate revenue recognitions for a contract
     //Script 2: how much revenue on a contract has been recognised
     private Connection databasConnection;

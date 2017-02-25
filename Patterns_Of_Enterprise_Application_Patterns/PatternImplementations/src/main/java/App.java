@@ -1,6 +1,6 @@
-import DomainLogicPatterns.TransactionScript.Gateway;
-import DomainLogicPatterns.TransactionScript.RevenueRecognitionService;
-import DomainLogicPatterns.commonImplementations.DatabaseConnectionFactory;
+import DomainLogicPatternsImplementations.RevenueRecognition.TransactionScript.Gateway;
+import DomainLogicPatternsImplementations.RevenueRecognition.TransactionScript.RevenueRecognitionService;
+import DomainLogicPatternsImplementations.RevenueRecognition.commonImplementations.DatabaseConnectionFactory;
 
 public class App {
 

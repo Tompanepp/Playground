@@ -12,6 +12,8 @@ product int foreign key references products(id),
 revenue decimal,
 dateSigned date)
 
+
+-- When are we going to recognise revenue
 CREATE TABLE revenueRecognitions(
 contract int foreign key references contracts(id),
 amount decimal,
