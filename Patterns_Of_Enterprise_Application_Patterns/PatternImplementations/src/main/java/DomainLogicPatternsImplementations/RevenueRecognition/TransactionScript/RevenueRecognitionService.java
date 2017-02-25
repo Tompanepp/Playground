@@ -8,7 +8,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import static DomainLogicPatternsImplementations.RevenueRecognition.commonImplementations.NumberOfRevenueRecognitions.Three;
-import static DomainLogicPatternsImplementations.RevenueRecognition.commonImplementations.ProudctType.*;
+import static DomainLogicPatternsImplementations.RevenueRecognition.commonImplementations.ProductType.*;
 
 
 /**
@@ -55,14 +55,14 @@ public class RevenueRecognitionService {
             LocalDate recognitionDate = new LocalDate(contract.getDate("dateSinged").toString()); // Hack to instantiate joda date
             String type = contract.getString("type");
 
-            if (type.equals(Spreadsheet)) {
+            if (type.equals(Spreadsheet.getValue())) {
                 Money[] allocation = totalRevenue.allocate(Three.getNumValue());
                 databaseGateWay.insertRecognition(contractNumber, allocation[0], recognitionDate);
                 databaseGateWay.insertRecognition(contractNumber, allocation[1], recognitionDate.plusDays(60));
                 databaseGateWay.insertRecognition(contractNumber, allocation[2], recognitionDate.plusDays(90));
-            } else if (type.equals(WordProcessor)) {
+            } else if (type.equals(WordProcessor.getValue())) {
                 databaseGateWay.insertRecognition(contractNumber, totalRevenue, recognitionDate);
-            } else if (type.equals(Database)) {
+            } else if (type.equals(Database.getValue())) {
                 Money[] allocation = totalRevenue.allocate(Three.getNumValue());
                 databaseGateWay.insertRecognition(contractNumber, allocation[0], recognitionDate);
                 databaseGateWay.insertRecognition(contractNumber, allocation[1], recognitionDate.plusDays(30));
