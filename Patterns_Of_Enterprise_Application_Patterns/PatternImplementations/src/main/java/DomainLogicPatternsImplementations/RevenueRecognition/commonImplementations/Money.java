@@ -1,4 +1,4 @@
-package DomainLogicPatternsImplementations.RevenueRecognition.commonImplementations;
+package DomainLogicPatternsImplementations.RevenueRecognition.commonimplementations;
 
 import java.math.BigDecimal;
 import java.util.Currency;
