@@ -1,0 +1,1 @@
+public enum ProductType {WP, SS, DB};

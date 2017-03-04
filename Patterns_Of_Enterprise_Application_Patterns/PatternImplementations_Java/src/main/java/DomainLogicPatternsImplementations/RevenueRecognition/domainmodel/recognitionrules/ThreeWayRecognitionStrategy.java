@@ -25,3 +25,4 @@ public class ThreeWayRecognitionStrategy extends RecognitionStrategy {
         contract.addRevenueRecognition(new RevenueRecognition(allocation[2], contract.getWhenSigned().plusDays(secondRecognitionOffset)));
     }
 }
+
