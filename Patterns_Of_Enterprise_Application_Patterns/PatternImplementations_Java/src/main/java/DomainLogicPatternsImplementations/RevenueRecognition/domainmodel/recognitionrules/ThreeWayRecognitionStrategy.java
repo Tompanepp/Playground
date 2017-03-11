@@ -1,9 +1,9 @@
-package DomainLogicPatternsImplementations.RevenueRecognition.domainmodel.recognitionrules;
+package domainLogicPatternsImplementations.RevenueRecognition.domainmodel.recognitionrules;
 
-import DomainLogicPatternsImplementations.RevenueRecognition.commonimplementations.Money;
-import DomainLogicPatternsImplementations.RevenueRecognition.commonimplementations.NumberOfRevenueRecognitions;
-import DomainLogicPatternsImplementations.RevenueRecognition.domainmodel.Contract;
-import DomainLogicPatternsImplementations.RevenueRecognition.domainmodel.RevenueRecognition;
+import domainLogicPatternsImplementations.RevenueRecognition.commonimplementations.Money;
+import domainLogicPatternsImplementations.RevenueRecognition.commonimplementations.NumberOfRevenueRecognitions;
+import domainLogicPatternsImplementations.RevenueRecognition.domainmodel.Contract;
+import domainLogicPatternsImplementations.RevenueRecognition.domainmodel.RevenueRecognition;
 
 /**
  * Created by Praise on 2017/02/27.

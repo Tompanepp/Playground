@@ -1,6 +1,6 @@
-package DomainLogicPatternsImplementations.RevenueRecognition.domainmodel;
+package domainLogicPatternsImplementations.RevenueRecognition.domainmodel;
 
-import DomainLogicPatternsImplementations.RevenueRecognition.commonimplementations.Money;
+import domainLogicPatternsImplementations.RevenueRecognition.commonimplementations.Money;
 import org.joda.time.LocalDate;
 
 import java.math.BigDecimal;

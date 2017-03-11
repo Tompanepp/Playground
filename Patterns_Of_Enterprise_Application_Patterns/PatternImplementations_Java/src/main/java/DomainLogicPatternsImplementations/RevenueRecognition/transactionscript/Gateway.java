@@ -1,7 +1,7 @@
-package DomainLogicPatternsImplementations.RevenueRecognition.transactionscript;
+package domainLogicPatternsImplementations.RevenueRecognition.transactionscript;
 
-import DomainLogicPatternsImplementations.RevenueRecognition.commonimplementations.DatabaseConnectionFactory;
-import DomainLogicPatternsImplementations.RevenueRecognition.commonimplementations.Money;
+import domainLogicPatternsImplementations.RevenueRecognition.commonimplementations.DatabaseConnectionFactory;
+import domainLogicPatternsImplementations.RevenueRecognition.commonimplementations.Money;
 import org.joda.time.LocalDate;
 
 import java.sql.*;

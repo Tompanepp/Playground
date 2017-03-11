@@ -1,7 +1,7 @@
-package DomainLogicPatternsImplementations.RevenueRecognition.servcelayer;
+package domainLogicPatternsImplementations.RevenueRecognition.servcelayer;
 
-import DomainLogicPatternsImplementations.RevenueRecognition.commonimplementations.Money;
-import DomainLogicPatternsImplementations.RevenueRecognition.domainmodel.Contract;
+import domainLogicPatternsImplementations.RevenueRecognition.commonimplementations.Money;
+import domainLogicPatternsImplementations.RevenueRecognition.domainmodel.Contract;
 import org.joda.time.LocalDate;
 
 /**

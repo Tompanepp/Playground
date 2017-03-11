@@ -1,4 +1,4 @@
-package DomainLogicPatternsImplementations.RevenueRecognition.servcelayer;
+package domainLogicPatternsImplementations.RevenueRecognition.servcelayer;
 
 /**
  * Created by Praise on 2017/03/05.

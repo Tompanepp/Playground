@@ -1,4 +1,4 @@
-package DomainLogicPatternsImplementations.RevenueRecognition.commonimplementations;
+package domainLogicPatternsImplementations.RevenueRecognition.commonimplementations;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

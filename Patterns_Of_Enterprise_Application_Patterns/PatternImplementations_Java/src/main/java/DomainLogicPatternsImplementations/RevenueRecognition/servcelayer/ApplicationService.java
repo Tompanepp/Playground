@@ -1,6 +1,5 @@
-package DomainLogicPatternsImplementations.RevenueRecognition.servcelayer;
+package domainLogicPatternsImplementations.RevenueRecognition.servcelayer;
 
-import DomainLogicPatternsImplementations.RevenueRecognition.servcelayer.*;
 /**
  * Created by Praise on 2017/03/05.
  */
