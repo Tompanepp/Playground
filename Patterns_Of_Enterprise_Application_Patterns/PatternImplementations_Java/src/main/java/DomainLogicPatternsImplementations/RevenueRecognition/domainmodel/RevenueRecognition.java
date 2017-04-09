@@ -1,6 +1,6 @@
-package domainLogicPatternsImplementations.RevenueRecognition.domainmodel;
+package domainLogicpatternsimplementations.RevenueRecognition.domainmodel;
 
-import domainLogicPatternsImplementations.RevenueRecognition.commonimplementations.Money;
+import domainLogicpatternsimplementations.RevenueRecognition.commonimplementations.Money;
 import org.joda.time.LocalDate;
 
 /**

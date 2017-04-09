@@ -1,14 +1,14 @@
-package domainLogicPatternsImplementations.RevenueRecognition.transactionscript;
+package domainLogicpatternsimplementations.RevenueRecognition.transactionscript;
 
-import domainLogicPatternsImplementations.RevenueRecognition.commonimplementations.Money;
+import domainLogicpatternsimplementations.RevenueRecognition.commonimplementations.Money;
 import org.joda.time.LocalDate;
 
 import java.math.BigDecimal;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import static domainLogicPatternsImplementations.RevenueRecognition.commonimplementations.NumberOfRevenueRecognitions.Three;
-import static domainLogicPatternsImplementations.RevenueRecognition.commonimplementations.ProductType.*;
+import static domainLogicpatternsimplementations.RevenueRecognition.commonimplementations.NumberOfRevenueRecognitions.Three;
+import static domainLogicpatternsimplementations.RevenueRecognition.commonimplementations.ProductType.*;
 
 
 /**

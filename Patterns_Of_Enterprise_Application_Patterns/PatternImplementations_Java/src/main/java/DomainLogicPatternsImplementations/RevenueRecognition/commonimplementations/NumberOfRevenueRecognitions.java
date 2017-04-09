@@ -1,4 +1,4 @@
-package domainLogicPatternsImplementations.RevenueRecognition.commonimplementations;
+package domainLogicpatternsimplementations.RevenueRecognition.commonimplementations;
 
 /**
  * Created by Praise on 2017/02/25.

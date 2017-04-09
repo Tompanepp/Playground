@@ -1,8 +1,8 @@
-package domainLogicPatternsImplementations.RevenueRecognition.domainmodel;
+package domainLogicpatternsimplementations.RevenueRecognition.domainmodel;
 
-import domainLogicPatternsImplementations.RevenueRecognition.domainmodel.recognitionrules.CompleteRecognitionStrategy;
-import domainLogicPatternsImplementations.RevenueRecognition.domainmodel.recognitionrules.RecognitionStrategy;
-import domainLogicPatternsImplementations.RevenueRecognition.domainmodel.recognitionrules.ThreeWayRecognitionStrategy;
+import domainLogicpatternsimplementations.RevenueRecognition.domainmodel.recognitionrules.CompleteRecognitionStrategy;
+import domainLogicpatternsimplementations.RevenueRecognition.domainmodel.recognitionrules.RecognitionStrategy;
+import domainLogicpatternsimplementations.RevenueRecognition.domainmodel.recognitionrules.ThreeWayRecognitionStrategy;
 
 /**
  * Created by Praise on 2017/02/26.

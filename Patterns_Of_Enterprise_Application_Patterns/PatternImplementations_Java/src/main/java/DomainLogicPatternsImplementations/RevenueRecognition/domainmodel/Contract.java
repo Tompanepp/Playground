@@ -1,6 +1,6 @@
-package domainLogicPatternsImplementations.RevenueRecognition.domainmodel;
+package domainLogicpatternsimplementations.RevenueRecognition.domainmodel;
 
-import domainLogicPatternsImplementations.RevenueRecognition.commonimplementations.Money;
+import domainLogicpatternsimplementations.RevenueRecognition.commonimplementations.Money;
 import org.joda.time.LocalDate;
 
 import java.math.BigDecimal;
@@ -54,4 +54,7 @@ public class Contract {
         product.calculateRevenueRecognitions(this);
     }
 
+    public void readForUpdate(Long id) {}
+    public static void read(Long id) {}
+    public void getAdministratorEmailAddress() {}
 }

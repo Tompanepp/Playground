@@ -1,6 +1,6 @@
-package domainLogicPatternsImplementations.RevenueRecognition.servcelayer;
+package domainLogicpatternsimplementations.RevenueRecognition.servcelayer;
 
-import domainLogicPatternsImplementations.RevenueRecognition.domainmodel.Contract;
+import domainLogicpatternsimplementations.RevenueRecognition.domainmodel.Contract;
 
 /**
  * Created by Praise on 2017/03/05.

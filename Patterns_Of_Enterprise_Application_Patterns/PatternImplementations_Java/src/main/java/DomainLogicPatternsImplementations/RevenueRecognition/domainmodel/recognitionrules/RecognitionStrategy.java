@@ -1,6 +1,6 @@
-package domainLogicPatternsImplementations.RevenueRecognition.domainmodel.recognitionrules;
+package domainLogicpatternsimplementations.RevenueRecognition.domainmodel.recognitionrules;
 
-import domainLogicPatternsImplementations.RevenueRecognition.domainmodel.Contract;
+import domainLogicpatternsimplementations.RevenueRecognition.domainmodel.Contract;
 
 /**
  * Created by Praise on 2017/02/27.

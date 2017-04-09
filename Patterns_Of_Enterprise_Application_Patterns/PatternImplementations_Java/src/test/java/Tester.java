@@ -1,4 +1,4 @@
-import domainLogicPatternsImplementations.RevenueRecognition.domainmodel.Product;
+import domainLogicpatternsimplementations.RevenueRecognition.domainmodel.Product;
 
 /**
  * Created by Praise on 2017/02/27.

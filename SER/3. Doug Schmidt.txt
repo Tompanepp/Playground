@@ -1,0 +1,8 @@
+DRE: Distributed Embedded Systems
+    CORBA
+
+ACE C++
+
+DOW?
+    Eventer Mulitplexer?
+    Reactor?
