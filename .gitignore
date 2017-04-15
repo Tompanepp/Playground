@@ -3,3 +3,7 @@
 */out/
 *.iml
 *.xml
+.idea
+../.idea
+Scala/.idea/misc.xml
+Scala/.idea/workspace.xml
