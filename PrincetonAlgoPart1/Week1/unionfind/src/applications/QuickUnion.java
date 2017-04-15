@@ -2,6 +2,8 @@ package applications;
 
 /**
  * Created by Praise on 2017/04/15.
+ *
+ * 2. Improvement of QuickFind
  */
 public class QuickUnion implements UnionFind {
 
@@ -48,6 +50,7 @@ public class QuickUnion implements UnionFind {
     public void union(int p, int q) {
         //incorrect, you need to change p's root, not it's parent
         //id[p] = root(q);
+
         int proot = root(p);
         int qroot = root(q);
         id[proot] = qroot;

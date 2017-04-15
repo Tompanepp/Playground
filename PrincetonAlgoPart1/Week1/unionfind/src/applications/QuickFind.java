@@ -2,10 +2,12 @@ package applications;
 
 /**
  * Created by Praise on 2017/04/15.
+ *
+ * 1. Initial implementation of Union Find
  */
 
 // Eager approach to algorithm design
-public class QuickFindUnionFind implements UnionFind {
+public class QuickFind implements UnionFind {
 
     //datastructure
     //The actual id values represent the connected components
@@ -16,7 +18,7 @@ public class QuickFindUnionFind implements UnionFind {
         Place each object in it's own connected component
         N array acceses
     */
-    public QuickFindUnionFind(int N) {
+    public QuickFind(int N) {
         id = new int[N];
         for (int i = 0; i < N; i++) {
             id[i] = i;
