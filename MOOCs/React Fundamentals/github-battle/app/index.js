@@ -1,23 +1,7 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 require('./index.css') //to include our custom css when we bundle the code
-
-
-
-/*
-    Properties:
-        state
-        lifecycle event(s)
-        UI
-*/
-//Just the component definition
- class App extends React.Component {
-    render() {
-        return (
-            <div> Hello React Training! </div> //this is JSX, gets transpiled to normal JavaScript
-        )
-    }
- }
+var App = require('./components/App')
 
 //Actaully display on the DON
  ReactDOM.render(<App />, //component to render 
