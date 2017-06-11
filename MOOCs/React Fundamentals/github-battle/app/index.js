@@ -14,7 +14,7 @@ require('./index.css') //to include our custom css when we bundle the code
  class App extends React.Component {
     render() {
         return (
-            <div> Hello World! </div> //this is JSX, get transpiled to normal JavaScript
+            <div> Hello React Training! </div> //this is JSX, gets transpiled to normal JavaScript
         )
     }
  }
