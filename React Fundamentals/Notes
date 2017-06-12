@@ -67,6 +67,7 @@ React Ecosystem
             - Newere JavaScript syntax to old (e.g classes)
 
     5. Gives us functionality to make Ajax requests
+        Promise based http library
 
 
 NPM (Node Package Manager)

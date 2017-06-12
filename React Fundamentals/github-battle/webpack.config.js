@@ -4,8 +4,9 @@ var HtmlWebpackPlugin = require('html-webpack-plugin'); //create index.html in '
 module.exports = {
     entry: './app/index.js',
     output: {
-        path: path.resolve(__dirname ,'dist'),
-        filename: 'index_bundle.js'
+        path: path.resolve(__dirname, 'dist'),
+        filename: 'index_bundle.js',
+        publicPath: '/' //base path for resources/assets
     },
     module: {
         rules: [
@@ -14,14 +15,18 @@ module.exports = {
                 babel-preset-env = transpile to latest version of JavaScript
                 babel-preset-react = transpile JSX to regular JavaScript
             */
-            { test: /\.(js)$/, use: 'babel-loader' }, 
+            { test: /\.(js)$/, use: 'babel-loader' },
             /* 
                css-loader - takes "url('')" or imports and converts to require('')                                                          
                style-loader - inserts styles into the page to make them active on the page
             */
-            { test: /\.css$/, use: [ 'style-loader', 'css-loader' ]}
+            { test: /\.css$/, use: ['style-loader', 'css-loader'] }
         ]
     },
+    devServer: {
+        historyApiFallback: true //redirect all '/*' paths to '/' and let ReactRouter route to '/*'
+    }
+    ,
     plugins: [
         new HtmlWebpackPlugin({
             template: 'app/index.html'
