@@ -70,9 +70,14 @@ React Ecosystem
         Promise based http library
 
 
-NPM (Node Package Manager)
-    - A way to easilty install modules without downloadin them manually
-    - A way to easily updagrade those modules as well
-    - Easier to share a project without shipping it with all the libraries it uses
+TOOLS
+    NPM (Node Package Manager)
+        - A way to easilty install modules without downloadin them manually
+        - A way to easily updagrade those modules as well
+        - Easier to share a project without shipping it with all the libraries it uses
 
+
+    React Developer Tools
+        Inspect Components
+            - state, props etc
 

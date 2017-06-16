@@ -59,6 +59,8 @@ class Popular extends React.Component {
         add state to:
             keep track of currently selected tab(to highlight)
             render the list repositories based on the CURRENTLY selected tab
+            
+        We use the costructor to add state
     */
     constructor(props) {
         super(props);
