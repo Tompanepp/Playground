@@ -1,6 +1,35 @@
 var React = require('react')
 var PropTypes = require('prop-types')
+var Link = require('react-router-dom').Link
 
+
+
+function PlayerPreview(props) {
+    return (
+        <div>
+            <div className='column'>
+                <img
+                    className='avatar'
+                    src={props.avatar}
+                    alt={'Avatar for ' + props.username}
+                />
+                <h2 className='username'>@{props.username}></h2>
+                <button
+                    className='reset'
+                    onClick={props.onReset.bind(null, props.id)}>
+                    Reset
+                </button>
+            </div>
+        </div>
+    )
+}
+
+PlayerPreview.propTypes = {
+    avatar: PropTypes.string.isRequired,
+    username: PropTypes.string.isRequired,
+    id: PropTypes.string.isRequired,
+    onReset: PropTypes.func.isRequired
+}
 
 /*
     note: input fields are bound to the state (note: state is NOT bound to input fields)
@@ -90,6 +119,7 @@ class Battle extends React.Component {
         }
         //Ensure the correct(i.e. the component) 'this' is used
         this.handleSubmit = this.handleSubmit.bind(this)
+        this.handleReset = this.handleReset.bind(this)
     }
 
     //IS THIS INVOKED? : YES
@@ -98,7 +128,6 @@ class Battle extends React.Component {
         console.log('parent state updated')
         console.log('id: ' + id + ' ' + 'username ' + username)
         this.setState(() => {
-
             var newstate = {}
             newstate[id + 'Name'] = username;
             newstate[id + 'Image'] = 'https://github.com/' + username + '.png?size200'
@@ -107,15 +136,27 @@ class Battle extends React.Component {
         )
     }
 
+    handleReset(id) {
+        this.setState(() => {
+            var newstate = {}
+            newstate[id + 'Name'] = ''
+            newstate[id + 'Image'] = null
+            return newstate;
+        })
+    }
+
     render() {
         //Value from the input textboxes
-        var playerOneName = this.state.playerOneName;
-        var playerTwoName = this.state.playerTwoName;
-        // {!playerOneName && <PlayeInput/>}: 
+        var match = this.props.match
+        var playerOneName = this.state.playerOneName
+        var playerTwoName = this.state.playerTwoName
+        var playerOneImage = this.state.playerOneImage
+        var playerTwoImage = this.state.playerTwoImage
+        // {!playerOneName && <PlayeInput />}:
         //&& = short hand for if the expression on the left is true do x(in this case render PlayeInput)
         //onSubmit={this.handleSubmit} 'callack' to update the state of the parant component
         return (
-            < div >
+            <div>
                 <div className='row'>
                     {!playerOneName &&
                         <PlayeInput
@@ -123,12 +164,38 @@ class Battle extends React.Component {
                             label='Player One'
                             onSubmit={this.handleSubmit} />}
 
+                    {playerOneImage !== null &&
+                        <PlayerPreview
+                            avatar={playerOneImage}
+                            username={playerOneName}
+                            onReset={this.handleReset}
+                            id='playerOne'
+                        />}
+
                     {!playerTwoName &&
                         <PlayeInput
                             id='playerTwo'
                             label='Player Two'
                             onSubmit={this.handleSubmit} />}
+
+                    {playerTwoImage !== null &&
+                        <PlayerPreview
+                            avatar={playerTwoImage}
+                            username={playerTwoName}
+                            onReset={this.handleReset}
+                            id='playerTwo'
+                        />}
                 </div>
+                {playerOneImage && playerTwoImage &&
+                    <Link
+                        className='button'
+                        to={{
+                            pathname: match.url + '/results',
+                            search: `?playerOneName=` + playerOneName + '&playerTwoName=' + playerTwoName
+                        }}>
+                        Battle
+                    </Link>
+                }
             </div >
         )
     }
