@@ -1,7 +1,8 @@
-var path = require('path');
-var HtmlWebpackPlugin = require('html-webpack-plugin'); //create index.html in 'dist' folder and include index_bundle in the file html file
+var path = require('path')
+var HtmlWebpackPlugin = require('html-webpack-plugin') //create index.html in 'dist' folder and include index_bundle in the file html file
+var webpack = require('webpack')
 
-module.exports = {
+var config = {
     entry: './app/index.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
@@ -33,3 +34,18 @@ module.exports = {
         })
     ]
 }
+
+if (process.env.NODE_ENV === 'production') {
+    config.plugins.push(
+        //set node environment to production
+        new webpack.DefinePlugin({
+            'process.env': {
+                'NODE_ENV': process.env.NODE_ENV
+            }
+        }),
+        new webpack.optimize.UglifyJsPlugin() //minify and optimise JS
+    )
+}
+
+
+module.exports = config
