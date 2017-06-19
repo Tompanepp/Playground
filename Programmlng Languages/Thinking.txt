@@ -1,5 +1,0 @@
-Trust the recursion
-
-The representation of things
-The things they represent
-The thing they become when evaluated
