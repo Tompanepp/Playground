@@ -23,6 +23,7 @@ React Ecosystem
     5. Axios
 
 
+    1. library of UI components
     2. Map URLs to Components
     3. 
         Why does it exist?
@@ -81,3 +82,22 @@ TOOLS
         Inspect Components
             - state, props etc
 
+
+STARTING A NEW PROJECT
+
+1. npm init
+2. app folder structure and base files (index.js, index.html, index.css)
+3. install React
+    npm install --save react
+    npm install --save react-dom
+4. Setup Webpaack
+    npm install --save-dev path
+    npm install --save-dev babel-core 
+    npm install --save-dev babel-loader 
+    npm install --save-dev babel-preset-env 
+    npm install --save-dev babel-preset-react 
+    npm install --save-dev css-loader 
+    npm install --save-dev style-loader 
+    npm install --save-dev html-webpack-plugin 
+    npm install --save-dev webpack 
+    npm install --save-dev webpack-dev-server
