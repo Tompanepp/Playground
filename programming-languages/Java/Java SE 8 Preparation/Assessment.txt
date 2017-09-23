@@ -1,0 +1,3 @@
+1. B, D
+2. B false, true, false, true
+3. g
