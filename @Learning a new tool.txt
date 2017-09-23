@@ -1,0 +1,11 @@
+Learning A New Tool
+    As this:
+    1. Why does it exist?
+    2. What problem is it solving?
+    3. What does it need to work?
+
+Learning A New Code Base
+    1. Learn all external libraries independent of the current code Base
+        -> Helps makes it easier to understand their usage in the code base
+    2. Learn the Core Abstractions of the code base
+    3. Learn the underlying architectural/design principles and goals and why they were chosen
