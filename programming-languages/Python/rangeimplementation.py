@@ -1,4 +1,6 @@
-def my_range(start, stop, step):
+import sinfunction
+
+def my_range(start, stop, step = 1):
     values = [stop]
     for n in my_sub_range(stop - start):
         values.append(n + step)
@@ -12,6 +14,11 @@ def my_sub_range(n):
         i = i + 1
     return values
 
-print("using my range")
-for n in my_range(0,5,1):
-    print(n)
+def main():
+    print("using my range")
+    print('__name__ value:', __name__)
+    for n in my_range(0,0,1):
+        print(n)
+    sinfunction.sin()
+
+main()
