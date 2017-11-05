@@ -37,8 +37,6 @@ def main():
     tess.fillcolor("red")
     tess.pensize(3)
 
-
-
     for a in xs:
         drawBar(tess, a)
 
