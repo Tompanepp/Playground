@@ -1,5 +1,13 @@
 ''' computes the date for Easter Sunday for any year between 1900 to 2099.'''
 
+def isSpecialYear(year): year == 1954 or year == 1981 or year == 2049 or year == 2076
+
+def fallOnNextMonth(days): return days > 31
+
+def calculateMonthAndDay(days):
+    if fallOnNextMonth(days): return f'April {days - 31}'
+    else: return f'March {days}'
+
 def calculateEasterSundayDay(year):
     a = year % 19
     b = year % 4
@@ -9,20 +17,13 @@ def calculateEasterSundayDay(year):
     dateofeaster = 22 + d + e
     return dateofeaster
 
-def calculateStartYear(year):
-    if year == 1954 or year == 1981 or year == 2049 or year == 2076:
-       return year - 7
-    else: return year
-
-def calculateMonthAndDay(days):
-    if days > 31:
-        return f'April {days - 31}'
-    else:
-        return f'March {days}'
-
 def isYearValid(year):
     return year > 1900 and year < 2099
-       
+
+def calculateStartYear(year):
+    if isSpecialYear(year): return year - 7
+    else: return year
+  
 def main():
     str_year = input("Provide a year between 1900 and 2009: ")
     year  = calculateStartYear(int(str_year))
@@ -30,7 +31,6 @@ def main():
         days = calculateEasterSundayDay(year)
         easterSundayDate = calculateMonthAndDay(days)
         print(f"Easter Sunday date: {easterSundayDate}")
-    else:
-        print("The provided is out of range")
+    else: print("The provided is out of range")
 
 main()
