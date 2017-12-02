@@ -3,7 +3,7 @@ Polynomial Def: the sum of a FINITE number of terms
                         - a coefficient 
                         - being multiplied by a variable raised to non-negative integer power (the power needs to be a literal integer)
 
-                        Ax2 + By4 + 9
+                        Ax^2 + By^4 + 9
                             A -> coefficient
                             x -> variable
                             2 -> integer power
