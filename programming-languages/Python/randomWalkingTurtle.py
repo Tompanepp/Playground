@@ -19,14 +19,16 @@ def isInScreen(wn, t):
 def main():
     jess = turtle.Turtle()
     jess.shape('turtle')
+    jeff = turtle.Turtle()
     wn = turtle.Screen()
 
     while(isInScreen(wn, jess)):
         coinSide = random.randrange(0,2)
+        turnAngle = random.randrange(1, 361)
         if coinSide == 0:
-            jess.left(90)
+            jess.left(turnAngle)
         else:
-            jess.right(90)
+            jess.right(turnAngle)
         jess.forward(50)
 
     wn.exitonclick()
