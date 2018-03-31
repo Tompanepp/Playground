@@ -124,14 +124,46 @@ What is the difference between unapply and apply, when would you use them?
                 }
 
 What is a companion object?
+    A Singleton object defined in the same source file as a case class, tht shares the same name with the class.
+    Defined in this manner;
+        - the two constructs can access each other's private members
+        - implicit conversions defined in the companion object are in scope anywhere the companion class is used.
+
+    Difference between class and object
+
+    class                           | object
+    cannot have static methods      | can have static method
+    can take parameters             | cannot take parameters, unless you define an implementation of the `apply` mehtod
 
 What is the difference between the following terms and types in Scala: Nil, Null, None, Nothing?
 
+    Nil                                     | Null                                              | None                                          | Nothing
+    Objec that defines an empty list,       | It is the type for the null references            | Value of the Option type                      | A subtype of every other type
+                                            | references are values(nulls are one of the values)| Represents the absence of a value in an Option|
+    It is a list of Nothing                 | It's a subtype of every reference class           |                                               | Has no values
+                                            | (i.e every class that inherits from AnyRef)       |                                               | Used to handle corner cases in Scala's class OO type system in a uniform way 
+                                            | It's incompatible with types (You cannot                                                          | Often used to define abnormal termination
+                                             assign Null to an Int, Decimal etc) 
+                                            | Used to handle corner cases in Scala's class OO type system in a uniform way     
+                                            
+
+
+    Note: Check out the implementations of these types/values inside Scala
+          Study the Scala type hierarchy
 
 What is Unit?
+   A subtype of AnyVal that has one value, {()}.
+   Used to represent that a function does not return any intereting value(it does return the value `()`, but it's an `interesting` value)
+
+   Why Unit over Nothing?
+    Nothing has no value, the function would not return(You would need an exception to exit the function hence it's used to signal abnormal termination)
+    https://stackoverflow.com/questions/13539822/whats-the-difference-between-unit-and-nothing
 
 What is the difference between a call-by-value and call-by-name parameter?
 
+    call-by-value parameter                                                             | call-by-name parameter
+        the value of a parameter is known(computed) before it's passed to a function    |   
+        a copy of the value is passed as the formal parameter                           |   a reference to the value is passed as the formal parameter
 
 How does Scala's Stream trait levarages call-by-name?
 
