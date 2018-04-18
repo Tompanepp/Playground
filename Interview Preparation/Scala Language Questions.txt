@@ -162,20 +162,41 @@ What is Unit?
 What is the difference between a call-by-value and call-by-name parameter?
 
     call-by-value parameter                                                             | call-by-name parameter
-        the value of a parameter is known(computed) before it's passed to a function    |   
-        a copy of the value is passed as the formal parameter                           |   a reference to the value is passed as the formal parameter
+        the value of a parameter is known(computed) before it's passed to a function    |   the value of the parameter is passed as an unevaluated expression,
+          a copy of the value is passed as the formal parameter                         |  it's value is only known once evaluated inside tehe called function
+                                  
 
 How does Scala's Stream trait levarages call-by-name?
+    Allows a Stream to have an infinite number of elments, which will only be evaluated when they're needed
 
 Define uses for the Option monad and good practices it provides.
+    Used model cases where a value might not exist
+    Example:
+        retrieveProduct(id: Int): Option[Product]
+
+    Best practices:
+        avoid operations on null values
+        singals to developers that something might not have a value and they must check before using it and the type system enforces this
+            You instead have compile time type errors instead of runtiem null pointer exceptions
+            e.g val a: Option[Int] = 1
+            a + 1 //won't work need to extract value of a first
 
 How does yield work?
+    generates a value for each iteration in a for comprehension
+    turns for comprehension statements into expressions
 
 Explain the implicit parameter precedence.
 
 What operations is a for comprehension syntactic sugar for?
+    map
+    flatMap
+
 
 Streams:
 What consideration you need to have when you use Scala's Streams?
 
 What technique does the Scala's Streams use internally?
+
+Zip
+
+ZipWithIndexz
