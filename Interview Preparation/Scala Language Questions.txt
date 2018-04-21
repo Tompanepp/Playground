@@ -185,6 +185,93 @@ How does yield work?
     generates a value for each iteration in a for comprehension
     turns for comprehension statements into expressions
 
+Implicits flow
+    compile
+    type error
+    is there implicit conversion?
+        Yes, apply it
+             resume compilation
+        No, fail
+
+Implicits rules
+
+    marking rule: implicit conversions need to be marked with 'implicit'. e.g implicit def foo | implicit val b
+
+    scope rule: 
+        only consider implicit conversions in scope
+        implicit conversion must have a single identifier(i.e. it's name must be in scope, it cannot be SomeObject.conversion)
+            exception here is if it is defined in a Companion object of a class
+                Then it's available where ever that class is used(It's said to be associate with the class' type)
+
+    one-at-a-time-rule: One one implicit is tried
+        convert1(convert2(x)) + y will not compile
+        reason: longer compilation times for errorneous code
+                greater difference between what the programmer writes and what the code does
+        NB: Can be circumvented using having the implicit conversions take implicit parameters
+
+    explicit types first: If code type checks with explicit types, no implicits are tried
+        refer the "Implicits flow" above
+
+    naming implicits
+        can have arbitary names
+        The names matter only in two cases
+            1. if you want to write it explicitly in a method application
+            2. for determining which implicit conversions are available at any point in a program
+
+    when are implicits tried   
+        Three places where implicits are used in the language
+            1. conversions to expected type
+            2. conversions of the receiver of a method call
+            3. implicit parameters
+
+            1. def calculate(a: Int) // can be called like so calculate(1.0) 
+                if implicit conversion from Double to Int is in scope
+            
+            2. "adfdf".exists("a") gets converted to stringWrapper("adfdf").exist 
+                String gets converted to stringWrapper
+
+                Use cases
+                    1. Smoother integration of a new class into an existing class hierarchy
+                    2. Support writing DSLs in the language
+
+                    1. Integration with new types
+                        class Rational(x: Int, y: Int){
+                            def + (that: Rational): Rational
+                            def + (that: Int): Rational
+                            ...
+                        }   
+            
+                        val a = Rational(1,1)
+                        a + a //valid
+                        1 + a //invalid, + not defined on Int that takes Rational
+
+                        Solution
+                        implicit def intToRational(x: Int) = Rational(x, 1)
+
+                        1 + a //now works
+
+                        Note: We integrated our new Rational class in the language with ease
+                              And it feels native to the language(Client programemrs don't need to convert Int to Rationals everywhere
+                              they use out library)
+
+                    2. Simulating new Syntax(DSLs)
+
+            3. provide more information to the called function
+                about what the caller wants
+
+                someCall(a) converted to someCall(a)(b)
+                new someClass(a) converted to new someClass(a)(b)
+                NB: Adding a missing parameter list to complete the function call
+
+    when multiple implicits apply
+        - rule: apply the more specific implicit conversion
+        When is one implicit conversion for specific than another?
+            -  The argument type of the former is a subtype of the latter
+            -  Both conversions are method And
+                the enclosing class of the former extends the enclosing class of the latter
+
+
+
 Explain the implicit parameter precedence.
 
 What operations is a for comprehension syntactic sugar for?
