@@ -270,8 +270,6 @@ Implicits rules
             -  Both conversions are method And
                 the enclosing class of the former extends the enclosing class of the latter
 
-
-
 Explain the implicit parameter precedence.
 
 What operations is a for comprehension syntactic sugar for?
