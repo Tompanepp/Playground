@@ -94,20 +94,62 @@ What is a monad?
     resources: https://medium.com/@sinisalouc/demystifying-the-monad-in-scala-cc716bb6f534
     Wrapper/Container/Context for values 
         with the following operations
-            identity (return in Haskell, unit in Scala)
-            bind(>>= in Haskell, flatMap in Scala)
+            1. identity (return in Haskell, unit in Scala)
+            2. bind/flatMap (>>= in Haskell, flatMap in Scala)
+
+            1. performs the wrapping part
 
 What are the monad axioms?
+    Context: given some value x, monad instance m(with a value), functions f and g of type Int -> M[Int]
+
+    1. left identity law
+    2. right identity law
+    3. associativty law
+
+    1. unit(x).flatMap(f) == f(x)
+    2. m.flatMap(unit) == m
+    3. m.flatMap(f).flatMap(g) == m.flatMap(x => f(x).flatMap(g))
 
 What Scala data types are, or behave like, monads?
+    Option
+    List
+    Seq
+    All of them?
+    No, Ints etc
 
 What are the basic and optional requirement/s to conform a Monad?
+    unit
+    flatMap
 
 Explain higher order functions.
+    functions that at least take function parameters or return functions
 
 What is gained from using immutable objects?
+    equality is reliable
+    code is predictable and reliably deterministic
+
+    copy data structures when "chaining"
+        slow? No => persistent/partially persistent immutable datastructure
+            structural sharing
+
+    control state
+    avoid concurrent state access issues
+        dirty reads
+        unrepeatable reads
 
 What is tail recursion?
+    Resource: https://www.geeksforgeeks.org/tail-recursion/
+    This is a special case of recursion
+    where the last statement executed is the call to the function
+
+    Why do we care?
+        Save stack space
+        Compilers can optimize tail recursive calls as opposed to non tail recursive calls
+        How:
+            function call stack elimination
+            Since the last statement in the call to the function, thus
+                there is nothing else left to do.
+                We can discard the current function call's stack allocation
 
 How does it differentiate from common recursion?
 
