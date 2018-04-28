@@ -1,0 +1,12 @@
+Process = magical spirit that lives in a computer
+Procedure = pattern of rules => they direct the pattern
+    They're the spells that control the process
+
+Programming language = magical language to conqure the spirits(Process)
+                      AND cast spells to direct the process
+
+Tools for controlling complexity
+    1. Black box abstraction
+        Utility:
+            -> Hide details to allow one to build bigger boxes
+            -> 
