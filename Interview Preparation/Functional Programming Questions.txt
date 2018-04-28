@@ -152,12 +152,32 @@ What is tail recursion?
                 We can discard the current function call's stack allocation
 
 How does it differentiate from common recursion?
+    common recusrion creates a new stack frame for each function invocation
+
+    while tail recursion, does not. It runs in constant stack space
+    compilers do this by using a technique called tail call optimization
+        identity tail recursion
+        label the beginning
+        update parameters at the end
+        execute a goto start
 
 What issues are there with tail recursive functions in the JVM?
+    The instruction set available on the JVM makes implementing more advanced tail recusrion very difficult
+    
+    Only direct tail recursive calls to the same function can be optimized
+
+    Example of ones that can't
+        1. mutually tail recursive calls
+            def isEven(n: Int) if (n % 2 == 0) true else isOdd(n)
+            def isOdd(n: Int) if (n % 2 != 0) true else isEven(n)
+        2. if the tail call is nested in a function value
+            { functionCall(n) }
 
 How does the Scala compiler optimize a tail recursive function?
+    same way described here: How does it differentiate from common recursion?
 
 How do you ensure that the compiler optimizes the tail recursive function?
+    @tailrec
 
 What is function currying?  
     Taking a function of n parameters
@@ -170,8 +190,24 @@ What is function currying?
     h(10) returns 16 // 1 + 5 + 10
 
 What are implicit parameters?
+    parameters passed in implicitiy
+    thye're marked with implicit on definition
 
 What are typeclasses?
+    A Type class is a class(group) of types
+        Which satisfy some contract (They're not necessarily in the same class hierarchy)
+            defined somewhere(maybe in a trait in Scala)
+            with condition that such functionality(trait and implementation) can be added wihtout changing the original code
+    Note: You can do this with a trait, how are type classes better?
+
+
+
+    Usecase: Want to add some behavior to classes that are not in some natural class hierarchy
+            Construct to add adhoc polymorphism by creating a grouping of objects?
+        What is polymorphism? => refer to OOP file
+
+
+
 
 What are lenses?
 

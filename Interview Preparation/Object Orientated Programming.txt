@@ -1,0 +1,29 @@
+What is encapsulation?
+    Hide details from client code that is not relevant for them to use a class/abstration
+
+What is inheritance?
+        Visitor
+    User    Anonymous
+
+    This is an Sum type ADT     
+
+What is polymorphism?
+    Use: reusable code
+    The ability of a programming language to process objects DIFFERENTLY 
+        depending on their type
+
+    More specifically, the ability to redefine method on derived types
+        "provision of the same interface to entities of different types"
+
+        trait Visitor {
+            val id
+            def hashCode
+        }
+        class User(id, email) extends Visitor {
+            override def hashCode = id + email
+        }   
+
+        class Anonymous(id) extends Visitor {
+            override def hashCode = id
+        }
+
