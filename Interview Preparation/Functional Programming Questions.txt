@@ -194,11 +194,16 @@ What are implicit parameters?
     thye're marked with implicit on definition
 
 What are typeclasses?
+    Resource: https://blog.scalac.io/2017/04/19/typeclasses-in-scala.html
+    Read this AS WELL!!: https://medium.com/@sinisalouc/ad-hoc-polymorphism-and-type-classes-442ae22e5342
     A Type class is a class(group) of types
         Which satisfy some contract (They're not necessarily in the same class hierarchy)
             defined somewhere(maybe in a trait in Scala)
             with condition that such functionality(trait and implementation) can be added wihtout changing the original code
     Note: You can do this with a trait, how are type classes better?
+        You do not need to change the declaration of the existing type
+        With a trait mixin you have to go and mix the trait into the type you want to add this behaviour to
+            effectively changing and code and need to recompile...
 
 
 
