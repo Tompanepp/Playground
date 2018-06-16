@@ -9,7 +9,7 @@ trait Show[A] {
 //Mine
 object ShowMine {
     //Limitation: Doesn't allow specific types to define their own way of being shown :(
-    def showMine[A](a: A): String = s"$a"
+    def show[A](a: A): String = s"$a"
 
     def showInt: Show[Int] =  
         new Show[Int] {
@@ -19,15 +19,13 @@ object ShowMine {
 
 //cumbersome usage
 println(ShowMine.showInt.show(1))
-import ShowMine.showMine
-println(showMine(1))
+println(ShowMine.show(1))
 
 
 //Theirs
 
 object Show {
     //Note use to implicits compared to mine
-    // the sh is an implementation of the Show type for some type we want to show 
     def show[A](a: A)(implicit sh: Show[A]):String =  sh.show(a)
 
     implicit val intCanShow: Show[Int] = 
@@ -38,5 +36,4 @@ object Show {
 
 //cumbersome usage
 println(Show.intCanShow.show(1))
-import Show.show
-println(show(1))
+println(Show.show(1))
