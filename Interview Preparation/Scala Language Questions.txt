@@ -142,7 +142,7 @@ What is the difference between the following terms and types in Scala: Nil, Null
                                             | references are values(nulls are one of the values)| Represents the absence of a value in an Option|
     It is a list of Nothing                 | It's a subtype of every reference class           |                                               | Has no values
                                             | (i.e every class that inherits from AnyRef)       |                                               | Used to handle corner cases in Scala's class OO type system in a uniform way 
-                                            | It's incompatible with types (You cannot                                                          | Often used to define abnormal termination
+                                            | It's incompatible with value types (You cannot                                                          | Often used to define abnormal termination
                                              assign Null to an Int, Decimal etc) 
                                             | Used to handle corner cases in Scala's class OO type system in a uniform way     
                                             

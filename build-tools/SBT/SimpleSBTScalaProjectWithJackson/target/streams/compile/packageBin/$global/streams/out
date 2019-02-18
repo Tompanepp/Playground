@@ -1,0 +1,21 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /Users/Praise/Desktop/yoco-jack-test/target/scala-2.12/yoco-jack-test_2.12-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example/FileDownloader.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Praise/Desktop/yoco-jack-test/target/scala-2.12/classes/example/FileDownloader.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example/YocoJack.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Praise/Desktop/yoco-jack-test/target/scala-2.12/classes/example/YocoJack.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example/Deal.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Praise/Desktop/yoco-jack-test/target/scala-2.12/classes/example/Deal.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example/Hand.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Praise/Desktop/yoco-jack-test/target/scala-2.12/classes/example/Hand.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example/YocoJack$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Praise/Desktop/yoco-jack-test/target/scala-2.12/classes/example/YocoJack$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Praise/Desktop/yoco-jack-test/target/scala-2.12/classes/example[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example/FileDownloader$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Praise/Desktop/yoco-jack-test/target/scala-2.12/classes/example/FileDownloader$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example/Hand$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Praise/Desktop/yoco-jack-test/target/scala-2.12/classes/example/Hand$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example/Deal$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Praise/Desktop/yoco-jack-test/target/scala-2.12/classes/example/Deal$.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m
