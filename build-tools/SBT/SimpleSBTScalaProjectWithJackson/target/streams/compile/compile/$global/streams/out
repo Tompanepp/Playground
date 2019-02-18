@@ -1,0 +1,29 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/Praise/Desktop/yoco-jack-test/src/main/scala/example/YocoJack.scala:12:23: overloaded method value readValue with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  [T](x$1: java.io.DataInput, x$2: com.fasterxml.jackson.databind.JavaType)T <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  [T](x$1: java.io.DataInput, x$2: Class[T])T <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  [T](x$1: Array[Byte], x$2: com.fasterxml.jackson.databind.JavaType)T <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  [T](x$1: Array[Byte], x$2: com.fasterxml.jackson.core.type.TypeReference[_])T <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  [T](x$1: Array[Byte], x$2: Class[T])T <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  [T](x$1: java.io.InputStream, x$2: com.fasterxml.jackson.databind.JavaType)T <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  [T](x$1: java.io.InputStream, x$2: com.fasterxml.jackson.core.type.TypeReference[_])T <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  [T](x$1: java.io.InputStream, x$2: Class[T])T <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  [T](x$1: java.io.Reader, x$2: com.fasterxml.jackson.databind.JavaType)T <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  [T](x$1: java.io.Reader, x$2: com.fasterxml.jackson.core.type.TypeReference[_])T <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  [T](x$1: java.io.Reader, x$2: Class[T])T <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  [T](x$1: String, x$2: com.fasterxml.jackson.databind.JavaType)T <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  [T](x$1: String, x$2: com.fasterxml.jackson.core.type.TypeReference[_])T <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  [T](x$1: String, x$2: Class[T])T <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  [T](x$1: java.net.URL, x$2: com.fasterxml.jackson.databind.JavaType)T <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  [T](x$1: java.net.URL, x$2: com.fasterxml.jackson.core.type.TypeReference[_])T <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  [T](x$1: java.net.URL, x$2: Class[T])T <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  [T](x$1: java.io.File, x$2: com.fasterxml.jackson.databind.JavaType)T <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  [T](x$1: java.io.File, x$2: com.fasterxml.jackson.core.type.TypeReference[_])T <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  [T](x$1: java.io.File, x$2: Class[T])T <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  [T](x$1: com.fasterxml.jackson.core.JsonParser, x$2: com.fasterxml.jackson.databind.JavaType)T <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  [T](x$1: com.fasterxml.jackson.core.JsonParser, x$2: com.fasterxml.jackson.core.type.ResolvedType)T <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  [T](x$1: com.fasterxml.jackson.core.JsonParser, x$2: com.fasterxml.jackson.core.type.TypeReference[_])T <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  [T](x$1: com.fasterxml.jackson.core.JsonParser, x$2: Class[T])T[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (scala.io.BufferedSource, Class[List[example.Deal]])[0m
+[0m[[0m[31merror[0m] [0m[0m    val data = mapper.readValue(json, classOf[List[Deal]])[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

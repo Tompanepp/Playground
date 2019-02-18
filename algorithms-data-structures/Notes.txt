@@ -1,0 +1,19 @@
+Sorting
+    Bubble sort => 
+        swap the number highest/lowest number to the end(bubble it up)
+
+    Insertion sort => 
+        pick number and insert into correct position in target list
+        shuffle numbers in target array if necessary
+
+    Selection sort =>
+        divide array into two conceptual parts
+            sorted
+            unsorted
+        find smallest/highest
+        swap it into the next index in the sorted array(with the number currently there)
+
+        characteristics = 
+            minimum swaps
+            high comparisons : each number compared to each number in unsorted section
+		

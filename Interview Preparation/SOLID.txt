@@ -62,7 +62,7 @@ Open Closed Principle
                 class Payment
                     +transferPayment
 
-                abstract  class Fee
+                abstract class Fee
                     +calculateFee
 
                 class EFTFee extends Fee
