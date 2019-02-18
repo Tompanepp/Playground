@@ -16,4 +16,15 @@ Sorting
         characteristics = 
             minimum swaps
             high comparisons : each number compared to each number in unsorted section
-		
+
+Data Structure points of analysis
+    Speed and efficiency : Big O analysis
+        array
+        set
+        hash table
+    Code elegance and maintability
+            stack
+            queue
+        These two are perfect for handling temporay data
+        Handle data in an order
+        Discard data when done
