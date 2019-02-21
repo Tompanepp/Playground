@@ -1,3 +1,11 @@
+/*
+    Stacks are useful for:
+        - processing data in reverse order
+        - undo operation
+        - executing function calls in a networked application
+            - the last one that came thrught must be ran 
+                - it's output substituted in the second last function and so on...
+*/
 circleOpeningBracket = '('
 circleClosingBracket = ')'
 curlyOpeningBracket = '{'
