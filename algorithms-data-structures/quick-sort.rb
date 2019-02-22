@@ -35,6 +35,9 @@ class SortableArray
         @array[pointer_2] = temp
     end
 
+    #works because the partition method always puts the pivot in the correct sorted place
+    #we just keep putting the pivot in the right place in the sub arrays
+    #brilliant!!!
     def quicksort!(left_index, right_index)
         if right_index - left_index <= 0
             return
