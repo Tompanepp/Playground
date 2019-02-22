@@ -50,3 +50,4 @@ Recursion:
         4. Progress the analysis by moving up one cae at a time
     Useful:
         - When you're repeating an algorithm within the same algorithm
+        - Don't know upfront how many levels deep you need to dig into something
