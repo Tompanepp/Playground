@@ -38,27 +38,26 @@ class LinkedList
     end
 
     def insert(value, index)
-        currrent_node = @first_node
-        currrent_index = 0
-        node_before_target_index = index - 1
-        while(currrent_index < node_before_target_index)
-            currrent_index = currrent_index + 1
-            currrent_node = currrent_node.next_node
-        end
+        currrent_node = find_node_before_target_index(index)
         new_node = Node.new(value)
         new_node.next_node = currrent_node.next_node
         currrent_node.next_node = new_node
     end
 
     def delete(index)
+        currrent_node = find_node_before_target_index(index)
+        currrent_node.next_node = currrent_node.next_node.next_node
+    end
+
+    private def find_node_before_target_index(target_index)
         currrent_node = @first_node
         currrent_index = 0
-        node_before_target_index = index - 1
+        node_before_target_index = target_index - 1
         while(currrent_index < node_before_target_index)
             currrent_index = currrent_index + 1
             currrent_node = currrent_node.next_node
         end
-        currrent_node.next_node = currrent_node.next_node.next_node
+        return currrent_node
     end
 
     def print()
