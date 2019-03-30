@@ -63,7 +63,8 @@ class Queue
     end
 
     def dequeue
-        @data.remove_front_front
+        removed_node = @data.remove_front_front
+        return removed_node.data
     end
 
     def print
@@ -94,7 +95,7 @@ linkedlist.print()
 
 puts "removing from front"
 front_node = linkedlist.remove_front_front()
-puts "front node data #{front_node.data}"
+puts "front node data #{front_node}"
 
 
 puts "Doubly linked list as perfect basis for queue"
@@ -110,4 +111,4 @@ shopping_queue.print()
 
 puts "chasier gets to work"
 shopper = shopping_queue.dequeue()
-puts "first shopper assisted #{shopper.data}" 
+puts "first shopper assisted #{shopper}" 
