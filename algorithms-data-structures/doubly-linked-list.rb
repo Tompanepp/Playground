@@ -8,15 +8,21 @@ end
 
 class DoublyLinkedList
     attr_accessor :first_node, :last_node
-    def initialize(first_node, last_node)
+    def initialize(first_node = nil, last_node = nil)
         @first_node = first_node
         @last_node = last_node
     end
     def insert_at_end(value)
         new_node = Node.new(value)
-        @last_node.next_node = new_node
-        new_node.previous_node = @last_node
+        if !first_node
+            @first_node = new_node
+            @last_node = new_node
+        else
+            @last_node.next_node = new_node
+            new_node.previous_node = @last_node
+        end
     end
+
     def print()
         _print(@first_node)
     end
@@ -44,7 +50,7 @@ node2.next_node = node3
 node4 = Node.new(4)
 node3.next_node = node4
 
-linkedlist = DoublyLinkedList.new(node1, node4)
+linkedlist = DoublyLinkedList.new()
 linkedlist.print()
 
 puts "inserting at the end"
