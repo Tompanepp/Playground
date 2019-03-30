@@ -9,4 +9,4 @@ def sort(arr):
     return arr
 
 data = [5, 4, 7, 2, 3, 1]
-print(sort(data))
+print(sort(data)) 
