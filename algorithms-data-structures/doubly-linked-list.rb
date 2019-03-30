@@ -67,6 +67,10 @@ class Queue
         return removed_node.data
     end
 
+    def tail
+        return @data.last_node.data
+    end
+
     def print
         @data.print()
     end
@@ -112,3 +116,5 @@ shopping_queue.print()
 puts "chasier gets to work"
 shopper = shopping_queue.dequeue()
 puts "first shopper assisted #{shopper}" 
+
+puts "unlucky last shopper :(, #{shopping_queue.tail}"
