@@ -20,6 +20,7 @@ class DoublyLinkedList
         else
             @last_node.next_node = new_node
             new_node.previous_node = @last_node
+            @last_node = new_node
         end
     end
 
