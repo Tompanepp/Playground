@@ -51,7 +51,14 @@ class LinkedList
     end
 
     def delete(index)
-
+        currrent_node = @first_node
+        currrent_index = 0
+        node_before_target_index = index - 1
+        while(currrent_index < node_before_target_index)
+            currrent_index = currrent_index + 1
+            currrent_node = currrent_node.next_node
+        end
+        currrent_node.next_node = currrent_node.next_node.next_node
     end
 
     def print()
@@ -87,4 +94,7 @@ linkedList = LinkedList.new(node1)
 
 puts "inserting 5 into index 3"
 linkedList.insert(5, 3)
+linkedList.print()
+puts "deleting the 5 at index 3"
+linkedList.delete(3)
 linkedList.print()
