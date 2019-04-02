@@ -1,0 +1,8 @@
+Question:
+Time as Words
+Write an algorithm in Pseudocode or your preferred language to convert a Digital Time (eg. 08:00) that is represented by a String into English Language (eg. Eight o’clock).
+Handle special cases like 00:00 (Midnight)
+
+
+
+“If you had to productionise your Twitter Application, how would you put together an architecture considering the Scale requirements for such an application.”
