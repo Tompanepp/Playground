@@ -66,7 +66,7 @@ node10 = Node(10, node4, node11)
 
 node25 = Node(25, node10, node33)
 node75 = Node(75, node56, node89)
-root = Node(50, node25, node25)
+root = Node(50, node25, node75)
 
 tree = BinaryTree(root)
 print tree.search(11).val
