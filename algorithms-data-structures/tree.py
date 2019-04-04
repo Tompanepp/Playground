@@ -23,6 +23,31 @@ class BinaryTree:
             elif value > node.val: return _search(node._rightchild)
         return _search(self._root)
 
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+    def traverse_and_print(self):
+        def _print(node):
+            if node is None:
+                return
+            _print(node._leftchild)
+            print(node.val)
+            _print(node._rightchild)
+        _print(self._root)
 node52 = Node(52)
 node61 = Node(61)
 node56 = Node(56, node52, node61)
@@ -45,3 +70,18 @@ root = Node(50, node25, node25)
 
 tree = BinaryTree(root)
 print tree.search(11).val
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tree.traverse_and_print()
