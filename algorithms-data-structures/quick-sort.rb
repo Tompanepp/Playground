@@ -47,9 +47,23 @@ class SortableArray
         quicksort!(left_index, pivot_position - 1)
         quicksort!(pivot_position + 1, right_index)
     end
+
+    def quickselect!(index, left_index, right_index)
+        if right_index - left_index <= 0
+            return @array[index]
+        end 
+        
+        pivot_position = partition!(left_index, right_index)
+        if index < pivot_position
+            quickselect!(index, left_index, pivot_position - 1)
+        else
+            quickselect!(index, pivot_position + 1, right_index)
+        end
+    end
 end
 
-array = [0, 5, 2, 1, 6, 3]
+array = [1, 2, 11, 17, 16, 15]
 sortable_array = SortableArray.new(array)
 sortable_array.quicksort!(0, array.length - 1)
+puts "quick selected value #{sortable_array.quickselect!(2, 0, array.length - 1)}" 
 puts sortable_array.array
