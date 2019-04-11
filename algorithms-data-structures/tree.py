@@ -36,6 +36,16 @@ class BinaryTree:
                 _insert(node._rightchild)
         _insert(self._root)
 
+
+    def delete(value):
+        def _delete(node):
+            if node.val == value:
+                if node._leftchild is None and node._rightchild is None:
+
+
+
+        _delete(self.root)
+
     def print_tree(self):
         print self._root.val
         def _print(node):
@@ -65,6 +75,7 @@ class BinaryTree:
             print(node.val)
             _print(node._rightchild)
         _print(self._root)
+
 node52 = Node(52)
 node61 = Node(61)
 node56 = Node(56, node52, node61)
