@@ -38,32 +38,51 @@ class BinaryTree:
 
 
     def delete(value):
+        def lift(node, nodeToDelete):
+            if node._leftchild:
+                node._leftchild = lift(node.leftchild, nodeToDelete)
+                return node
+            else:
+                nodeToDelete.value = node.val
+                return node._rightchild
+
         def _delete(node):
-            if node.val == value:
-                if node._leftchild is None and node._rightchild is None:
+            if node is None:
+                return None
 
-
-
+            elif value < node.val:
+                node._leftchild = _delete(node._leftchild)
+                return node
+            elif value > node.val:
+                node.rightchild = delete(node.rightchild)
+                return node
+            elif value == node.val:
+                if node._leftchild is None:
+                    return node._rightchild
+                elif node.rightchild is None:
+                    return node._leftchild
+                else:
+                    node._rightchild = lift(node._rightchild, node)
         _delete(self.root)
 
     def print_tree(self):
-        print self._root.val
+
         def _print(node):
             if node: 
                 if node._leftchild and node._rightchild: 
-                    print '/',
-                    print '\\'
-                    print node._leftchild.val,
-                    print node._rightchild.val
+                    print ('/'),
+                    print ('\\')
+                    print (node._leftchild.val),
+                    print (node._rightchild.val)
                     _print(node._leftchild)
                     _print(node._rightchild)
                 if node._leftchild and not node._rightchild:
-                    print '/'
-                    print node._leftchild.val
+                    print ('/')
+                    print (node._leftchild.val)
                     _print(node._leftchild)
                 if node._rightchild and not node._leftchild:
-                    print '\\'
-                    print node._rightchild.val
+                    print ('\\')
+                    print (node._rightchild.val)
                     _print(node._rightchild)
         _print(self._root)
 
@@ -97,14 +116,14 @@ node75 = Node(75, node56, node89)
 root = Node(50, node25, node75)
 
 tree = BinaryTree(root)
-print "searching for the value 11"
-print tree.search(50).val
+print ("searching for the value 11")
+print (tree.search(50).val)
 
-print "print the tree"
+print ("print the tree")
 tree.print_tree()
 
 tree.insert
 
-print tree.search(11).val
+print (tree.search(11).val)
 
 tree.traverse_and_print()
