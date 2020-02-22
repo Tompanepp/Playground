@@ -1,0 +1,69 @@
+Program:
+    consists of packages
+
+Program execution starts
+    packege "main"
+
+
+Conventions
+    Package name = last element in import path
+    i.e give import "math/rand"
+        all files in this folder begin with "package rand"
+
+Public Interfaces
+    members start with capital letter
+
+Functions
+
+    Declaration:
+
+        func add(a int, b int) int => function that add 2 numbers and returns an int
+
+        func add2(a, b int) int => can ommit type if same for consecutive NAMED parameters
+
+    Multiple results:   
+
+        func swap(a string, b string) (string string) {
+            return (b, a)
+        }
+
+        usage:
+        a, b := swap("aa", "bb")
+    
+    Named return variables:
+        
+
+Go declaration syntax:
+    https://blog.golang.org/gos-declaration-syntax
+
+
+    KEY RULES
+        name ALWAYS comes first
+        read left to right
+
+    EXAMPLES:
+        Type definition (for a value):
+            x int => x of type int
+            p *int => point to int
+            a [3]int => int array of size 3
+
+            f func(func(int, int) int, int) int => f is a funtion that takes
+                                                            a function and an int
+                                                            and returns a int
+
+                                                            => the function parameter takes 2 ints and returns an int
+
+            f2 func(func(int, int) int, int) func(int, int) int f2 is a funtion that takes
+                                                                    a function and an int
+                                                                    and returns a function that takes 2 ints and returns an int
+
+                                                                    => the function parameter takes 2 ints and returns an int
+
+    TYPE vs EXPRESSION syntax: HUH??
+        sum := func(a, b int) int { return a+b } (1,2)
+
+
+Pointers
+
+    var a []int => type def
+    a[2] => expression => array access
