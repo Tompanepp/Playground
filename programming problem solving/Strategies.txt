@@ -18,7 +18,7 @@ PATH PROBLEMS?
     Counting "events/things" in a path
 
 2. Walk the problem space while simultaneously solving the problem
-    as opposed to mapping out the whole problem space then solving the problem
+    as opposed to mapping out the whole problem space(i.e. the path) then solving the problem
 
     e.g. 
     JumpingOnTheClouds.txt
@@ -32,7 +32,8 @@ PATH PROBLEMS?
     ARRAYS
 3.  Compute the final state without walking the whole path step by step
     i.e. Avouid O(N) implementation
-    
+    If the final state factor is defined(e.g. number of rotations)
+
     e.g. ArrayLeftRotation.txt
     
     https://www.hackerrank.com/challenges/ctci-array-left-rotation/copy-from/75481377?h_l=interview&playlist_slugs%5B%5D%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D%5B%5D=arrays&isFullScreen=true
