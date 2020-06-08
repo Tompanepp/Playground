@@ -1,0 +1,99 @@
+
+
+Mountain = consecutive steps above sea level
+           starting with a step up from sea level and ending with a step down to sea level.
+
+Valley = sequence
+            consecutive steps 
+                below sea level
+            starting
+                step down from sea level 
+            ending 
+                with a step up to sea level.
+
+Given Gary's sequence of up and down steps during his last hike
+    Find number of valleys
+        he walked through
+
+Key
+    U = uphill step
+    D = downhill step
+
+Start of hike = sea level
+End of hike = sea level
+
+
+=============================
+
+stepsBelowSeaLevel: Int
+
+Representation?
+    Stack: LIFO = No
+    Queue: FIFO
+    
+    UDDDUDUU
+
+        stepsBelowSeaLevel = 0
+    U
+        stepsBelowSeaLevel = -1
+    D
+        stepsBelowSeaLevel = 0
+    D
+        stepsBelowSeaLevel = 1
+    D
+        stepsBelowSeaLevel = 2
+    U
+        stepsBelowSeaLevel = 1
+    D
+        stepsBelowSeaLevel = 2
+    U
+        stepsBelowSeaLevel = 1
+    U
+        stepsBelowSeaLevel = 0
+
+    DDUUDDUDUUUD
+        stepsBelowSeaLevel = 0
+    D 
+        stepsBelowSeaLevel = 1
+    D 
+        stepsBelowSeaLevel = 2
+    U 
+        stepsBelowSeaLevel = 1
+    U 
+        stepsBelowSeaLevel = 0
+
+    ======================== Valley
+
+    D 
+        stepsBelowSeaLevel = 1
+
+    D 
+        stepsBelowSeaLevel = 2
+
+    U 
+        stepsBelowSeaLevel = 1
+
+    D 
+        stepsBelowSeaLevel = 2
+
+    U 
+        stepsBelowSeaLevel = 1
+
+    U 
+        stepsBelowSeaLevel = 0
+
+    ========================= Valley
+
+    U 
+
+    D    
+
+====
+Count valleys
+For whole queue
+    Extract step
+        if step == U, stepsBelowSeaLevel -=1
+        if step == D && stepsBelowSeaLevel == 0, stepsBelowSeaLevel +=1
+
+        if step == D, stepsBelowSeaLevel +=1
+            

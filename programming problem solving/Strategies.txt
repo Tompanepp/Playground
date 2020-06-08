@@ -1,0 +1,31 @@
+
+
+
+0. Can the incoming data structure be used to solve the problem?
+    Is there a solution inherent in the structure itself already?
+
+    e.g. repeated string problem
+    https://www.hackerrank.com/challenges/repeated-string/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup
+
+1. Can you rearrange the data in to a structure more suitable for the problem?
+
+    e.g. SockMerchant.txt
+    https://www.hackerrank.com/challenges/sock-merchant/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup
+
+
+PATH PROBLEMS?
+    Path finding
+    Counting "events/things" in a path
+
+2. Walk the problem space while simultaneously solving the problem
+    as opposed to mapping out the whole problem space then solving the problem
+
+    e.g. 
+    JumpingOnTheClouds.txt
+    https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup
+
+
+    CountingValleys.txt
+    https://www.hackerrank.com/challenges/counting-valleys/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup
+
+    
