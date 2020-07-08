@@ -37,3 +37,10 @@ PATH PROBLEMS?
     e.g. ArrayLeftRotation.txt
     
     https://www.hackerrank.com/challenges/ctci-array-left-rotation/copy-from/75481377?h_l=interview&playlist_slugs%5B%5D%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D%5B%5D=arrays&isFullScreen=true
+
+4. Given a jumbled state and an original state??
+   
+   Q: How many operations did it take to get to jumbled state?
+        Reverse to initial state and count operations to rollback
+
+   e.g. NewYearChaos.scala

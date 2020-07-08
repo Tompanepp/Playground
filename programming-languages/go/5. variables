@@ -1,0 +1,25 @@
+var => declares list of variables
+       type of variables is last
+
+       e.g var name string
+
+Syntax rules
+    = Can be at:
+        package level   
+        function level
+
+Example:
+    package main
+
+    import "fmt"
+
+    func double(intialValue int) int {
+        //function level
+        var doubleValue = intialValue * 2
+        return doubleValue
+    }
+
+    //package level
+    var startValue int = 1
+    fmt.Println(double(startValue))
+
