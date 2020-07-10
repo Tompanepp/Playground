@@ -29,7 +29,7 @@ PATH PROBLEMS?
     https://www.hackerrank.com/challenges/counting-valleys/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup
 
 
-    ARRAYS
+    
 3.  Compute the final state without walking the whole path step by step
     i.e. Avouid O(N) implementation
     If the final state factor is defined(e.g. number of rotations)
@@ -38,9 +38,9 @@ PATH PROBLEMS?
     
     https://www.hackerrank.com/challenges/ctci-array-left-rotation/copy-from/75481377?h_l=interview&playlist_slugs%5B%5D%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D%5B%5D=arrays&isFullScreen=true
 
-4. Given a jumbled state and an original state??
+4. Given a jumbled state and an original state
    
    Q: How many operations did it take to get to jumbled state?
-        Reverse to initial state and count operations to rollback
+   A: Reverse to initial state and count operations required to rollback
 
    e.g. NewYearChaos.scala
