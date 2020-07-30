@@ -1,3 +1,6 @@
+What is Scala?
+    Object Orientated Multi-paradigm programming language that supports functional and imperative programming.
+
 What is the difference between a var, a val and def?
     var is a keyword for creating mutable object pointers (also known as variables)
     val is a keyword for creating immutable object pointers

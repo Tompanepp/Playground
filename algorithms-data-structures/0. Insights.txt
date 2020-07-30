@@ -4,6 +4,11 @@
         decisionss = if, else
         repeat = iteration constructs = loops, recursion
 
+    Developing them:
+        BUD
+        Step 1: Brute force =  A sequence of steps that does the things
+        Step 2: Unnecessary Work =  Optimise 
+
 2. Data Structures are just how you store things
     to store something, you need:
         place to store it = array index, node in a list, leave in a tree etc
