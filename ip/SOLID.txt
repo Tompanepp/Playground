@@ -1,0 +1,222 @@
+Single Responsibility:
+    Software components(classes/functions/modules) should be responsible for only one thing
+
+    Examples: Payments platform
+        Imagine we had 
+            class Transaction(feeData, paymentData)
+                +calculateFee
+                +transferPayment
+
+        PROB: This class is responsible for two things FEES and PAYMENTS
+        ISSUE: When changing FEES related functionality you need to regression test PAYMENTS
+            because you MIGHT have broken features in there
+
+        SOLUTION:
+            class Payment
+                +transferPayment
+
+            class Fee
+                +calculateFee
+
+            class Transaction(fee: Fee, payment: Payment)
+
+            Delegate to these classes where you need their functionality
+
+            Benefit:
+                Independent testing
+                Change one without definitely affecting the other
+                Reusabiluuy, Fee and Payment can be used in other places in the code base
+
+Open Closed Principle
+    Software components(classes/functions) should be OPEN for EXTENSION
+    but CLOSED for modification.
+
+    By  Bertrand Mayer
+
+    You should not need to modify existing code to add new features. New features
+    should just be an extension of what is already there.
+
+    Design your classes in a way that lends them to enhancement via subclases and inheritance.
+
+
+    Example:
+        class Transaction(paymentAmount, fromBankAccount, ToBankAccount, FeePercent)
+            +calculateFee = FeePercent * paymentAmount
+            +transferPayment
+
+        New Requirement: Different for fee rates per transaction type
+            One way to do this:
+                - add transactionType class parameter
+
+            class Transaction(paymentAmount, fromBankAccount, ToBankAccount, FeePercent, transactionType)
+                +calculateFee = {
+                    if transactionType == "XX": FeePercent * paymentAmount
+                    else: SomeOtherFeePercent * paymentAmount
+                }
+                +transferPayment
+
+            PROB: We're already violating Single Responsibility here
+
+
+            SOLUTION
+                class Payment
+                    +transferPayment
+
+                abstract class Fee
+                    +calculateFee
+
+                class EFTFee extends Fee
+                    +calculateFee //specific calculation for EFTFee
+
+                infuture
+                class ChequeDepositFee
+                    +calculateFee 
+
+            Benefit:
+                No regression on existing features
+                Independent testing
+                Change one without definitely affecting the other
+                Reusabiluuy, Fee and Payment can be used in other places in the code base
+
+
+Libskov Substitution Principle
+    Subclases should be substitutable for base classes and client code should not know which substype it dealing with.
+    Implementation guidelines:
+        subclases should NOT introduce any new exceptions
+        subclases should be substitutable for base types
+        This is specific type of subtyping called "strong behavioral subtyping"
+
+        Example:
+                abstract class Payment
+                    +transferPayment(amount)
+
+                abstract class Fee
+                    +calculateFee
+
+                class EFTFee extends Fee
+                    +calculateFee 
+
+                class ZapperPayment extends Payment
+                    +transferPayment
+
+                class BankToBankPayment extends Payment
+                    +transferPayment : throws Exception for Zero payment
+
+            PROB:
+                subtype BankToBankPayment introduces a new exception
+                We could check that the amount is not zero before pass the subtyp through, but this means the client needs to worry about 
+                which subtype it is dealing( further violating LSP)
+
+            SOLUTION
+                trait ZeroPayablePayment
+                    +transferPayment(amount): //do work
+
+                trait NonZeroPayablePayment
+                    +transferPayment(amount): if amount < 0 throw ZeroAmountException
+
+                class ZapperPayment extends ZeroPayablePayment
+                    +transferPayment
+
+                class BankToBankPayment extends NonZeroPayablePayment
+                    +transferPayment
+
+            BENEFITS:
+                Observes SRP and OCP
+                No need to worry about which subtype you're dealing with    
+                    and take full advantage of polymorphism
+
+
+Interface Segration Principle
+    Specific interfaces
+
+    trait Stream
+        +read
+        +write
+        +close
+
+    class ReadWriteFileStream extends Stream
+        +read: read file
+        +write: write some data to a file
+        +close: close the file
+
+    class ReadOnlyFileStream extends Stream
+        +read: read file
+        +write: throw exception
+        +close: close the file
+
+    class rire OnlyFileStream extends Stream
+        +read: throw exception
+        +write: read file 
+        +close: close the file
+
+    PROB:
+        The interfaces are too broad
+        classes that only have functionality for the subset of behavior throw exceptions
+        I think its poor design to have classes expose behavior they do not know how to perform
+        Also client code will need to worry about which subtype of Stream they're dealing with 
+            and invoke only valid behavior: THIS VIOLATES Libskov Substitution Principle
+
+    SOLUTION
+        trait ReadStream
+            +read
+            +close
+
+        trait WriteStream
+            +read
+            +write
+            +close
+
+        class ReadOnlyFileStream extends ReadStream
+            +read: read file
+            +close: close the file
+
+        class WriteOnlyStream  extends WriteStream
+            +write
+            +close
+
+        class ReadWriteFileStream extends ReadStream with WriteStream
+            +read: read file
+            +write: write some data to a file
+            +close: close the file
+
+Dependency Inversion Principle
+    High Level Modules should not depend on low level details
+    Both low level details and high level modules should depend upon asbtractions
+
+    This principle is embodied very well by the common practice of coding to interfaces
+
+    Example:
+        class RestApplication(payemntReposity:PaymentReposity)
+
+        class PaymentReposity
+            +savePayment
+
+        PROB:
+            The RestApplication depends on a low level construct called PayemntReposity for accessing the Payment Database
+            This makes these two tightly coupled
+                -changes in the PayemntReposity directly affect the RestApplication
+                -you cannot easily swap out the repository Implementation(say you wanted to write to a mongoDB instead of SQL server)
+                    -you'd have to redefine the RestApplication class
+                        -either change the type for payemntReposity
+                        -or add another parameter for mongoPaymentRepository
+
+        SOLUTION
+            trait Repository
+
+            class PayemntReposity extends Respository
+
+            class RestApplication(repository: Repository)
+
+        BENEFITS
+            Now the RestApplication is decoupled from specific repository implementations
+            You can easily swap out repositories as long as they implement the contract defined by the abstract contract defined in Respository
+
+
+            
+
+
+                    
+
+
+
+

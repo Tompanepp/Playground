@@ -1,0 +1,69 @@
+Encapsulation
+    Feature that allows programmers to bundle data and functions that operate on the data into one construct
+    Benefit: Reduces complecxity, because it allows the programmer to think about 
+             Makes code reusable because its bundled into on construct that can created and used across a program
+
+    Example:
+        class Payment(amount: BigDecimal, fee: Fee)
+            +transferMoney
+Inheritance
+    Feature that allows programmers to define classes in terms of other classes
+        Creating parent/subclass relationships
+
+    Benefit: Removes depulication of common logic by allowing us to define it once in parent class and have it accessible
+                to subclasses
+
+            Reduces complexity because common need only be changed in one place as opposed to attempting to
+                scour a system for every place some repeated code is implemented
+    
+    Example:
+        abstract class Fee
+            +calculateTax
+            +calculateFee
+
+        class ZapperFee extends Fee
+            +calculateFee(): does some specifc stuff
+
+        class SnapScanFee extends Fee
+            +calculateFee(): does some specifc stuff
+
+Polymorphism
+    Feature that allows programming languages to deal with objects differently at runtime based on their
+        type
+
+    Benefit: Reduces complexity of needing to know which type subtype your dealing with in order to invoke
+        the right method???
+        Often you would do this with switch/cas statements
+    
+    Example:
+        abstract class Fee
+            +calculateTax
+            +calculateFee
+
+        class ZapperFee extends Fee
+            +calculateFee(): calculateTax +  does some specifc stuff
+
+        class SnapScanFee extends Fee
+            +calculateFee(): calculateTax + does some specifc stuff 
+
+
+        class Payment(amount: BigDecimal, fee: Fee) 
+            -fee Fee
+            +transferMoney
+                fee.calculateFee() + other work
+
+Abstraction
+    A technique to hide implementation details that client code don NOT need to know about in order
+        to use our class
+
+    Benefit:
+        Cleaner interfaces for client code
+        Isolate impact changes to a class
+
+    class Payment(amount: BigDecimal, fee: Fee) 
+        -contantFactor: BigDecimal
+        -fee Fee
+        +transferMoney
+            fee.calculateFee() + other work
+
+        
