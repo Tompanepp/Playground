@@ -1,9 +1,0 @@
-Tell me a recent technical challenge you were faced with and how did you deal with it?
-    Migration of a tranasction from a large monolith violating many principles such as Single Responsibility and coding to interfaces.
-    The challenge here was that we had classes instantiating classes that further instantiated classes(This was a few levels deep)
-
-    Approach:
-        1. Migrate the transaction as is, getting it compiling
-        2. Migrate tests
-        3. Refactor implementation to code to contracts at the main ochestration class definition
-            Inject all its dependecies
