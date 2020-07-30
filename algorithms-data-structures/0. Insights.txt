@@ -1,0 +1,10 @@
+1. Algorithms are just a sequence of steps "to do something"
+    "to do something", you need:
+        store and name things = variables/values(see point 2)
+        decisionss = if, else
+        repeat = iteration constructs = loops, recursion
+
+2. Data Structures are just how you store things
+    to store something, you need:
+        place to store it = array index, node in a list, leave in a tree etc
+        a way to retrieve = access patterns = LIFO, FIFO etc
