@@ -9,4 +9,5 @@ Scala/.idea/misc.xml
 Scala/.idea/workspace.xml
 .vscode
 *.pyc
-ip/c-t-c-i/*.txt
+ip/c.t.c.i/*.txt
+!ip/c.t.c.i/6. Big O.txt
