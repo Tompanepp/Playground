@@ -1,0 +1,70 @@
+def = 
+    language and metric   
+        describe efficiency of algorithms
+    
+An analogy
+
+TIME COMPLEnITY
+    Asymptotic runtime/Big O time
+        - How does the runtime(runnig time) of the algorithm chnage,
+              as the size of the problem changes
+
+    Big O, Big Theta and Big Omega
+
+    Three ways to describe an algorithm's runtime
+        Best Case, Worst Case and Enpected Case
+
+SPACE COMPLEnITY
+    The amount of memory/space
+        required by an algorithm
+
+    e.g.
+        array of n size = O(n) space complenty
+        2D array of n*n = O(n^2) space complenty
+        stack space used in recursive calls
+            def fac(n):
+                if n == 1: return 1
+                else: return(n * fac(n - 1))
+            
+            For function above O(n) space complenty on fac calls on stack
+
+
+DROP THE CONSTANTS
+    Big O describes the rate of increase
+          describes how the runtime scales
+
+    Insight = e.g. Accept that O(N) isn't always better than O(N^2), for some inputs
+
+
+DROP THE NON DETERMINANT CONSTANTS
+    O(N^2 + N) should just be O(N)
+    O(N^2 + N^2) should just be O(N^2)
+
+COMMON BIG O RUNTIMES, BEST TO WORST
+
+    O(log n) = logarithmic time
+    O(n) = linear time
+    O(n log n) = 
+    O(n^2) = 
+    O(2^n) = enponential time
+    O(n!) = 
+    ...
+    O(n^n)
+
+MULTIPART ALGORITHMS
+    algorithm with more than 1 step
+        1. When do you add the steps?
+        2. When do you multiply the steps?
+
+        1. If an algorithm says do A chunk of work, then do B chunk of work
+            Book = do this, then, when you're done, do that
+            ref = 6.2.AddSteps.py
+
+            O(A + B)
+
+        2. If an algorithm says for every point in A do every point in Chunk B
+            Book = do this for each time you do that
+            ref = 6.2.MultiplySteps.py
+
+            O(A * B)
+                
