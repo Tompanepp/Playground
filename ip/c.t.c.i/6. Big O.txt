@@ -56,8 +56,8 @@ MULTIPART ALGORITHMS
         1. When do you add the steps?
         2. When do you multiply the steps?
 
-        1. If an algorithm says do A chunk of work, then do B chunk of work
-            Book = do this, then, when you're done, do that
+        1. If an algorithm says do A chunk of work, then when you're all done, then do B chunk of work
+            Book = do this, then, when you're all done, do that
             ref = 6.2.AddSteps.py
 
             O(A + B)
@@ -67,4 +67,26 @@ MULTIPART ALGORITHMS
             ref = 6.2.MultiplySteps.py
 
             O(A * B)
-                
+
+AMORTISED TIME ???(COME BACK TO THIS)
+    def = rumtime that descibes the worst case happens infrequently
+
+    ArrayList
+        insertion runtime:
+            full => worst case = O(N + 1) => O(N)
+                                rare
+            common = O(1)
+
+        Expl: during insertion, double capacity when size is power of 2
+              double the capacity at size  1,2,4,8,16 ... X
+                                     takes 1,2,4,8,16 ... X copies
+
+                                     left to right = doubles until you get to X
+                                     right to left = halves until you get to 1
+                                     X + x/2 + x/4+ x/8 + ... 1 roughly 2X 
+
+                                     X insertion takes O(2X) = armotised time for each insertion
+                                     
+
+
+            
