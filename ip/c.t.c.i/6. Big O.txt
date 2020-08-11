@@ -88,5 +88,29 @@ AMORTISED TIME ???(COME BACK TO THIS)
                                      X insertion takes O(2X) = armotised time for each insertion
                                      
 
+log N RUNTIMES
+    O(log N)
+    Problem size is halved until its equal to 1
+
+    16
+    8   = 16/2
+    4   = 8/2
+    2   = 4/2
+    1   = 2/2
+
+    What is log?
+        2^k = N
+        What is the power to raise 2 to, to get N?
+            i.e what is K?
+            log N = K
+                concrete examples:
+                    log 2 = 1
+                    log 16 = 3
+
+
+
+
+
+
 
             
