@@ -18,7 +18,7 @@
             swap(currentIndex, currentValueCorrectIndex)
 */
 
-def minimumBribes(list: Array[Int]): Unit = {
+def minimumSwaps(list: Array[Int]): Unit = {
     var swaps = 0
     var swapped = true
     val zeroIndexOffset = 1
@@ -28,29 +28,26 @@ def minimumBribes(list: Array[Int]): Unit = {
         list(indexB) = list(indexA)
         list(indexA) = tempB
     }
-    var i = 2
+    var i = 1
     while(i > 0) {
         swapped = false
         list.zipWithIndex.foreach {
             case(value: Int, index: Int) => 
-                println(value, index)
                 val expectedIndexValue = index + zeroIndexOffset
-                println(s"expectedIndexValue $expectedIndexValue")
+                list.foreach(print)
                 if(expectedIndexValue != value) {
                     swapped = true
                     swaps += 1
                     val currentValueCorrectIndex = value - zeroIndexOffset
-                    println(s"currentValueCorrectIndex $currentValueCorrectIndex")
                     swap(index, currentValueCorrectIndex)
-                    list.foreach(print)
                     println
-                    return
                 }
         }
         i -= 1
+        println("out")
     }
 
-    println(swaps)
+    println(s"swaps $swaps")
 }
 
-minimumBribes(Array(4, 3, 1, 2))
+minimumSwaps(Array(4, 3, 1, 2))
