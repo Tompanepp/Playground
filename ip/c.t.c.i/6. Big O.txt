@@ -121,8 +121,11 @@ RECURSIVE RUNTIMES
         INCORRECT! as subsequent calls in the first f(n - 1) each generate a pair of f(n - 1)
             that's not a loop through N elements(it's a lot more) 
 
+    Common = O(branches ^ depth=N)
+                branches = branch per recursive call
     correct
         O(2^N)
+        EXPLAIN??
 
 
 
