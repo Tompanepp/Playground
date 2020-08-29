@@ -1,6 +1,3 @@
-
-
-
 0. Can the incoming data structure be used to solve the problem?
     Is there a solution inherent in the structure itself already?
 
