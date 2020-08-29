@@ -46,5 +46,12 @@ PATH PROBLEMS?
    e.g. NewYearChaos.scala
 
 
+5. Testing solutions
+    base cases
+    general cases
+    error cases
+    etc
+
+    
 OPTMISATIONS NEEDED?
     Hash table
