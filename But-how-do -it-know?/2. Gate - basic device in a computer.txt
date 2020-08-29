@@ -1,0 +1,69 @@
+Chapter: What the...
+    A CRAZY LIGHTING SYSTEM (With TWO swicthes)
+        -> If BOTH swicthes are ON the light is OFF
+        -> If BOTH swicthes are OFF the light is ON
+        -> If either swicth is OFF the light is ON
+
+    GATE
+        This is the fundamental device needed to build a Computer, BUT you need a lot of them
+        Device that has connections to:
+            2 input wires
+            1 output wire
+
+            The wires are bits as defined above
+
+        It is also connected to two wires
+            -> one wire is connected to a place where electricity is always ON 
+            -> one wire is connected to a place where electricity is always OFF
+        
+        The state of the 1 output bit is determined by the 2 input bits according to the the 'A CRAZY LIGHTING SYSTEM' above
+
+
+        Types of gates
+
+            -> (Negative AND) NAND gate => The base gate on which all gates are built: It uses the 'A CRAZY LIGHTING SYSTEM' above
+                   a     b     c
+                | on  | on  | off |
+                | on  | off | on  |
+                | off | on  | on  |
+                | off | off | on  |                
+
+            -> NOT gate => tie the a and b wires together of the NAND so they'are always the same
+                           they can still be turned on or off but can NEVER be different, they're either both on or off
+
+                Verbose version
+                       a     b     c
+                    | on  | on  | off |
+                    | off | off | on  |
+
+                Simplified version (since a is equal to b {apply arithmetic here})
+                       a     c
+                    | on  | off |
+                    | off | on  |
+
+            -> AND gate => combination of the NAND + NOT gate
+           
+                Verbose version
+                        a     b    x     c
+                    | on  | on  | off | on  |
+                    | on  | off | on  | off |
+                    | off | on  | on  | off |
+                    | off | off | on  | off |     
+
+                Simplified version
+                    Since the 'x' bit is not available to be connected (says the book : I say it is available, the NOT gate is connecting to it?)
+                       a     b    c
+                    | on  | on  | on  |
+                    | on  | off | off |
+                    | off | on  | off |
+                    | off | off | off |
+
+                The 'AND' word usage in Computers
+                    - adjective => this is an 'AND' gate
+                    - verb => let's 'AND' these two bits 
+
+        Symbol meaning
+            The 'D' means to the AND function => take action if both inputs are on
+            The 'o' (little circle) means swicth to the opposite
+            The '/\' triangle of the NOT gate means take an input and turn it into an output
+                 __

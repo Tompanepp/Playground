@@ -1,0 +1,89 @@
+      THE NARRATIVES
+Chapter 1:
+Chapter 2:
+Chapter 3: Mapping to relational databases
+
+  The Structural problem:
+    -> How do you relate tables to objects
+
+  The behavioural problem
+    -> Getting objects to load and save themselves to the database (and keeping the
+    data consistent)
+
+    Options:
+      Active Record(160)
+      Unit of Work(184)
+      Identity Map(195)
+      Lazy Load(200)
+
+  Reading In Data
+
+  Structural Mapping Patterns
+
+Chapter 4
+
+  View Patterns
+    Template View vs Transform View
+
+    One Stage vs Two Step View
+
+  Input Controller Patterns
+    Page Controller vs Front Controller
+
+
+Chapter 5 : Concurrency
+
+  General solution: concurrency controls
+
+  Two basic concurrency problems:
+    Lost updates
+    Inconsistent read: read data is correct only at a specific time
+
+  Execution contexts
+
+  Possible solutions (in the enterprise application space)
+    -> Isolation
+    -> Immutability
+    -> Tranasctions
+
+
+    -> Immutability
+      What if we can't have shared data that we can't ISOLATE?
+        Proposed solution: Opportunistic and Pessimistic Concurrency control
+
+
+        Issues with the proposed solutions
+
+          Pessimistic Concurrency control
+            1. Deadlocks : Sol: Timeouts and Detection
+
+
+   -> Tranasctions
+    ACID
+    Business Transactions
+    System Transactions
+
+    Concurrency control where data spans multiple transaction systems
+        Offline concurrency
+
+Chapter 6: Session state
+
+  Patterns for dealing with session state
+    Client Session State
+    Server Session State
+    Database Session state
+
+Chapter 7: Distribution strategies
+  CORBA
+
+Chapter 8: Putting it all together
+
+  Step 1: Which domain logic approach?: Transaction Script, Table Module, Domain Model
+  Step 2: Connection to database: Row Data GateWay, Table Data GateWay, Active Record
+  Step 3: Presentation
+          3.1 Structure: MVC
+          3.2 Controller: Page Controller and Front Controller
+          3.3 View: Template View and Transform View
+
+          THE PATTERNS
+Chapter 9:

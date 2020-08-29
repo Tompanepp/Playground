@@ -123,11 +123,21 @@ RECURSIVE RUNTIMES
 
     Common = O(branches ^ depth=N)
                 branches = branch per recursive call
+
+                Applies when there are more than 1 function calls per recursive node 
+
+                Otherwise it's just O(N), much like a loop (asuuming ofcourse we go through each value of N)
     correct
         O(2^N)
         EXPLAIN??
 
+EXCERCISES
+    Why sorting is O(N log N)?
+        Come back:
+        Exercise 8
+        Exercise 9
+        Exercise 10
 
 
-
+Progress = Page 3
             

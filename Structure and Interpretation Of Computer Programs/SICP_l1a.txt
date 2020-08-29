@@ -1,0 +1,52 @@
+Session 1:
+  Intuition about Process(How to knowledge)
+  Procedure: Pattern of rules that direct the Process
+
+  Techniques for controlling complexity
+    1.1. Black box abstraction (Building and composing boxes of functionality(i.e boxes that know how to do something))
+
+      - Primitive Objects
+        Primitive procedures
+        Primitive data
+
+      - Means of Combination
+        Procedure composition
+        Construction of compound data
+
+      - Means of Abstraction
+        Procedure definition
+        Simple data abstraction
+
+      - Capturing Common Patterns
+        High-order procedures
+        Data as procedures
+
+    1.2. Conventional Interfaces(Agreed upon ways of connecting things together)
+      (* x (a + b)): How can we build in a way that a and b can be anything?
+
+        - Generics operations
+        - Large scale structure and modularity
+        - Object Orientated Programming
+        - Operations on aggregates
+
+
+    1.3. Metalinguistic abstraction
+
+
+Session 2:
+  Questions at the beginning of assessing a language
+
+    Primitive elements
+    Means of combination
+    Means of abstractions
+
+    LISP
+      Primitive elements = 1, 3 etc
+      
+      Means of combination = ()
+      (* 37.5 5) -> combination (LISP's means of combinations)
+        : Apply an operator to operands
+
+     Means of abstractions
+        (define A (* 5 4))
+        (* A A)

@@ -1,0 +1,7 @@
+Chapter: Codes
+
+def Copmuter Code (Not prorgramming langyage code):
+    Something that allows you to assocuate the 256 states a byte can be in
+    with somethig else,
+
+    e.g ASCII for assocating the bye states with letters of the alphabet

@@ -1,0 +1,209 @@
+JAVA NUGGETS
+
+    Wrapper objects are immutable
+    Data byte, has a range of -128 to 127
+    Labelled breaks must exist inside the loop they are declared in(I prefer declared for)
+
+    String.substring(start-index(inclusive), end-index(exclusive))
+
+    Obeject.equals evaluates the pointer value and not the actual object
+
+    Pitfall: the lost exception
+
+    ENCAPSULATION
+
+    setters should be written such that they do not leave data members inconsistent 
+
+    KNOWLEDGE BITES
+    Encapsulation:
+        The  key is  that  your  data  variable  should  be  private  and  the        functionality  that  is  to  be exposed  outside  should  be  public.      Further,  your  setter  methods  should  be  coded  such that  they  don't  leave  the  data  members  inconsistent  with  each  other.
+
+    INSTANCE MEMBERS AND METHODS
+
+    Instance methods and variables available depend on the class type of the reference variable and not the object
+    EXAMPLE:
+    Assuming MNOP extends ABCD
+    
+    ABCD x = new MNOP()
+
+    Members of ABCD will be accessed and not members of MNOP.
+
+    x.toArray() this calls's ABCD's method
+
+
+    INHERITANCE
+        constructors are not inherited.
+        One can still explicitly call them using (super.Contrctor()); 
+        Private members are not inherited (only public, package and protected level members are inherited)
+        Package level access is the default class member definition
+
+        Methods
+        Static methods are not overridden, they are shadowed
+        final and private members cannot be overridden(final members because they're declared final, private members are not inheritex
+
+    Member variables are shadowed and methods are overriden
+    
+    STRINGS
+        STRING COMPARISONS
+    String interning.
+
+        String literals are valid string objects
+
+
+
+    IMPORTING LIBRARIES
+    Classes without packages are housed on the default package(no name package). They cannot be accessed from classes in other packages.
+
+    Pitfall: the lost exception pg 336
+
+    INTERFACES
+    Default access modifier is public and abstract
+    Methods cannot be private,final or protected.
+    Member variables have to be final
+    Attributes and members are public, final and static
+
+
+    CLASS HIERARCHIES AND STATIC MEMBERS
+
+    class Test{  public static void main(String[] args){     One o = null;     Two t = new Two();  }}
+
+    As  per  JLS  12.4.1  -  A  class  or  interface  type  T  will  be  initialized  immediately  before the  first  occurrence  of  any  one  of  the  following: T is  a  class  and  an instance  of  T  is  created. T is  a  class  and  a  static  method  declared  by  T  is  invoked. A static  field  declared  by  T  is  assigned. A static  field  declared  by  T  is  used  and  the  field  is  not  a  constant  variable. T is  a  top-level  class,  and  an  assert  statement  lexically  nested  within  T  is  executed. The  statement  One  o  =  null;  does  not  fall  in either  of  the  cases  mentioned  above.  So class  One  is  not  initialized  and  its  static  block  is  not  executed.  Class  Two  is initialized  only  after  its  superclass  Super  has  been  initialized.
+
+    INHERITANCE FLOW
+
+    Base class references can point to any sub class object
+    Sub class references cannot point to base class objects
+            You can explore explicitly cast the object but it will fIl at RunTime
+
+    WRAPPER CLASSES
+
+    equals method:
+    The  equals  method  of  all  wrapper  classes  first  checks  if  the  two  object are  of  same  class  or  not.  If  not,  they  immediately  return  false.
+
+    ARRAYS
+    1. The length of an array can never be on the LHS. The LHS is the array reference, you can't associate the length with the reference, you do this with the actual instance
+
+    UNSIGNED INTEGERS
+    not supported in java
+    char can be used for an unsigned integer
+    How and why?
+
+    CONTINUE AND BREAK STATEMENTS
+
+    A break statement  with  no  label  attempts  to  transfer  control  to  the  "innermost" outermost enclosing switch,  while,  do,  or  for  statement;  this  statement,  which  is  called  the  break  target, then  immediately  completes  normally.  If  no  switch,  while,  do,  or  for  statement encloses  the  break  statement,  a  compile-time  error  occurs. A break statement  with  label  Identifier  attempts  to  transfer  control  to  the  enclosing labeled  statement    that  has  the  same  Identifier  as  its  label;  this  statement,  which  is called  the  break  target,  then  immediately  completes  normally.  In  this  case,  the  break target  need  not  be  a  while,  do,  for,  or  switch  statement.
+
+    A continue  statement  with  no  label  attempts  to  transfer  control  to  the  "innermost" outermost enclosing  while,  do,  or  for  statement;  this  statement,  which  is  called  the  continue target,  then  immediately  ends  the  current  iteration  and  begins  a  new  one.  If  no  while, do,  or  for  statement  encloses  the  continue  statement,  a  compile-time  error  occurs. A continue  statement  with  label  Identifier  attempts  to  transfer  control  to  the  enclosing labelled  statement  that  has  the  same  Identifier  as  its  label;  that  statement,  which  is called  the  continue  target,  then  immediately  ends  the  current  iteration  and  begins  a  new one.  The  continue  target  must  be  a  while,  do,  or  for  statement  or  a  compile-time  error occurs.  If  no  labelled  statement  with  Identifier  as  its  label  contains  the  continue statement,  a  compile-time  error occurs.
+
+
+
+    PRINCIPLE OF COVARIANT RETURNS
+
+    Break without label breaks only the current loop
+
+    principle  of  covariant  returns  applies: when an overridden method returns an object,(Parent), objects of subclasses of the object's(Parent) class can be returned in the objects's place.
+
+    This principle does not apply for primitives, be wary of the need to cast return values if necessary
+
+    LABELS
+
+    BREAK STATEMENT
+    A break statement without a label "breaks" out of the loop(stops any further iterations)
+
+    A break statement with label "tries" to break out the loop. "tries": if there is a finally clause associated with the try the break is in, it will be executed.
+
+
+    VARIABLE INITIALISATION
+
+    local variables need to be explicitly initialised(local to methods, including main)
+    Instance and static members are automatically initialised
+
+    - Only non-final members get default initial value
+    - Final members must be initialised when an instance is created (using an initialiser block  or in EVERY constructor)
+
+    METHODS
+
+    String.compareTo() 
+    -does  a  lexicographical  (like  a  dictionary)  comparison, it stops immediately after finding A difference.
+    -Converts letters into their unicode representation.
+    - method name and return type always follow each other
+        void speak() always in this order
+    println(): takes object parameter and call the toString() method of that object. 
+                : when passed null or a null reference it does not attempt to call the toString(), simply prints "null"
+
+
+    UNICODE
+    - The unicode representation of lower case and upper case ENGLISH letters always has a difference of 3 for the same letter.
+    lower case is always 32 greater than the upper case
+
+    EXCEPTIONS
+
+    - Exceptions are overridden, if one a method throws an exception(E1) and nothing is done about it and another one exception is thrown (E2). E1 will be ignored and lost.
+
+
+    COOL METHODS
+
+    - Character.isJavaIdentifierStart(int): validate character for starting a Java identifier
+    - System.gc : hint garbage collection
+
+
+    STATIC MEMBERS
+    - Accessible by both static and non-static members
+
+    INTEGER
+
+    parseInt(int string represented value)
+
+    IMPORTS
+
+    import com.* will import only the CLASSES in the com package NOT the subpackages
+
+    CLASSES AND FILES
+    - One TODAY-LEVEL class per file
+    - Unlimited subclasses
+
+
+    CONSTRUCTORS 
+    - no return type
+    - cannot be final
+        - constructors are NOT inherited, there is no needto ma
+
+    CLASS MEMBER DECLARATIONS
+    static  and  final  are  valid  modifiers  for  both  member  field  and  method  declarations within  a  class. transient  and  volatile  modifiers  are  only  valid  for  member  field  declarations. abstract  and  native  are  only valid  for  member  methods. Note:  a  class  declaration  can  have  only  have  final,  abstract  and  public  as modifiers,  unless  it  is  a  nested  class,  in  which  case,  it  can  be  declared  private or    protected  as  well.
+
+    CHAR
+    default value is 0
+
+Java SE 7 Revisit:
+    Inheritance flow: who can be used in place of what.
+    29.     QID - 2.1328
+
+
+        StringBuilder
+        Class Definition,methods and properties details
+
+        String 
+        Class Definition,methods and   properties details
+        Exceptions
+        
+        Copying arrays
+        pg. 205 Test preparation. The [] notation
+        System.arraycopy(source,sindex,destination,sindex,numToCopy)
+            Throws NULLPOINTEREXCEPTION
+            Throws INDEXOUTPFBOUNDS
+
+    String comparisons
+
+    Object class definition
+
+    Upcasting and downcasting
+
+    ArrayList
+    NB: Look at the language specification in details (e.g method return types, exceptions they throw etc)
+
+    Exceptions
+        Exception specification: defines possible exceptions that a method might throw. Consumers of the method must catch "all" these  exceptions
+
+    public int getPriceRatio(int e) throws ArithmeticException
+
+    Checked Exceptions: checked for and enforced at compile time(i.e. code does not compile unless these exceptions are handled.
+    Unchecked Exceptions: 

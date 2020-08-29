@@ -1,0 +1,11 @@
+Chapter: Eight is enough
+
+def Byte: a thing that has a 8 separate LOCATIONS in SPACE
+          eachof which can be either on or off, that a re kept in same order
+
+          The byte as a whole is a thing that has a LOCATION in SPACE
+          has the quality that any given time it is in ONE of 256 possible states
+          It can be changed back and forth between these states
+
+We now have a tool that can help us overcome the limitation stated in '4'
+We can begin to repretn matters more comlex than yes/no
