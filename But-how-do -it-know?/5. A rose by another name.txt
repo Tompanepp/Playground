@@ -1,0 +1,12 @@
+We are just changing the 'code' here
+    on = 1
+    off = 0
+
+The NAND gate redefined with this
+
+  a   b  c
+| 0 | 0 | 1 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1 |
+| 1 | 1 | 0 |
+

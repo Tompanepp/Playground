@@ -31,7 +31,7 @@ PATH PROBLEMS?
 
     
 3.  Compute the final state without walking the whole path step by step
-    i.e. Avouid O(N) implementation
+    i.e. Avoid O(N) implementation
     If the final state factor is defined(e.g. number of rotations)
 
     e.g. ArrayLeftRotation.txt
@@ -44,3 +44,7 @@ PATH PROBLEMS?
    A: Reverse to initial state and count operations required to rollback
 
    e.g. NewYearChaos.scala
+
+
+OPTMISATIONS NEEDED?
+    Hash table
