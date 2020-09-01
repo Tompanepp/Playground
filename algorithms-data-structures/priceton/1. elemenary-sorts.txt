@@ -1,0 +1,8 @@
+Equality
+
+    Total order
+        antisymmetry: v <= w and w <= v then v == w, because v <= w and w <= v describes a symmetrical relationship, therefore
+                                                    v has to be equal w
+        transitivity: v <= w and w <= x, then v <= x
+
+        totality: either v <= w or w <=v or both(i.e v <= w and w <= v, therefore v = w)
