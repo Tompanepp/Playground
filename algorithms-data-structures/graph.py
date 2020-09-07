@@ -1,10 +1,15 @@
 class Graph(object):
     nodes = []
+    size = 0
     def __init__(self, size):
-        self.nodes = [size]
+        self.size = size
 
     def add_node(self, node):
         self.nodes.append(node)
+
+    def __str__(self):
+        for i in range(0, self.size):
+            str(self.nodes[i])
 
 class Node(object):
     nodes = []
@@ -16,18 +21,19 @@ class Node(object):
         self.nodes.append(node)
 
     def __str__(self):
-        map(print(""), self.nodes) 
+        print(self.value)
 
 def main(): 
     house_hold_count = 11
     town = Graph(house_hold_count)
-    houses = []
     for i in range(0, house_hold_count):
-        if i < house_hold_count - 1:
-            node = Node(i)
+        print("adding" + str(i))
+        node = Node(i)
+        if i < house_hold_count:
             node.add_neighbour(i+1)
             node.add_neighbour(i-1)
-            houses.append(node)
+            town.add_node(node)
+        town.add_node(node)
 
     print(town)
 
