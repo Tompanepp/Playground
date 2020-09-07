@@ -137,6 +137,7 @@ EXCERCISES
         Exercise 8
         Exercise 9
         Exercise 10
+        Example 13
 
 
 Progress = Page 3
