@@ -15,11 +15,9 @@ public class Solution {
                                   PriorityQueue<Integer> lowerHalf,
                                   PriorityQueue<Integer> upperHalf){
         if(lowerHalf.size() == 0 || n < lowerHalf.peek() ){
-            //System.out.println("adding " + n + " to lower half");
             lowerHalf.add(n);
         }                           
         else{
-            //System.out.println("adding " + n + " to upper half");
             upperHalf.add(n);
         }
     }
