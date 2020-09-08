@@ -1,0 +1,5 @@
+Bit Manipulation
+Memory(Stack vs Heap)
+Recursion
+Dynamic Programming
+Big O - Time and Space complexity

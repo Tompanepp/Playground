@@ -1,0 +1,45 @@
+WHAT DO YOU NEED TO KNOW??
+    page 60
+
+WALKKING THROUGH A PROBLEM
+    page 62
+
+Preparation:
+    - Try to solve the problems on your own - They're designed to be though, SO STRUUGLE with them
+        Think about time and space complexity
+    - Write code on paper
+        - It is going to be slow
+    - Test your code on paper
+        base cases
+        general cases
+        worst cases?
+        error cases
+    - Type your code as is into a computer
+        YOU WILL FIND MISTAKES, THAT'S OKAY IT WILL GET BETTER
+        - Note down the mistakes for each problem
+            - Keep them in mind for the next one
+
+What you need to know(must have knowledge):
+    be VERY VERY VERY comfortable with these.
+    Practice implementing the DataStructures and Algorithms on paper then in computer
+
+        DataStructures:
+            7.1. DataStructures.txt
+
+        Algorithms:
+            7.2. Algorithms.txt
+
+        Concepts:
+            7.3. Concepts.txt
+        
+        FOR EACH TOPIC
+            - Have Deep understanding
+            - Know applications (How and When to use)
+            - Time and Space complexity
+
+
+        Powers of 2 Table
+
+
+
+progress = page 61
