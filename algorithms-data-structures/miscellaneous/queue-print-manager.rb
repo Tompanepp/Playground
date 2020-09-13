@@ -1,4 +1,4 @@
-#quues are perfect for:
+#queues are perfect for:
     # processing data in the order it was received
     # handling asynchronous requests
     # modelling patients for the doctor

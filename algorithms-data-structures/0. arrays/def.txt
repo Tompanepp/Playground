@@ -1,4 +1,0 @@
-A fixed length
-    continous allocation of memory cells
-        of the same size
-        that stores data of the same type
