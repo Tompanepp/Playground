@@ -1,3 +1,5 @@
+Single Memory Cell
+Arrays
 Vectors/ArrayLists
 LinkedLists
 Queue
