@@ -20,6 +20,10 @@ Performance Analysis:
             2. The array stores the memory address of the first value
             3. Every array starts at index 0
                 3.1. And the array memory address are numerically one after the other
+                Why do array indices start at 0?(zero indexed)
+                    Ans: Makes the memory address arithmetic below easy???
+                        starting_address + index
+                        instead of starting_address + index - 1
 
         Example
             Given :             ["Apple", "Banana", "Pear", "Orange", "Peach"]
