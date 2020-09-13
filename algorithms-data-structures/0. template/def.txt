@@ -1,0 +1,19 @@
+What is it?
+
+Concepts related to it:
+
+Performance Analysis:
+    How fast is it to peform the operation? (i.e. Time Complexity)
+        => Measured in terms of the number of steps it takes to complete the operation
+
+    Read: Looking up something from a particular spot in the datastructure
+        Steps = 
+    
+    Search: Looking for a particular value in te datastructure
+        Steps = 
+
+    Insert: Adding a value to the datastructure 
+        Steps = 
+
+    Delete: Removing a value from the datastructure
+        Steps = 

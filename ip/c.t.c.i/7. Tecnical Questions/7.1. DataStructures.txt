@@ -1,10 +1,10 @@
 Single Memory Cell
 Arrays
+HashTables
 Vectors/ArrayLists
 LinkedLists
 Queue
 Stack
-HashTables
 Heaps
 Trees
     Trees
