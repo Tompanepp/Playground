@@ -1,9 +1,11 @@
 def contain_all_unique_characters(s):
-    sorted_version = sorted(s)
-    string_length = len(s)
-    last_index = string_length - 1
-    for i in range(0, string_length):
-        if(i < last_index and sorted_version[i] == sorted_version[i + 1]):
+    letter_count = {}
+    for i in range(0, len(s)):
+        key = s[i]
+        if(key in letter_count): letter_count[key] += 1
+        else: letter_count[key] = 1
+
+        if(letter_count[key] > 1):
             return False
     return True
 
@@ -23,9 +25,11 @@ print(contain_all_unique_characters(s4))
 '''
     Performance
         N = length of string
+        NC = length of letter count storage
 
-        Time = O( N log N + N)
-            sort takes = N log N
-        Space = O(N)
+        Time = O(N)
+        Space = O(N + NC)
             Space required to represent the string
+            Space required to represent the dictionary storing the letter count
+
 '''
