@@ -22,7 +22,6 @@ print(contain_all_unique_characters(s4))
         N = length of string
 
         Time = O(N^2)
-        Space = O(N)
-            Space required to represent the string
 
 '''
+
