@@ -33,10 +33,15 @@ print(contain_all_unique_characters(s4))
 
 '''
     Performance
-        N = length of string, N <= 128
+        C = size of character set = 128
+        N = length of string, N <= C
 
-        Time = O(N)
-        Space = O(128) = O(1)
+
+        Time = O(N) = O(C)
+        Space = O(C)
             128 for all runs, therefore constant 
             The space cost of the boolean array
+
+        Could argue time and space complecity = O(1), as the for loop will never execute more than C
+
 '''
