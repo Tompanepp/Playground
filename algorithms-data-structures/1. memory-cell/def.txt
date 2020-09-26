@@ -1,4 +1,0 @@
-Fundamental data structure all the datastructures are built on top of.
-
-A point in time and space in a computer
-    where you can store values
