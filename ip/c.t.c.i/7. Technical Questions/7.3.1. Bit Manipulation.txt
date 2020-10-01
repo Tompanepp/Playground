@@ -1,9 +1,23 @@
 Postive Numbers in Binary
 
-Addition
+    0 0 1 1 = 0 + 2 + 1 = 3(Decimal)
+
+Binary Addition:
+
+     1   1   carries
+   0 1 0 1
+ + 0 0 1 1   place max value is 2 (instead of 10 as it is in Decimal addition)
+ ---------
+   1 0 0 0
 
 Negative Numbers in Binary
-
+    Represented using Two's Compliment
+        e.g 8 bit binary
+            First bit represents sign
+                0  = Negative
+                1 = Postive
+            Remaining 7 bits
+            
 Shifting
     Arithmetic
 
