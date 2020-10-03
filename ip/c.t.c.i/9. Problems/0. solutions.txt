@@ -1,4 +1,4 @@
 Arrays and Strings = problems page 102
                      solutions page 204
 
-Hints = page 20204
+Hints = page 202
