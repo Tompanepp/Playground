@@ -1,0 +1,13 @@
+HISTORY OF C and Unix 
+
+Ken Thompson - Created Unix
+                           - Created B
+                           
+                           - Created Go??
+
+Rob pike - Created Go
+
+Dennis Richie  - Created New B(NB)
+                         - Created C
+                         - Created Unix
+                        

@@ -49,6 +49,12 @@ PATH PROBLEMS?
     error cases
     etc
 
+6. many decision points => generate, print all
+    possibilities
+    exhaust a search space
+
+    tool = backtrack
+
     
 OPTMISATIONS NEEDED?
     Hash table
