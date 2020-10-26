@@ -28,58 +28,13 @@
                 find a palindrome using the characters of the string
 
 '''
-def generate_permutations(string_input):
-    '''
-        abc
-
-        bac
-        bca
-
-        acb
-
-        cab
-        
-        cba???
-
-        for each character
-            move it one step forward in the current permuation
-                to generate the next permutation
-
-            for the last character, rotate it to the beginning of the string
-    '''
-    def swap(current_permutation, source, target):
-        print('swapping')
-        temp = current_permutation[target]
-        current_permutation[target] = current_permutation[source]
-        current_permutation[source] = temp
-        return current_permutation
-
-    permutations = []
-    string_length = len(string_input)
-    print('string_length', string_length)
-    for i in range(string_length):
-        print('i', i)
-        current_permutation = list(string_input)
-        print('current permutation ', current_permutation)
-        if i == string_length:
-            current_permutation = swap(current_permutation, i, 0)
-            #RUSHED ADD
-            print('\tnew current permutation when last', current_permutation)
-            permutations.append(''.join(current_permutation))
-        else:
-            print('in else')
-            for j in range(i + 1, string_length): #WHY AM I doing i + 1??
-                print('j', j)
-                previous_j = j - 1
-                print('\tcurrent permutation ', current_permutation)
-                current_permutation = swap(current_permutation, previous_j, j)
-                permutations.append(''.join(current_permutation))
-                print('\tpermutations ', permutations)
-    return permutations
-
-print('complete permutations', generate_permutations('abc'))
+from itertools import permutations
 
 def is_palindrome_permutation(string_input):
+    #generate permutations of string_input
+        #check if at least one is a palindrome
+            #if there are no palindromes for the characters of string_input
+                #then string_input is not a permutation of a palindrome
 
     def is_palindrome(permutation):
         #generate reversed vrersion of the permutation
@@ -88,16 +43,24 @@ def is_palindrome_permutation(string_input):
         string_reversed = permutation[::-1] #means start at end of string an stop and start of the string
         string_length = len(string_reversed)
         for i in range(string_length - 1):
-            if string_reversed[string_length - 1] != string_input[i]: return False
+            if string_reversed[string_length - i - 1] != string_input[i]: return False
         return True
 
-    #generate permutations of string_input
-        #check if at least one is a palindrome
-            #if there are no palindromes for the characters of string_input
-                #then string_input is not a permutation of a palindrome
-    permutations = generate_permutations(string_input)
-    
-    for permutation in permutations:
+    for p in permutations(string_input):
+        permutation = ''.join(p) 
         if(is_palindrome(permutation)): return True
     return False
 
+print(is_palindrome_permutation('Tact Coa')) #true
+print(is_palindrome_permutation('act TCoa')) #true
+print(is_palindrome_permutation('A but tuba')) #true
+print(is_palindrome_permutation('ut tu Ab ba')) #true
+
+
+'''
+    Performance
+        N = length string
+
+        Time = O(2N!) => O(N!)
+            N factorial to generate all permutations of string 
+'''
