@@ -1,0 +1,5 @@
+Def
+
+Solution
+    Input should be JavaScript escaped or validated before passed to a database
+    ...

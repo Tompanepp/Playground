@@ -1,0 +1,17 @@
+def:
+    bypass authorisation checks in order to gain access to protected resourcers
+
+causes: 
+    occurs when a reference to an internal objects(e.g file, database) is exposed externally through links,
+        parameter values, etc.
+
+    if there is no authorisation to access the internal objects, they can be manipulated to access unauthorised data
+
+solutions:
+    use per user or per session indirect references
+    implement access control checks to resources referenced
+    never rely on user defined input parameters (e.g to GET, POST methods, cookies, HTTP headers etc) to authorise access to senstive resources
+    always rely on server side session information to authorise access to senstive resources and use mapping vlues to acccess objects
+    all private pages should be protected using authorisation - use centralised authorisation techniques
+    no two separate pieces of code should verify if an acccount belongs to a certain user
+        use one authorisation implementation?

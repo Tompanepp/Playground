@@ -1,0 +1,22 @@
+def:
+    users can perform actions they are not authorisef for
+    resources can be accessed by unauthorised users
+
+causes: 
+    access checks not implemented
+    misconfigured access check mechanism/protection mechanism
+
+    examples:
+        forced browsing URLs:
+            authenticated user of a site guesses/brute forces URLs to find unprotected administrative page
+
+        access unauthorised functions:
+            authenticated user
+                knows framework => crafts URL(to an endpoint) to create a user with elevated priviledges
+                    - happens if the endpoint is protected by access control checks
+
+solutions:
+    protect all business functions using a server side role based access authorization mechanism
+    authorization should be applied using centralised routines provided by the framework or easy to use external modules
+    always deny access by default(least access principle)
+    implement functional access control on the server and NEVER the client

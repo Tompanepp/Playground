@@ -1,0 +1,7 @@
+def:
+    OWASP Logging guidance states that logs should contain the "When, Where, Who and What" for each attempted action
+causes: 
+
+solutions:
+    log timestamps
+    log level of message - INFO, WARN, ERROR, DEBUG etc
