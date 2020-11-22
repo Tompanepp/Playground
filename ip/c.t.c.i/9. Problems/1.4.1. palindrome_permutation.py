@@ -17,6 +17,8 @@
                 same
                     backwards AND forwards
 
+    question: can the input string be rewritten
+                so it's a palindrom(i.e. reads the same forwards and backwards)?
     algo flow:
         generate permutations of the string
             check if the any permutation is a palindrome
