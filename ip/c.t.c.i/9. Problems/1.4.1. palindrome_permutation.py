@@ -18,7 +18,8 @@
                     backwards AND forwards
 
     question: can the input string be rewritten
-                so it's a palindrom(i.e. reads the same forwards and backwards)?
+                so the new string(permuatation)
+                    is a palindrome(i.e. reads the same forwards and backwards)?
     algo flow:
         generate permutations of the string
             check if the any permutation is a palindrome
@@ -31,10 +32,8 @@ from itertools import permutations
                 #then string_input is not a permutation of a palindrome
 def is_palindrome_permutation(string_input):
     def is_palindrome(permutation):
-        string_length = len(permutation) - 1
-        for i in range(string_length - 1):
-            if permutation[i] != permutation[string_length - i]: return False
-        return True 
+        permutation_reversed = permutation[::-1]
+        return permutation == permutation_reversed
 
     for p in permutations(string_input):
         permutation = ''.join(p).lower() 
