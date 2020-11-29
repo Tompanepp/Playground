@@ -55,6 +55,10 @@ PATH PROBLEMS?
 
     tool = backtrack
 
+
+7. determining if object A is in group B
+    We do NOT always need to generate the entire group B (This could be a big list)
+    Can also determine if the rules that generate object A are a subset of the rules that generate group B
     
 OPTMISATIONS NEEDED?
     Hash table
