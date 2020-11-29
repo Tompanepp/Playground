@@ -74,8 +74,7 @@ print(one_away('pales','ple')) #false
 
 '''
     Performance
-        SL1 = length of string 1
-        SL2 = length of string 2
+        N, Where N is the length of the longest string
 
-        Time = O(SL1) + O(SL2) => O(SL1 + SL2)
+        Time = O(N)
 '''
