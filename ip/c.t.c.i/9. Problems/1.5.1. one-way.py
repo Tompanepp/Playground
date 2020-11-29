@@ -51,6 +51,7 @@ def determine_if_only_one_change_exists(long_string, long_string_length, short_s
 def one_away(string_1, string_2):
     string_1_length = len(string_1)
     string_2_length = len(string_2)
+    if abs(string_1_length - string_2_length) >= 2: return False
     if string_1_length > string_2_length:
         return determine_if_only_one_change_exists(string_1, string_1_length, string_2)
     if string_2_length > string_1_length:
@@ -68,6 +69,7 @@ print(one_away('pale','ple')) #true
 print(one_away('pale','bake')) #false
 print(one_away('pale','bale')) #true
 print(one_away('pales','pale')) #true
+print(one_away('pales','ple')) #false
 
 
 '''
