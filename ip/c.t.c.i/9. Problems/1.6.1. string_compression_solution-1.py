@@ -50,28 +50,17 @@
 
 def compress(string_input):
     string_length = len(string_input)
-    def _compress():
-        character_count = 0
-        current_character = string_input[0]
-        compressed_string = ''
-        last_index = string_length - 1
+    compressed_string = ''
+    count_consecutive = 0
 
-        for i in range(string_length): 
-            character = string_input[i]
-            if character == current_character: 
-                character_count = character_count + 1
-            
-            if character != current_character or i == last_index:
-                compressed_string = compressed_string + str(current_character) + str(character_count)
-                character_count = 1
-                current_character = character
-        return compressed_string
-
-    if string_length == 0: return string_input
-    else: 
-        compressed_string = _compress()
-        if len(compressed_string) >= string_length: return string_input
-        else: return compressed_string
+    for i in range(string_length): 
+        count_consecutive = count_consecutive + 1
+        if i + 1 >= string_length or string_input[i] != string_input[i + 1]: 
+            compressed_string = compressed_string + string_input[i] + str(count_consecutive)
+            count_consecutive = 0
+    
+    if len(compressed_string) >= string_length: return string_input
+    else: return compressed_string
 
 print(compress('') == '') #true 
 print(compress('aabcccccaaa') == 'a2b1c5a3') #true   
@@ -81,8 +70,12 @@ print(compress('abcdef') == 'abcdef') #true  compressed same as original
 '''
     Performance
         N = length of string
-        Time = O(N)
-        Space = O(N)
-            Compressed string might be twice as long for 
+        K = number of consecutive character sequences
+
+        Time = O(N + K^2)
+                K^2 because string concatenation is O(N^2)
+
+        Space = O(2N) => O(N)
+            Compressed string might be twice as long 
 '''
 
