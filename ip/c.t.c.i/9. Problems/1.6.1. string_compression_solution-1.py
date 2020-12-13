@@ -69,11 +69,26 @@ print(compress('abcdef') == 'abcdef') #true  compressed same as original
 
 '''
     Performance
-        N = length of string
+        P = length of original string
         K = number of consecutive character sequences
 
-        Time = O(N + K^2)
+        Time = O(P + K^2)
                 K^2 because string concatenation is O(N^2)
+                For each character sequence
+                    we copy the compressed version and the current character sequence compression
+                        into a new compressed string
+
+                Why is concatenation O(N^2)?
+                    X = length of current string
+                    N = number of strings
+
+                    1st iteration = 1X copy
+                    2nd iteration = 2X copy
+                    3rd iteration = 3X copy
+                    Nth iteration = NX copy
+
+                    O(1X + 2X + 3X ... NX) => O(N^2)
+                    1 + 2 + ... N = N(N + 1)/2 = O(N^2 + N) => O(N^2)
 
         Space = O(2N) => O(N)
             Compressed string might be twice as long 
