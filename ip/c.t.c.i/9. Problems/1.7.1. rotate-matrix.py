@@ -66,8 +66,7 @@ def rotate_90_degrees(image):
 
     for row in range(size):
         for col in range(size):
-            new_cartesian_point = rotate_on_cartesian_plane((col, row))
-            matrix_point = map_to_matrix_point(new_cartesian_point)
+            matrix_point = map_to_matrix_point(rotate_on_cartesian_plane((col, row)))
             new_image[matrix_point[0]][matrix_point[1]] = image[row][col]
     return new_image
 
@@ -86,6 +85,6 @@ print(rotated_image)
     Performance
         N = number of rows/cols(Equal in this problem)
 
-        Time = O(N^2)
+        Time = O(N^2 + N^2) => O(N^2)
         Space = O(N^2)
 '''
