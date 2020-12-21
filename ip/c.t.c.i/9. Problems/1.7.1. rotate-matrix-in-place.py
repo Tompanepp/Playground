@@ -22,11 +22,14 @@
         Map to Matrix => x,y
             (x, y) => (abs(x),abs(y))
 
-        create new matrix N*N matrix
+        create swapped hash table
+
         for each point (row,col) in grid
-            new_cartesian_point = apply Clockwise Rotation above
-            matrix_point = apply  Map to Matrix
-            set matrix_point to value at (row,col)
+            if not in swapped
+                new_cartesian_point = apply Clockwise Rotation above
+                matrix_point = apply  Map to Matrix
+                swap values at (row, col) with values matrix point
+                add (row, col) and matrix point to swapped
 
     Possible Solutions
     
@@ -36,7 +39,15 @@
             XXX
             XXX
             XXX
-
+        Swapped = (0,0)
+                  (O,1)
+                  (1,0)
+                  (0,2)
+                  (2,0) 
+                  (1,1)
+                  (1,2)
+                  (2,1)
+                  (2,2)
         Current Image:
             ABC  (0,0)(0,1)(0,2)
             EFG  (1,0)(1,1)(1,2)
@@ -47,7 +58,6 @@
             AEI
             BFJ
             CGK
-            
 '''
 '''
     References:
@@ -55,20 +65,23 @@
     List comprehensions: https://stackoverflow.com/questions/2397141/how-to-initialize-a-two-dimensional-array-in-python
 '''
 def rotate_90_degrees(image):
-    ''' rotate_on_cartesian_plane is added for explicitness
-        I could just use generate the result of map_to_matrix_point in rotate_on_cartesian_plane
-    '''
-    def rotate_on_cartesian_plane(point): return(point[1], -1*point[0]) 
-    def map_to_matrix_point(point): return (abs(point[1]), abs(point[0]))
+    def rotate(point): return(point[1], point[0]) 
+    def swap(source_point, target_point):
+        temp = image[target_point[0]][target_point[1]] 
+        image[target_point[0]][target_point[1]] = image[source_point[0]][source_point[1]]
+        image[source_point[0]][source_point[1]] = temp
 
+    swapped = {}
     size = len(image)
-    new_image = [[image[0][0] for _ in range(size)] for _ in range(size) ]
+    points = [(row, col) for row in range(size) for col in range(size) ]
 
-    for row in range(size):
-        for col in range(size):
-            matrix_point = map_to_matrix_point(rotate_on_cartesian_plane((col, row)))
-            new_image[matrix_point[0]][matrix_point[1]] = image[row][col]
-    return new_image
+    for p in points:
+        if p not in swapped:
+            matrix_point = rotate(p)
+            swap(p, matrix_point)
+            swapped[matrix_point] = 1
+            swapped[p] = 1
+    return image
 
 
 image = [['A', 'B', 'C'], 
@@ -86,5 +99,8 @@ print(rotated_image)
         N = number of rows/cols(Equal in this problem)
 
         Time = O(N*N) => O(N^2)
-        Space = O(N*N)
+            Matrix is N*N in size
+                and we need to touch each point in the matrix
+        Space = O(N*N)  
+            Space to store all the points in the matrix 
 '''
