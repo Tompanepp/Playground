@@ -5,7 +5,8 @@
             Each pixel = 4bytes
 
     Definitions:
-        Rotate by 90 degrees? =? 
+        Rotate by 90 degrees? 
+            = (x,y) => (y, -x)
 
     Objective:
         Function to rotate the image 90 degrees
@@ -16,12 +17,8 @@
     Constraints:
 
     Algorithm flow:
-        Clockwise Rotation => x, y : Cartesian
-            (x,y) => (y, -1*x)
-            
-        Map to Matrix => x,y
-            (x, y) => (abs(x),abs(y))
-
+        Clockwise Rotation => (x,y) => (y, -x)
+        
         create swapped hash table
 
         for each point (row,col) in grid

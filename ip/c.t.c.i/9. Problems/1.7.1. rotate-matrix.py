@@ -5,7 +5,7 @@
             Each pixel = 4bytes
 
     Definitions:
-        Rotate by 90 degrees? =? 
+        Rotate by 90 degrees? 
 
     Objective:
         Function to rotate the image 90 degrees
