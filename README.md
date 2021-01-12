@@ -17,3 +17,7 @@ Alan Turing primitive operations to compute anything
         Write
         Scan 
         Do nothing
+
+Books:
+    https://runestone.academy/runestone/books/published/pythonds3/index.html
+    A Common-Sense Guide To Data Structures and Algorithms
