@@ -49,8 +49,8 @@ PATH PROBLEMS?
     error cases
     etc
 
-6. many decision points => generate, print all
-    possibilities
+6. many decision points => 
+    problem wording = generate, print all possibilities
     exhaust a search space
 
     tool = backtrack
@@ -60,5 +60,5 @@ PATH PROBLEMS?
     We do NOT always need to generate the entire group B (This could be a big list)
     Can also determine if the rules that generate object A are a subset of the rules that generate group B
     
-OPTMISATIONS NEEDED?
-    Hash table
+NEED TO OPTMISE?
+    - Hash table
