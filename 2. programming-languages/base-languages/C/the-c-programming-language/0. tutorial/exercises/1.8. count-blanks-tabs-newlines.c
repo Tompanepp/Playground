@@ -9,5 +9,5 @@ main() {
             count += 1;
         }
     }
-    printf("%d\n", count);
+    printf("Total blanks, tabs and newlines %d\n", count);
 }
