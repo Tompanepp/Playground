@@ -10,8 +10,6 @@
     Constraints:
 
     Algorithm flow:
-        
-    Possible Solutions
     
     Example(s):
 

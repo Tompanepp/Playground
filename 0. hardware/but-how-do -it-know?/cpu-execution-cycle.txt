@@ -1,0 +1,11 @@
+ref:https://www.youtube.com/watch?v=FZGugFqdr60&feature=youtu.be
+
+0. Fetch
+    Control Unit
+
+1. Decode
+    Control Unit
+
+2. Execute
+    Control Unit
+        Delegate to Arithmetic Logic Unit when needed
