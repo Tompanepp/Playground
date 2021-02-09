@@ -38,7 +38,7 @@ main() {
         int location = OUTOFWORD;
         while ((character = getchar()) != EOF){
             if(character == ' ' || character == '\t' || character == '\n'){
-                if(location) {
+                if(location == INSIDEWORD) {
                     putchar('\n');
                     location = OUTOFWORD;
                 }
