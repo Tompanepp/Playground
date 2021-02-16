@@ -77,8 +77,9 @@ main() {
 /*
     Performance
         N = Length of text stream
+        HWLC = Highest word length count
 
-        Time = O(N)
+        Time = O(N * HWLC)
             Need to inspect each character in character stream
 
         Space = O(50) => O(1)
