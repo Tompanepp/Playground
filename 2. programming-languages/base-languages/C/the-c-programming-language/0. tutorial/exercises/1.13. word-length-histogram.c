@@ -79,7 +79,7 @@ main() {
         N = Length of text stream
         HWLC = Highest word length count
 
-        Time = O(N * HWLC)
+        Time = O(N) + O(MAXHISTOGRAMWORDLEGTH * HWLC)
             Need to inspect each character in character stream
 
         Space = O(10) => O(1)

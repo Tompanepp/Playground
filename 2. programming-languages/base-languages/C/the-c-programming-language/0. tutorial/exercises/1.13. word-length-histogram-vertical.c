@@ -100,7 +100,7 @@ main() {
     Performance
         N = Length of text stream
         NW = Number of words
-        Time = O(N * NW)
+        Time = O(N) + O(MAXHISTOGRAMWORDLEGTH * NW)
             Need to inspect each character in character stream
 
         Space = O(10) => O(1)
