@@ -28,8 +28,19 @@
                 currentWordCharacterCount = 0 
 
         print index
-        print a dot 
+        print a - 
             for evey count in wordLengthCount for that index
+
+        print all frequencies on one line
+        
+        while at least one wordLengthCount is not 0
+            for evey count in wordLengthCount for that index
+                if count is 0
+                    print empty
+                else
+                    print a - 
+                    decrease count in wordLengthCount at that index
+
 
     Example(s):
         aba  pr i 
@@ -45,16 +56,17 @@
 
 main() { 
     int wordLengthCount[MAXHISTOGRAMWORDLEGTH];
-    int currentWordCharacterCount = 0;
+    int currentWordCharacterCount, totalWords = 0;
     int character;
     
-    for(int i =0; i < MAXHISTOGRAMWORDLEGTH; ++i) {
+    for(int i = 0; i < MAXHISTOGRAMWORDLEGTH; ++i) {
         wordLengthCount[i] = 0;
     }
 
     while((character = getchar()) != EOF) {
         if(character != ' ' && character != '\t' && character != '\n') {
             ++currentWordCharacterCount;
+            ++totalWords;
         }
         else {
             ++wordLengthCount[currentWordCharacterCount];
@@ -64,22 +76,31 @@ main() {
     
     printf("Word length histogram\n");
     for(int i = 0; i < MAXHISTOGRAMWORDLEGTH; ++i) {
-        printf(" %d ", i);
-        for(int j = 0; j < wordLengthCount[i]; ++j) {
-            printf("-");
+        printf("%3d", i);
+    }
+    printf("\n");
+
+    while(totalWords > 0) {
+         --totalWords;
+        for(int i = 0; i < MAXHISTOGRAMWORDLEGTH; ++i) {
+            if(wordLengthCount[i] == 0) {
+                printf("%3s", "");
+            }
+            else {
+                printf("%3s", "|");
+                --wordLengthCount[i];
+            }
         }
         printf("\n");
     }
-
 }
 
 
 /*
     Performance
         N = Length of text stream
-        HWLC = Highest word length count
-
-        Time = O(N * HWLC)
+        NW = Number of words
+        Time = O(N * NW)
             Need to inspect each character in character stream
 
         Space = O(10) => O(1)
