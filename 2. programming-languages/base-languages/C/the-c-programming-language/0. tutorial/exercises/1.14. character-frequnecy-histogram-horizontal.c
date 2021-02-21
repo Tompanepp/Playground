@@ -25,16 +25,7 @@
             ++characterFrequency[character]
             ++characterCount
 
-        print all characters on one line horizontally
-
-        while characterCount > 0
-            for length 0 to 128  ASCII(128)
-                if count is 0 in characterFrequency
-                    print empty
-                else
-                    print |
-                    decrease count in characterFrequency
-                    decrease characterCount
+        print all character + - for each appearance
 
     Example(s):
         NOT USING REAL ASCII number in the array for simplicity
@@ -94,11 +85,11 @@ main() {
 /*
     Performance
         N = Length of text stream
-        HWLC = Highest word length count
+        HCF = Highest character frequency
 
-        Time = O(N) + O(MAXHISTOGRAMWORDLEGTH * HWLC)
+        Time = O(N) + O(ASCIICHARACTERSETNUMBER * HCF)
             Need to inspect each character in character stream
 
-        Space = O(128) => O(1)
+        Space = (ASCIICHARACTERSETNUMBER) => O(128) => O(1)
             Storage space for character frequncy count
 */

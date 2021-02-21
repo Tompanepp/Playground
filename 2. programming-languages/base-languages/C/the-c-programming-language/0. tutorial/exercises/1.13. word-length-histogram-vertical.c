@@ -27,10 +27,6 @@
                 ++wordLengthCount[currentWordCharacterCount]
                 currentWordCharacterCount = 0 
 
-        print index
-        print a - 
-            for evey count in wordLengthCount for that index
-
         print all frequencies on one line
         
         while at least one wordLengthCount is not 0
@@ -84,10 +80,10 @@ main() {
          --totalWords;
         for(int i = 0; i < MAXHISTOGRAMWORDLEGTH; ++i) {
             if(wordLengthCount[i] == 0) {
-                printf("%3s", "");
+                printf("%3c", ' ');
             }
             else {
-                printf("%3s", "|");
+                printf("%3c", ' ');
                 --wordLengthCount[i];
             }
         }
