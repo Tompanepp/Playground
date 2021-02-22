@@ -5,6 +5,7 @@
 int power(int base, int exponenet);
 
 int main() {
+    //default is "pass by value" except for arrays
     printf("%d\n", power(2, 3)); //8
     printf("%d\n", power(3, 3)); //27
 
