@@ -1,0 +1,17 @@
+AKA - Finite Automata (FA)
+
+Two broad categories
+    1. FA with output 
+    2. FA without output
+
+    1. 
+        1.1. Mooley machine
+        1.2. Miley machine
+
+    2.
+        2.1. Deterministic Finite Automata - DFA
+        2.2. NonDeterministic Finite Automata - NFA
+        2.3. Epsilion NonDeterministic Finite Automata - ε-NFA
+
+    
+    2.1. 
