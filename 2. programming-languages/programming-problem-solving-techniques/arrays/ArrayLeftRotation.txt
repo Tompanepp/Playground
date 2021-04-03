@@ -1,7 +1,0 @@
-for rotations
-    foreach index
-        newIndex = index - 1
-        if newIndex >= 0
-            newArray[newIndex] = array[index]
-        else
-            newArray[lastIndex] = array[index]

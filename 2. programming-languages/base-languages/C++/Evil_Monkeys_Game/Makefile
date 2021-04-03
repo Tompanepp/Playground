@@ -1,2 +1,0 @@
-EvilMonkeys:
-	g++ *.cpp

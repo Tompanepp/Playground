@@ -1,7 +1,0 @@
-Conventions
-    Package name = last element in import path
-    i.e give import "math/rand"
-        all files in this folder begin with "package rand"
-
-Public Interfaces
-    members start with capital letter

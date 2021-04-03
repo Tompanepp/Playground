@@ -1,7 +1,0 @@
-Strategy : Coordination
-Decorator : Capability extension
-Factory: Object that creates other objects for you
-Observer: Information flow control and event responses
-Chain of Responsibility:Information flow control and event responses with a hierarchical model
-Singleton : Ensure a class only has one instance, and provide a global point of access to it(Not a global object)
-Flyweight:Ensure a class only has one instance and one configurable one to simulate all the other bigger objects

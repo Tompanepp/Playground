@@ -1,3 +1,0 @@
-1. B //Does the instanceof look at the object a reference is pointing to?
-2. D is incorrect, do not remember why though.
-3. 

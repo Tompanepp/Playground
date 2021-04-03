@@ -1,6 +1,0 @@
-Console.highWaterMark=88000
-StringVariablePreferencePage=138,114,114,91,
-eclipse.preferences.version=1
-org.eclipse.debug.ui.PREF_LAUNCH_PERSPECTIVES=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<launchPerspectives/>\n
-org.eclipse.debug.ui.manage_view_perspectives=org.eclipse.debug.ui.DebugPerspective,org.eclipse.jdt.ui.JavaBrowsingPerspective,org.eclipse.jdt.ui.JavaPerspective,org.eclipse.jdt.ui.JavaHierarchyPerspective,org.eclipse.egit.ui.GitRepositoryExploring,
-preferredTargets=default\:default|

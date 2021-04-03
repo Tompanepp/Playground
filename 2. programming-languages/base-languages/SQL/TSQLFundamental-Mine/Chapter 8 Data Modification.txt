@@ -1,7 +1,0 @@
-insert types
-
-	INSERT VALUES: Insert these values (VALUES clause)
-	INSERT SELECT: Insert results of the SELECT 
-	SELECT INTO: Crate a table and Insert results of the SELECT 
-	INSERT EXEC: Insert results of a Stored Procedure
-	BULK INSERT

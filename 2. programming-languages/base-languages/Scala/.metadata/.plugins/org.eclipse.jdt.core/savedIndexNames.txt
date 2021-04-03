@@ -1,8 +1,0 @@
-INDEX VERSION 1.127+/Users/t2p/Playground/progfun/.metadata/.plugins/org.eclipse.jdt.core
-1572920016.index
-2784021859.index
-3069504370.index
-1814070013.index
-1691580897.index
-2370505161.index
-1197244113.index

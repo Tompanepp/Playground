@@ -1,5 +1,0 @@
-#include <iostream> {cout and cin functions}
-#include <cmath> {pow function}
-#include <iomanip> {input and ouput manipilators}
-#include <cstdlib>  {rand () function} Random numbers
-#include <fstream> {for creating and using files}

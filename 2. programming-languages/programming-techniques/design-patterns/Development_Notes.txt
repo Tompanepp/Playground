@@ -1,3 +1,0 @@
-Separate the parts of your code that will change the most from the rest of your application.
-Try to reuse these parts as much as possible.
-

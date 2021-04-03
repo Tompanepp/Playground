@@ -1,2 +1,0 @@
-    var a []int => type def
-    a[2] => expression => array access

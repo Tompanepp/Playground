@@ -1,3 +1,0 @@
-WHY?: Notify multiple INTEREST parties(Subcribers) of a change in the state of another party(Publisher)
-
-WHEN:

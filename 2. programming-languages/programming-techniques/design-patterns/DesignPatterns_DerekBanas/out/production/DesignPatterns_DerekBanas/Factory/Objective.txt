@@ -1,8 +1,0 @@
-WHY?: When you need a METHOD that returns ONE of SEVERAL classes with a COMMON SUPERCLASS
-      ->   Ability to CHOOSE classes at runtime
-WHEN:
-  1. Don't know ahead of time the type of class object you need (as long as those classes
-  share a common supertype)
-  2. Need to encapsulate object creation
-  3. Centralise class selection code
-  4. Don't want the use to know every subclass
