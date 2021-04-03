@@ -1,7 +1,0 @@
-3. Code abstracts only knownn and defined logic for a computer. It does NOT define newq logic
-1. Build Time is Expensive Time!
-2. Done/Complete Definition
-	Re-ran multiple times
-	Unit Tests in place : Passing on multiple consecutive reruns
-	Output generated if any: Multiple times (SAME output for SAME input) : Regression Test
-

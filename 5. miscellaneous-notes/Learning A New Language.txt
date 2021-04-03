@@ -1,6 +1,0 @@
-Learning A New Language
-	1	the syntax and semantics
-	2	the style of effective programs, with emphasis on idioms
-	3	specific implementations (particularly, performance characteristics)
-	4	the standard library
-	5	common third-party libraries
