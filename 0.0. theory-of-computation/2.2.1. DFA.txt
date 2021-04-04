@@ -1,0 +1,29 @@
+Formal defintion
+    Every DFA can be described using the below attributes/components
+        (Q, Σ, q0, F, δ ) 
+            
+        
+        Q = Set of all states
+        Σ = inputs
+        q0 = (q subscript zero) = start state/initial state
+        F = Set of final states
+            at least one
+        δ = del = transition function = Q X Σ => Q
+            transition function that maps (Q X Σ) to Q
+----------------------------------------------------------
+Diagrammatic representation of Components
+    States
+        Initial - required
+            arrow coming in from nowhere pointing to state
+        Final - required
+            two circles
+        Rest of states = circle
+    Edges
+        pointed arrow
+        label = input = defined in Σ
+        Transition function
+
+Reference:
+    https://www.youtube.com/watch?v=Qa6csfkK7_I&list=PLBlnK6fEyqRgp46KUv4ZY69yXmpwKOIev&index=3
+
+

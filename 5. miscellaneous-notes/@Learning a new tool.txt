@@ -5,7 +5,9 @@ Learning A New Tool
     3. What does it need to work?
 
 Learning A New Code Base
-    1. Learn all external libraries independent of the current code Base
+    1. Learn the programming language
+    2. Learn all external libraries independent of the current code Base
         -> Helps makes it easier to understand their usage in the code base
-    2. Learn the Core Abstractions of the code base
-    3. Learn the underlying architectural/design principles and goals and why they were chosen
+    2. Learn the Core Abstractions(The Domain) of the code base
+    4. Learn the build and deployment tool chain
+    5. Learn the underlying architectural/design principles and goals and why they were chosen
