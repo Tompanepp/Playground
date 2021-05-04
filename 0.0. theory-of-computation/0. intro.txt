@@ -1,11 +1,11 @@
 Source: https://www.youtube.com/watch?v=58N2N7zJGrQ&list=PLBlnK6fEyqRgp46KUv4ZY69yXmpwKOIev
 The thinking to define Computer Science as a Science
 
-Objective: Define what kind of things can be computed machincally, 
-                how fast and the amount of space required to do so
+Objective: Defines what kind of things can be computed mechanically, how fast and the amount of space required to do so.
+                - Defines and studies different models of computation and how efficiently they can solve problems.
+                - Contains complexity theory(P versus NP problem => refer to compleexit-theory.txt file)
 
-
-Layers
+Computation Models
     0. Finite State Machine (FSM)
     1. Context Free Language (CFL)
     2. Turing Machines

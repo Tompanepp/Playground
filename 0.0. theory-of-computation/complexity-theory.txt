@@ -1,0 +1,5 @@
+Defines what is and isn't computable and the amount of memory and time you would need to compute a problem
+
+Stephen Cook introduced the precise statement of the P versus NP problem in his article "The complexity of theorem proving procedures".[2]
+
+1. Perhaps we can define new models of computation that can compute over the current incomputable problems.
