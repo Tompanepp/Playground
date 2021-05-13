@@ -1,5 +1,5 @@
 The content of this section lives in a separate GitHub repository.  
-Repo link: https://github.com/Tompanepp/programming-languages  
+Repo link: git@github.com:Tompanepp/2.programming-languages.git 
 
 Command to clone repository:
 ```
