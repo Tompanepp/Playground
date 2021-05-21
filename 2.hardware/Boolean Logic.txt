@@ -1,6 +1,0 @@
-
-BOOLEAN LOGIC
-
-  conjunction
-  disjunction
-  negation
