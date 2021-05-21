@@ -1,14 +1,3 @@
-# My programming reference.
+# What is computation?
 
-## A collection of notes I have gathered as I attempt to understand computation
-
-Declarative knowledge = statement of facts
-                    
-Imperative knowledge = statement of how to do something
-
-
-
-
-Books:
-    https://runestone.academy/runestone/books/published/pythonds3/index.html
-    A Common-Sense Guide To Data Structures and Algorithms
+This repository and linked repositories is an attempt at unpacking for myself and anyone that ponders on what computation is, and humanity's current implementation of computation.
