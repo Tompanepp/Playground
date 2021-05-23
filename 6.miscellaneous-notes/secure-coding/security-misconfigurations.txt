@@ -1,6 +1,0 @@
-def:
-
-causes: 
-    default admin credentials and pages left unchanged
-    we application debugging features left disabled and disclosing application error debugging information to users
-solutions:

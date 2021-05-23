@@ -1,6 +1,0 @@
-Binary Search
-Merge Sort
-Quick Sort
-
-Breadth-First search
-Depth-First search

@@ -1,5 +1,0 @@
-Def
-
-    User input exectured dircetly on system shell
-Solution
-    Use framework API instead of direct OS commands

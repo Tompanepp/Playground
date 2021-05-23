@@ -1,9 +1,0 @@
-Def
-
-Solution
-    Sanitize data of serialised object as untrusted user input that needs validation
-    Digital signatures on serialised object => prevent tampering
-    Run code that deserialises objects in a low priviledge environment
-
-    example:
-         input stream hardening.

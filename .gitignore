@@ -10,3 +10,4 @@ Scala/.idea/workspace.xml
 .vscode
 *.pyc
 *.data
+.o
