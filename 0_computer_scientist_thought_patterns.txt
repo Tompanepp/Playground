@@ -1,0 +1,33 @@
+Thinking like a computer scientist:
+    - Understand more of the structure and rich relatioships in your field.
+    - involves looking for patterns and relationships. 
+
+Problem Solving Techniques
+    - functinal decomposition
+    - generalisation
+        - find solution to the simple problem first, then figure out how to make it general
+    - simplification
+        - solve smaller problem related/similar to your more complex problem (drawing a square(triangle ... polygon) when the bigger prob is drawing a circle)
+        - identify patterns and relationships
+        - use them to solve the more complex problem
+
+Program Development Techniques
+    - Incrementatl Development
+
+Types of Iteration
+    definite iteration: we know how MANY TIMES we will iterate
+    indefinite iteration: we don't know how many times we will iterate
+                        : There is also a bit of work to prove we will terminate
+                        : And more work for the programmer to ensure that we do terminate,if we do want the computation to stop(which is generallly the case)
+                        
+
+Computer Science and Programming greats
+    - Ada Lovelace
+    - Shannon
+    - Donald Knuth
+    - Edsger W. Dijkstra
+    - Ray Kurzweil
+    - Peter Norvig
+
+Papers to read
+	The turing machine
