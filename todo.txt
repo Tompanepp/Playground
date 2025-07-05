@@ -296,6 +296,7 @@
                 - https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/video_galleries/video-lectures/
                 - Sipser, M. 2020. 18.404J - Theory of Computation. Massachusetts Institute of Technology
                     - current: 1. Introduction, Finite Automata, Regular Expressions: *
+            - Ben-David, S. 2015. CS 245 - Logic and Computation. University of Waterloo
         - recitations|labs:
             - 18.404J | 6.5400J: N/A
         - assignments:
