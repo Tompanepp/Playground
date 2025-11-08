@@ -74,6 +74,7 @@
 
 ## History
 - [The Modern History of Computing](https://plato.stanford.edu/entries/computing-history/)
+- [Timeline of Computer History](https://www.computerhistory.org/timeline/1933/)
 
 ## Tools
 - [Theoretical CS Visualizer](https://www.theoreticalcs.io/)
